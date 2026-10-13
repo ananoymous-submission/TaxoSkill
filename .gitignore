@@ -1,0 +1,15 @@
+runs/
+outputs/
+multirun/
+mlruns/
+mlartifacts/
+mlflow.db
+backups/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+scratchpad/
+data/
+.hermes/

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Find and Move Categorized Object",
+    "definition": "Locate an object matching a given category (living, non-living, plant, or animal), focus on it, and move it to a specified box."
+  },
+  {
+    "name": "Measure Temperature and Sort",
+    "definition": "Use a thermometer to measure the current temperature of a specified substance or object and place it in one of two boxes based on a threshold."
+  },
+  {
+    "name": "Determine Melting Point",
+    "definition": "Use a thermometer to determine the melting point of a specified substance and focus on the box matching whether it is above or below a threshold."
+  },
+  {
+    "name": "Test Electrical Conductivity",
+    "definition": "Determine whether a specified object is electrically conductive and place it in the box corresponding to the result."
+  },
+  {
+    "name": "Change State of Matter",
+    "definition": "Heat or cool a specified substance until it changes its state of matter."
+  },
+  {
+    "name": "Create Substance by Recipe",
+    "definition": "Follow a recipe or chemical mixing procedure to create a specified substance and focus on the requested product(s)."
+  },
+  {
+    "name": "Grow Plant from Seed",
+    "definition": "Grow a specified plant from a seed by providing appropriate soil, water, and light until it reaches the target life stage."
+  },
+  {
+    "name": "Grow Fruit by Crosspollination",
+    "definition": "Grow multiple plants from seed and crosspollinate them to produce a specified fruit, then focus on the fruit."
+  },
+  {
+    "name": "Identify Animal by Lifespan",
+    "definition": "Identify the animal(s) with the longest and/or shortest lifespan among the available animals, and focus on the requested animal(s) in the requested order."
+  },
+  {
+    "name": "Order Life Stages",
+    "definition": "Focus on the life stages of a specified organism (plant or animal) in the correct order from earliest to latest."
+  }
+]

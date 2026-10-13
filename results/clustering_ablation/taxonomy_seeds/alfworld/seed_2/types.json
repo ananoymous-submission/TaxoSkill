@@ -1,0 +1,26 @@
+[
+  {
+    "name": "pick_and_place",
+    "definition": "Pick up one or more objects and place them at a specified destination without changing their state."
+  },
+  {
+    "name": "clean_and_place",
+    "definition": "Wash or rinse an object in a sink; place it at a specified destination when one is given."
+  },
+  {
+    "name": "heat_and_place",
+    "definition": "Heat, warm, or cook an object in a microwave; place it at a specified destination when one is given."
+  },
+  {
+    "name": "chill_and_place",
+    "definition": "Chill or cool an object in a refrigerator; place it at a specified destination when one is given."
+  },
+  {
+    "name": "fill_and_place",
+    "definition": "Fill an object with water from a sink or faucet; place it at a specified destination when one is given."
+  },
+  {
+    "name": "lamp_inspection",
+    "definition": "Turn on a lamp and, when a task specifies an object, pick it up or hold it in the lamp light to inspect or view it, or carry/hold it while turning the lamp on."
+  }
+]

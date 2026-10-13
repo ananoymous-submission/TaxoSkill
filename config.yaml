@@ -1,0 +1,100 @@
+# taxoskill run configuration. Override any key on the CLI with a dotted path.
+seed: 0
+# Expected-omission target of the candidate pool; null uses the full development pool.
+omission: null
+# Independent rollouts in flight. Benchmark bases set this to their largest rollout wave.
+workers: 24
+
+actor_model: configs/models/actor/deepseek-v4-flash-0731-openrouter.yaml
+optimizer_model: configs/models/optimizer/deepseek-v4-pro-0813-openrouter.yaml
+
+agent:
+  name: react             # react | skillopt
+
+env:
+  name: alfworld
+  server_base_env: ALF_WORLD_SERVER
+  timeout: 300
+  reset_options: {}    # per-episode reset keywords, forwarded verbatim on every reset
+  train_rollout_reset_options: {}   # overrides for SkillOpt training-batch rollouts only
+
+evaluation:
+  repeat: null        # explicit evaluation repeat (1, 2, 3); required for omission-scoped evaluation
+  test_sets:           # complete explicit frozen task files
+    - test_seen
+    - test_unseen
+  resume_from: null   # comma-separated run ids: skip tasks already completed (OK trace) there;
+                      # explicit resumption of interrupted sweeps (analysis merges the runs)
+
+model:
+  timeout: 300
+  max_retries: 5
+  # Dataset-specific actor policy. The selected model backend translates thinking controls.
+  rollout:            # the actor
+    thinking: false   # plain chat mode — the weak collector
+    temperature: 0.0
+    max_tokens: 4096
+    reasoning_effort: high  # unused while thinking is false
+react:
+  max_steps: 50        # ALFWorld default; ScienceWorld experiment overlays set the fixed cap to 49
+  history_observation_chars: 4000  # earlier observations are cut to this length in the prompt
+  invalid_call: feedback  # feedback | terminate (per-benchmark protocol)
+  reasoning: true      # written rationale argument on every tool call
+
+# Engine-independent optimization-data policy. Train/validation counts are total budgets.
+# Random selection is uniform over the complete official split. Cluster selection allocates
+# both train and validation budgets uniformly across discovered clusters.
+optimization:
+  candidate_pool_file: null     # explicit controlled pool manifest; null uses the full development pool
+  selection_lock_file: null    # exact ordered IDs and source hashes, verified before training
+  selection_lock_sha256: null
+  partition_artifact: null
+  train_count: 50
+  validation_count: 50
+  train_selection: random       # random | cluster
+  validation_selection: random  # random | cluster
+
+# SkillOpt ReflACT skill learning. Official analyst and skill-update prompts are used unchanged;
+# rollouts use the shared native-tool actor above.
+skillopt:
+  num_epochs: 4
+  batch_size: 25
+  accumulation: 1
+  reflection_minibatch_size: 8
+  merge_batch_size: 8
+  analyst_workers: 16
+  rewrite_reasoning_effort: high
+  rewrite_max_completion_tokens: 64000
+  failure_only: false
+  edit_budget: 4
+  min_edit_budget: 2
+  lr_scheduler: cosine
+  lr_control_mode: fixed
+  skill_update_mode: patch
+  use_slow_update: true
+  slow_update_samples: 20
+  # Paper-aligned behavior: epoch-wise guidance must pass the same held-out gate.
+  slow_update_gate_with_selection: true
+  longitudinal_pair_policy: mixed
+  use_meta_skill: true
+  use_skill_aware_reflection: false
+  skill_aware_appendix_source: both
+  skill_aware_consolidate_threshold: 0
+  use_gate: true
+  gate_metric: hard
+  gate_mixed_weight: 0.5
+  use_semantic_density: false
+  semantic_density_weight: 0.05
+  # Passed directly to SkillOpt's official OpenAI-compatible backend.
+  optimizer:
+    thinking: true
+    reasoning_effort: high
+    temperature: 1.0
+    max_tokens: 65536
+  resume_run_id: null
+  initial_skill_file: null   # seed skill (path); null = the environment's empty initial skill
+
+tracking:
+  tracking_uri: http://127.0.0.1:5001   # the compose mlflow service; :5000 is macOS AirPlay
+  experiment: taxoskill                    # one MLflow experiment for the project
+  run_name: development                 # experiment overlays replace this stable condition name

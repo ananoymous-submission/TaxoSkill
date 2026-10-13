@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Find and move by category",
+    "definition": "Locate an object that belongs to a specified category (living thing, non-living thing, animal, or plant), focus on it, and move it to a specified colored box."
+  },
+  {
+    "name": "Test electrical conductivity",
+    "definition": "Determine whether a substance or object is electrically conductive, then place it in the box corresponding to the result."
+  },
+  {
+    "name": "Measure thermal property and sort",
+    "definition": "Use a thermometer to measure a specified thermal property (temperature or melting point) of a substance or object and compare it to a threshold, then place the object in or focus on the corresponding colored box as the task instructs."
+  },
+  {
+    "name": "Change state of matter",
+    "definition": "Apply heating or cooling to a substance so that it changes its state of matter."
+  },
+  {
+    "name": "Power a light bulb with a circuit",
+    "definition": "Build a closed electrical circuit, using the specified type of power source (renewable or nonrenewable) when required, to turn on a specified light bulb."
+  },
+  {
+    "name": "Create substance by chemistry",
+    "definition": "Follow a recipe and use chemistry-related actions to create a specified substance or paint, focusing on any required intermediate and the final product."
+  },
+  {
+    "name": "Grow plant from seed",
+    "definition": "Grow one or more plants from seed to the required life stage, cross-pollinating plants to produce fruit when the task requires fruit."
+  },
+  {
+    "name": "Compare animal life spans",
+    "definition": "Identify the animal(s) with the longest, shortest, or both longest and shortest life span among the animals in an area and focus on it or them."
+  },
+  {
+    "name": "Order life stages",
+    "definition": "Identify and focus on the developmental life stages of an organism in a specified order."
+  }
+]

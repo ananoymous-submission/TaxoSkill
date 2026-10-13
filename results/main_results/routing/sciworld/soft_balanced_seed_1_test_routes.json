@@ -1,0 +1,2045 @@
+{
+  "schema_version": 1,
+  "environment": "sciworld",
+  "partition_id": "6d68a2a11a06fb14eb83",
+  "assignment_model": "deepseek/deepseek-v4-flash-0731",
+  "input_fingerprint": "0bffd9d52c2d97066e607d4063b6c709f6f0f6f0546f14adbf3179e65081efba",
+  "splits": [
+    "test_seen",
+    "test_unseen"
+  ],
+  "assignments": [
+    {
+      "source_split": "test_seen",
+      "task_idx": 1483,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1484,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1485,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1486,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1487,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1488,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1489,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1490,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1491,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1492,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1493,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1494,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1495,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1496,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1497,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1498,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1499,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1500,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1501,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1502,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1503,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1504,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1505,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1506,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1507,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1508,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1509,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1510,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1511,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1512,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1513,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1514,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1515,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1516,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1517,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1518,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1519,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1520,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1521,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1522,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1523,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1524,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1525,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1526,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1527,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1528,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1529,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1530,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1531,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1532,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1533,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1534,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1535,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1536,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1537,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1538,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1539,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1540,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1541,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1542,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1543,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1544,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1545,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1546,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1547,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1548,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1549,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1550,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1551,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1552,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1553,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1554,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1555,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1556,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1557,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1558,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1559,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1560,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1561,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1562,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1563,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1564,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1565,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1566,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1567,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1568,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1569,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1570,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1571,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1572,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1573,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1574,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1575,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1576,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1577,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1578,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1579,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1580,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1581,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1582,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1583,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1584,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1585,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1586,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1587,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1588,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1589,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1590,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1591,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1592,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1593,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1594,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1595,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1596,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1597,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1598,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1599,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1600,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1601,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1602,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1603,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1604,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1605,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1606,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1607,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1608,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1609,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1610,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1611,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1612,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1613,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1614,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1615,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1616,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1617,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1618,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1619,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1620,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1621,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1622,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1623,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1624,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1625,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1626,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1627,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1628,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1629,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1630,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1631,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1632,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1633,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1634,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1635,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1636,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1637,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1638,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1639,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1640,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1641,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1642,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1643,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1644,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1645,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1646,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1647,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1648,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1649,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1650,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1651,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1652,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1653,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1654,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1655,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1656,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1657,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1658,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1659,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1660,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1661,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1662,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1663,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1664,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1665,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1666,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1667,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1668,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1669,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1670,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1671,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1672,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1673,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1674,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1675,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_seen",
+      "task_idx": 1676,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1677,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1678,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1679,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1680,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1681,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1682,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1683,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1684,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1685,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1686,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1687,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1688,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1689,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1690,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1691,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1692,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1693,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1694,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1695,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1696,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1697,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1698,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1699,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1700,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1701,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1702,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1703,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1704,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1705,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1706,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1707,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1708,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1709,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1710,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1711,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1712,
+      "cluster_id": 4
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1713,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1714,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1715,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1716,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1717,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1718,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1719,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1720,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1721,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1722,
+      "cluster_id": 2
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1723,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1724,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1725,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1726,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1727,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1728,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1729,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1730,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1731,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1732,
+      "cluster_id": 5
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1733,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1734,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1735,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1736,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1737,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1738,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1739,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1740,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1741,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1742,
+      "cluster_id": 11
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1743,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1744,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1745,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1746,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1747,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1748,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1749,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1750,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1751,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1752,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1753,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1754,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1755,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1756,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1757,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1758,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1759,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1760,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1761,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1762,
+      "cluster_id": 3
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1763,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1764,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1765,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1766,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1767,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1768,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1769,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1770,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1771,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1772,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1773,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1774,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1775,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1776,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1777,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1778,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1779,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1780,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1781,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1782,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1783,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1784,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1785,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1786,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1787,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1788,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1789,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1790,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1791,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1792,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1793,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1794,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1795,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1796,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1797,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1798,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1799,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1800,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1801,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1802,
+      "cluster_id": 1
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1803,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1804,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1805,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1806,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1807,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1808,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1809,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1810,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1811,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1812,
+      "cluster_id": 10
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1813,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1814,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1815,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1816,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1817,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1818,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1819,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1820,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1821,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1822,
+      "cluster_id": 6
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1823,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1824,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1825,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1826,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1827,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1828,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1829,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1830,
+      "cluster_id": 7
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1831,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1832,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1833,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1834,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1835,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1836,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1837,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1838,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1839,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1840,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1841,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1842,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1843,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1844,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1845,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1846,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1847,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1848,
+      "cluster_id": 8
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1849,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1850,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1851,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1852,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1853,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1854,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1855,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1856,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1857,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1858,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1859,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1860,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1861,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1862,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1863,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1864,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1865,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1866,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1867,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1868,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1869,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1870,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1871,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1872,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1873,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1874,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1875,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1876,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1877,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1878,
+      "cluster_id": 0
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1879,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1880,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1881,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1882,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1883,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1884,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1885,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1886,
+      "cluster_id": 9
+    },
+    {
+      "source_split": "test_unseen",
+      "task_idx": 1887,
+      "cluster_id": 9
+    }
+  ],
+  "assignment_provider": "streamlake/fp8",
+  "label_free": true,
+  "input_fields": [
+    "instruction",
+    "discovered_type_names_and_definitions",
+    "environment_interface"
+  ]
+}

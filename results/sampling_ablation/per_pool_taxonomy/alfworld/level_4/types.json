@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Place on surface or fixture",
+    "definition": "Pick up one or more objects and place them on or move them to a specified non-container target, such as a table, chair, shelf, toilet, holder, or towel rack."
+  },
+  {
+    "name": "Place inside container",
+    "definition": "Pick up one or more objects and place them inside a specified or implied container or appliance, such as a drawer, cabinet, safe, bin, trash can, fridge, or microwave, opening and closing it as needed."
+  },
+  {
+    "name": "Clean or dry then place",
+    "definition": "Clean, wash, or dry one or more objects and then put them at the specified destination."
+  },
+  {
+    "name": "Heat in microwave then place",
+    "definition": "Heat one or more objects in the microwave and place them at the specified final location when one is given."
+  },
+  {
+    "name": "Cool in fridge then place",
+    "definition": "Cool one or more objects in the fridge and place them at the specified final location when one is given."
+  },
+  {
+    "name": "Toggle device",
+    "definition": "Turn a specified device on or off, such as a lamp, optionally while moving another object."
+  }
+]

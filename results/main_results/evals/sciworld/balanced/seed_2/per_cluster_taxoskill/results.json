@@ -1,0 +1,4110 @@
+{
+  "schema_version": 2,
+  "seed": 2,
+  "summary": {
+    "n_tasks": 405,
+    "n_solved": 337,
+    "n_steps": 7224,
+    "input_tokens": 30004792,
+    "output_tokens": 725981,
+    "n_action_failures": 20,
+    "test_sets": {
+      "test_seen": {
+        "n_tasks": 194,
+        "n_solved": 165
+      },
+      "test_unseen": {
+        "n_tasks": 211,
+        "n_solved": 172
+      }
+    }
+  },
+  "tasks": {
+    "test_seen": {
+      "1483": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance S to the orange box.",
+        "n_steps": 32,
+        "input_tokens": 119933,
+        "output_tokens": 3028,
+        "action_failures": {}
+      },
+      "1484": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the red box.",
+        "n_steps": 5,
+        "input_tokens": 13424,
+        "output_tokens": 443,
+        "action_failures": {}
+      },
+      "1485": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow box.",
+        "n_steps": 6,
+        "input_tokens": 20550,
+        "output_tokens": 624,
+        "action_failures": {}
+      },
+      "1486": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the beaver to the green box.",
+        "n_steps": 7,
+        "input_tokens": 19060,
+        "output_tokens": 592,
+        "action_failures": {}
+      },
+      "1487": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 20,
+        "input_tokens": 70568,
+        "output_tokens": 1687,
+        "action_failures": {}
+      },
+      "1488": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the purple box.",
+        "n_steps": 7,
+        "input_tokens": 19432,
+        "output_tokens": 598,
+        "action_failures": {}
+      },
+      "1489": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the plastic fork to the orange box.",
+        "n_steps": 35,
+        "input_tokens": 138691,
+        "output_tokens": 3357,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1490": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 18945,
+        "output_tokens": 591,
+        "action_failures": {}
+      },
+      "1491": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the blue box.",
+        "n_steps": 10,
+        "input_tokens": 29691,
+        "output_tokens": 863,
+        "action_failures": {}
+      },
+      "1492": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the paper clip to the yellow box.",
+        "n_steps": 40,
+        "input_tokens": 181237,
+        "output_tokens": 3951,
+        "action_failures": {}
+      },
+      "1493": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the beaver to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19118,
+        "output_tokens": 635,
+        "action_failures": {}
+      },
+      "1494": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the plastic fork to the yellow box.",
+        "n_steps": 39,
+        "input_tokens": 154245,
+        "output_tokens": 3659,
+        "action_failures": {}
+      },
+      "1495": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance S to the yellow box.",
+        "n_steps": 33,
+        "input_tokens": 124896,
+        "output_tokens": 3193,
+        "action_failures": {}
+      },
+      "1496": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance Q to the orange box.",
+        "n_steps": 28,
+        "input_tokens": 100461,
+        "output_tokens": 2671,
+        "action_failures": {}
+      },
+      "1497": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the yellow box.",
+        "n_steps": 10,
+        "input_tokens": 29829,
+        "output_tokens": 867,
+        "action_failures": {}
+      },
+      "1498": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the frog egg.",
+        "n_steps": 3,
+        "input_tokens": 6933,
+        "output_tokens": 267,
+        "action_failures": {}
+      },
+      "1499": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the green box.",
+        "n_steps": 7,
+        "input_tokens": 19127,
+        "output_tokens": 585,
+        "action_failures": {}
+      },
+      "1500": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance O to the orange box.",
+        "n_steps": 36,
+        "input_tokens": 145606,
+        "output_tokens": 3409,
+        "action_failures": {}
+      },
+      "1501": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the green box.",
+        "n_steps": 7,
+        "input_tokens": 19477,
+        "output_tokens": 611,
+        "action_failures": {}
+      },
+      "1502": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the paper clip to the yellow box.",
+        "n_steps": 33,
+        "input_tokens": 124864,
+        "output_tokens": 3198,
+        "action_failures": {}
+      },
+      "1503": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the shovel to the blue box.",
+        "n_steps": 40,
+        "input_tokens": 162858,
+        "output_tokens": 3725,
+        "action_failures": {}
+      },
+      "1504": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance R to the green box.",
+        "n_steps": 28,
+        "input_tokens": 99983,
+        "output_tokens": 2605,
+        "action_failures": {}
+      },
+      "1505": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 11,
+        "input_tokens": 39113,
+        "output_tokens": 972,
+        "action_failures": {}
+      },
+      "1506": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13369,
+        "output_tokens": 429,
+        "action_failures": {}
+      },
+      "1507": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the plastic fork to the purple box.",
+        "n_steps": 34,
+        "input_tokens": 131995,
+        "output_tokens": 3169,
+        "action_failures": {}
+      },
+      "1508": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the blue box.",
+        "n_steps": 11,
+        "input_tokens": 32903,
+        "output_tokens": 957,
+        "action_failures": {}
+      },
+      "1509": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You teleport to the kitchen.",
+        "n_steps": 33,
+        "input_tokens": 143087,
+        "output_tokens": 2994,
+        "action_failures": {}
+      },
+      "1510": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue box.",
+        "n_steps": 10,
+        "input_tokens": 37348,
+        "output_tokens": 928,
+        "action_failures": {}
+      },
+      "1511": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the red box.",
+        "n_steps": 11,
+        "input_tokens": 32907,
+        "output_tokens": 938,
+        "action_failures": {}
+      },
+      "1512": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the shovel to the red box.",
+        "n_steps": 42,
+        "input_tokens": 172260,
+        "output_tokens": 3956,
+        "action_failures": {}
+      },
+      "1513": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13444,
+        "output_tokens": 448,
+        "action_failures": {}
+      },
+      "1514": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "The switch is now activated.",
+        "n_steps": 49,
+        "input_tokens": 217505,
+        "output_tokens": 4767,
+        "action_failures": {}
+      },
+      "1515": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the green box.",
+        "n_steps": 11,
+        "input_tokens": 33301,
+        "output_tokens": 953,
+        "action_failures": {}
+      },
+      "1516": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance R to the yellow box.",
+        "n_steps": 28,
+        "input_tokens": 98724,
+        "output_tokens": 2635,
+        "action_failures": {}
+      },
+      "1517": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the purple box.",
+        "n_steps": 9,
+        "input_tokens": 31851,
+        "output_tokens": 1480,
+        "action_failures": {}
+      },
+      "1518": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the yellow box.",
+        "n_steps": 12,
+        "input_tokens": 36986,
+        "output_tokens": 1057,
+        "action_failures": {}
+      },
+      "1519": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the shovel to the red box.",
+        "n_steps": 35,
+        "input_tokens": 140966,
+        "output_tokens": 3311,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1520": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance S to the purple box.",
+        "n_steps": 31,
+        "input_tokens": 114451,
+        "output_tokens": 2906,
+        "action_failures": {}
+      },
+      "1521": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the paper clip to the orange box.",
+        "n_steps": 39,
+        "input_tokens": 158003,
+        "output_tokens": 3696,
+        "action_failures": {}
+      },
+      "1522": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet-red paint.",
+        "n_steps": 36,
+        "input_tokens": 167541,
+        "output_tokens": 3466,
+        "action_failures": {}
+      },
+      "1523": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the purple box.",
+        "n_steps": 13,
+        "input_tokens": 40366,
+        "output_tokens": 1148,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1524": {
+        "solved": false,
+        "status": "step_cap",
+        "fail_reason": "",
+        "last_observation": "a gas generator, which is off. its anode is connected to: nothing. its cathode is connected to: nothing.",
+        "n_steps": 49,
+        "input_tokens": 251486,
+        "output_tokens": 5128,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1525": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the paper clip to the red box.",
+        "n_steps": 43,
+        "input_tokens": 195244,
+        "output_tokens": 4175,
+        "action_failures": {}
+      },
+      "1526": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow box.",
+        "n_steps": 39,
+        "input_tokens": 185996,
+        "output_tokens": 3681,
+        "action_failures": {}
+      },
+      "1527": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the red box.",
+        "n_steps": 7,
+        "input_tokens": 19702,
+        "output_tokens": 642,
+        "action_failures": {}
+      },
+      "1528": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 44,
+        "input_tokens": 227104,
+        "output_tokens": 3999,
+        "action_failures": {}
+      },
+      "1529": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19342,
+        "output_tokens": 583,
+        "action_failures": {}
+      },
+      "1530": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13390,
+        "output_tokens": 439,
+        "action_failures": {}
+      },
+      "1531": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance R to the purple box.",
+        "n_steps": 30,
+        "input_tokens": 109871,
+        "output_tokens": 2848,
+        "action_failures": {}
+      },
+      "1532": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 9,
+        "input_tokens": 31334,
+        "output_tokens": 846,
+        "action_failures": {}
+      },
+      "1533": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the beaver to the purple box.",
+        "n_steps": 7,
+        "input_tokens": 19105,
+        "output_tokens": 624,
+        "action_failures": {}
+      },
+      "1534": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow box.",
+        "n_steps": 6,
+        "input_tokens": 20364,
+        "output_tokens": 537,
+        "action_failures": {}
+      },
+      "1535": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the bee 3 to the purple box.",
+        "n_steps": 49,
+        "input_tokens": 245872,
+        "output_tokens": 5547,
+        "action_failures": {}
+      },
+      "1536": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 43150,
+        "output_tokens": 1067,
+        "action_failures": {}
+      },
+      "1537": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 10,
+        "input_tokens": 35385,
+        "output_tokens": 824,
+        "action_failures": {}
+      },
+      "1538": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the banana tree to the red box.",
+        "n_steps": 7,
+        "input_tokens": 19527,
+        "output_tokens": 645,
+        "action_failures": {}
+      },
+      "1539": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange.",
+        "n_steps": 35,
+        "input_tokens": 169300,
+        "output_tokens": 3262,
+        "action_failures": {}
+      },
+      "1540": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance R to the blue box.",
+        "n_steps": 28,
+        "input_tokens": 99234,
+        "output_tokens": 2562,
+        "action_failures": {}
+      },
+      "1541": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby ant.",
+        "n_steps": 4,
+        "input_tokens": 9527,
+        "output_tokens": 381,
+        "action_failures": {}
+      },
+      "1542": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19082,
+        "output_tokens": 592,
+        "action_failures": {}
+      },
+      "1543": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow box.",
+        "n_steps": 7,
+        "input_tokens": 24217,
+        "output_tokens": 692,
+        "action_failures": {}
+      },
+      "1544": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the purple box.",
+        "n_steps": 7,
+        "input_tokens": 19523,
+        "output_tokens": 612,
+        "action_failures": {}
+      },
+      "1545": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the yellow box.",
+        "n_steps": 12,
+        "input_tokens": 36749,
+        "output_tokens": 1045,
+        "action_failures": {}
+      },
+      "1546": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the red box.",
+        "n_steps": 7,
+        "input_tokens": 19173,
+        "output_tokens": 628,
+        "action_failures": {}
+      },
+      "1547": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the beaver to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 19075,
+        "output_tokens": 624,
+        "action_failures": {}
+      },
+      "1548": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the beaver to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 19220,
+        "output_tokens": 618,
+        "action_failures": {}
+      },
+      "1549": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the blue box.",
+        "n_steps": 5,
+        "input_tokens": 13434,
+        "output_tokens": 448,
+        "action_failures": {}
+      },
+      "1550": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 26,
+        "input_tokens": 97701,
+        "output_tokens": 2235,
+        "action_failures": {}
+      },
+      "1551": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 341397,
+        "output_tokens": 7286,
+        "action_failures": {}
+      },
+      "1552": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby ant.",
+        "n_steps": 3,
+        "input_tokens": 6946,
+        "output_tokens": 285,
+        "action_failures": {}
+      },
+      "1553": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow box.",
+        "n_steps": 18,
+        "input_tokens": 73402,
+        "output_tokens": 1954,
+        "action_failures": {}
+      },
+      "1554": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the yellow box.",
+        "n_steps": 12,
+        "input_tokens": 36884,
+        "output_tokens": 1054,
+        "action_failures": {}
+      },
+      "1555": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange box.",
+        "n_steps": 21,
+        "input_tokens": 84127,
+        "output_tokens": 2109,
+        "action_failures": {}
+      },
+      "1556": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the yellow box.",
+        "n_steps": 12,
+        "input_tokens": 36780,
+        "output_tokens": 1049,
+        "action_failures": {}
+      },
+      "1557": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the banana tree to the yellow box.",
+        "n_steps": 7,
+        "input_tokens": 19630,
+        "output_tokens": 619,
+        "action_failures": {}
+      },
+      "1558": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the frog egg.",
+        "n_steps": 4,
+        "input_tokens": 9519,
+        "output_tokens": 375,
+        "action_failures": {}
+      },
+      "1559": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 18,
+        "input_tokens": 70820,
+        "output_tokens": 1646,
+        "action_failures": {}
+      },
+      "1560": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the giant tortoise egg.",
+        "n_steps": 1,
+        "input_tokens": 2240,
+        "output_tokens": 116,
+        "action_failures": {}
+      },
+      "1561": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the apple tree to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13443,
+        "output_tokens": 465,
+        "action_failures": {}
+      },
+      "1562": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the green box.",
+        "n_steps": 11,
+        "input_tokens": 39640,
+        "output_tokens": 988,
+        "action_failures": {}
+      },
+      "1563": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 3,
+        "input_tokens": 6947,
+        "output_tokens": 294,
+        "action_failures": {}
+      },
+      "1564": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 3,
+        "input_tokens": 7036,
+        "output_tokens": 283,
+        "action_failures": {}
+      },
+      "1565": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the painting to the red box.",
+        "n_steps": 3,
+        "input_tokens": 8053,
+        "output_tokens": 313,
+        "action_failures": {}
+      },
+      "1566": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 16,
+        "input_tokens": 55474,
+        "output_tokens": 1462,
+        "action_failures": {}
+      },
+      "1567": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 21,
+        "input_tokens": 75013,
+        "output_tokens": 1729,
+        "action_failures": {}
+      },
+      "1568": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the green box.",
+        "n_steps": 7,
+        "input_tokens": 19709,
+        "output_tokens": 617,
+        "action_failures": {}
+      },
+      "1569": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 3,
+        "input_tokens": 7009,
+        "output_tokens": 370,
+        "action_failures": {}
+      },
+      "1570": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the yellow box.",
+        "n_steps": 8,
+        "input_tokens": 23145,
+        "output_tokens": 732,
+        "action_failures": {}
+      },
+      "1571": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the adult frog.",
+        "n_steps": 15,
+        "input_tokens": 45629,
+        "output_tokens": 1282,
+        "action_failures": {}
+      },
+      "1572": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby elephant.",
+        "n_steps": 3,
+        "input_tokens": 6978,
+        "output_tokens": 289,
+        "action_failures": {}
+      },
+      "1573": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the blue box.",
+        "n_steps": 5,
+        "input_tokens": 13409,
+        "output_tokens": 435,
+        "action_failures": {}
+      },
+      "1574": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wood cup to the yellow box.",
+        "n_steps": 5,
+        "input_tokens": 13258,
+        "output_tokens": 461,
+        "action_failures": {}
+      },
+      "1575": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 2,
+        "input_tokens": 4628,
+        "output_tokens": 216,
+        "action_failures": {}
+      },
+      "1576": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 18991,
+        "output_tokens": 601,
+        "action_failures": {}
+      },
+      "1577": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the glass cup to the green box.",
+        "n_steps": 3,
+        "input_tokens": 7717,
+        "output_tokens": 313,
+        "action_failures": {}
+      },
+      "1578": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "The oven is now open.",
+        "n_steps": 15,
+        "input_tokens": 55700,
+        "output_tokens": 1288,
+        "action_failures": {}
+      },
+      "1579": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby brown bear.",
+        "n_steps": 3,
+        "input_tokens": 7029,
+        "output_tokens": 280,
+        "action_failures": {}
+      },
+      "1580": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the parrot egg.",
+        "n_steps": 5,
+        "input_tokens": 12296,
+        "output_tokens": 594,
+        "action_failures": {}
+      },
+      "1581": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wood cup to the yellow box.",
+        "n_steps": 5,
+        "input_tokens": 13259,
+        "output_tokens": 460,
+        "action_failures": {}
+      },
+      "1582": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 30,
+        "input_tokens": 129877,
+        "output_tokens": 2537,
+        "action_failures": {}
+      },
+      "1583": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "terminal 1 on orange wire is now connected to anode on blue light bulb",
+        "n_steps": 30,
+        "input_tokens": 118703,
+        "output_tokens": 3081,
+        "action_failures": {}
+      },
+      "1584": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the apple tree to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 19557,
+        "output_tokens": 629,
+        "action_failures": {}
+      },
+      "1585": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby chipmunk.",
+        "n_steps": 3,
+        "input_tokens": 7037,
+        "output_tokens": 296,
+        "action_failures": {}
+      },
+      "1586": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the yellow box.",
+        "n_steps": 7,
+        "input_tokens": 19517,
+        "output_tokens": 611,
+        "action_failures": {}
+      },
+      "1587": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the drawing to the red box.",
+        "n_steps": 6,
+        "input_tokens": 16213,
+        "output_tokens": 536,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1588": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the giant tortoise egg.",
+        "n_steps": 1,
+        "input_tokens": 2244,
+        "output_tokens": 132,
+        "action_failures": {}
+      },
+      "1589": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pea plant to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19616,
+        "output_tokens": 629,
+        "action_failures": {}
+      },
+      "1590": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the painting to the purple box.",
+        "n_steps": 7,
+        "input_tokens": 20497,
+        "output_tokens": 641,
+        "action_failures": {}
+      },
+      "1591": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the finger painting to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13327,
+        "output_tokens": 510,
+        "action_failures": {}
+      },
+      "1592": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 17,
+        "input_tokens": 63656,
+        "output_tokens": 1565,
+        "action_failures": {}
+      },
+      "1593": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow-orange paint.",
+        "n_steps": 34,
+        "input_tokens": 162133,
+        "output_tokens": 3613,
+        "action_failures": {}
+      },
+      "1594": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 3,
+        "input_tokens": 7008,
+        "output_tokens": 281,
+        "action_failures": {}
+      },
+      "1595": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the chameleon egg.",
+        "n_steps": 4,
+        "input_tokens": 9741,
+        "output_tokens": 528,
+        "action_failures": {}
+      },
+      "1596": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the glass cup to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13176,
+        "output_tokens": 470,
+        "action_failures": {}
+      },
+      "1597": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby chipmunk.",
+        "n_steps": 5,
+        "input_tokens": 12576,
+        "output_tokens": 686,
+        "action_failures": {}
+      },
+      "1598": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the pillow to the red box.",
+        "n_steps": 7,
+        "input_tokens": 19072,
+        "output_tokens": 649,
+        "action_failures": {}
+      },
+      "1599": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 47,
+        "input_tokens": 228538,
+        "output_tokens": 4486,
+        "action_failures": {}
+      },
+      "1600": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 14,
+        "input_tokens": 50955,
+        "output_tokens": 1235,
+        "action_failures": {}
+      },
+      "1601": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the lemon.",
+        "n_steps": 32,
+        "input_tokens": 140244,
+        "output_tokens": 2872,
+        "action_failures": {}
+      },
+      "1602": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 4,
+        "input_tokens": 9521,
+        "output_tokens": 371,
+        "action_failures": {}
+      },
+      "1603": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the chair to the blue box.",
+        "n_steps": 8,
+        "input_tokens": 24322,
+        "output_tokens": 828,
+        "action_failures": {}
+      },
+      "1604": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 15,
+        "input_tokens": 49273,
+        "output_tokens": 1264,
+        "action_failures": {}
+      },
+      "1605": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 46,
+        "input_tokens": 234362,
+        "output_tokens": 4226,
+        "action_failures": {}
+      },
+      "1606": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 11,
+        "input_tokens": 39299,
+        "output_tokens": 959,
+        "action_failures": {}
+      },
+      "1607": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 4,
+        "input_tokens": 9684,
+        "output_tokens": 433,
+        "action_failures": {}
+      },
+      "1608": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 16,
+        "input_tokens": 53452,
+        "output_tokens": 1335,
+        "action_failures": {}
+      },
+      "1609": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the crocodile egg.",
+        "n_steps": 3,
+        "input_tokens": 7000,
+        "output_tokens": 309,
+        "action_failures": {}
+      },
+      "1610": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 3,
+        "input_tokens": 7400,
+        "output_tokens": 282,
+        "action_failures": {}
+      },
+      "1611": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 20,
+        "input_tokens": 70176,
+        "output_tokens": 1679,
+        "action_failures": {}
+      },
+      "1612": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 11,
+        "input_tokens": 38979,
+        "output_tokens": 945,
+        "action_failures": {}
+      },
+      "1613": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet-red paint.",
+        "n_steps": 22,
+        "input_tokens": 91443,
+        "output_tokens": 2069,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1614": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 16,
+        "input_tokens": 53495,
+        "output_tokens": 1358,
+        "action_failures": {}
+      },
+      "1615": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 15,
+        "input_tokens": 56116,
+        "output_tokens": 1270,
+        "action_failures": {}
+      },
+      "1616": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the dough.",
+        "n_steps": 16,
+        "input_tokens": 59606,
+        "output_tokens": 1488,
+        "action_failures": {}
+      },
+      "1617": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta adult bee\n\ta bee hive. The bee hive door is open. In the bee hive is: nothing.\n\ta flower pot 1 (containing a cherry tree in the reproducing stage. On the cherry tree you see: a cherry. , soil)\n\ta flower pot 2 ",
+        "n_steps": 49,
+        "input_tokens": 242617,
+        "output_tokens": 4320,
+        "action_failures": {}
+      },
+      "1618": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 4,
+        "input_tokens": 9632,
+        "output_tokens": 406,
+        "action_failures": {}
+      },
+      "1619": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange paint.",
+        "n_steps": 20,
+        "input_tokens": 80942,
+        "output_tokens": 1924,
+        "action_failures": {}
+      },
+      "1620": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 15,
+        "input_tokens": 50154,
+        "output_tokens": 1298,
+        "action_failures": {}
+      },
+      "1621": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 14,
+        "input_tokens": 51463,
+        "output_tokens": 1212,
+        "action_failures": {}
+      },
+      "1622": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 4,
+        "input_tokens": 9586,
+        "output_tokens": 411,
+        "action_failures": {}
+      },
+      "1623": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the crocodile egg.",
+        "n_steps": 3,
+        "input_tokens": 6984,
+        "output_tokens": 323,
+        "action_failures": {}
+      },
+      "1624": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 13,
+        "input_tokens": 42144,
+        "output_tokens": 1081,
+        "action_failures": {}
+      },
+      "1625": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow-orange paint.",
+        "n_steps": 27,
+        "input_tokens": 120892,
+        "output_tokens": 3354,
+        "action_failures": {}
+      },
+      "1626": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the frog egg.",
+        "n_steps": 3,
+        "input_tokens": 6946,
+        "output_tokens": 344,
+        "action_failures": {}
+      },
+      "1627": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 3,
+        "input_tokens": 6942,
+        "output_tokens": 273,
+        "action_failures": {}
+      },
+      "1628": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby brown bear.",
+        "n_steps": 3,
+        "input_tokens": 6982,
+        "output_tokens": 294,
+        "action_failures": {}
+      },
+      "1629": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the jam sandwich.",
+        "n_steps": 11,
+        "input_tokens": 38568,
+        "output_tokens": 994,
+        "action_failures": {}
+      },
+      "1630": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange paint.",
+        "n_steps": 21,
+        "input_tokens": 85936,
+        "output_tokens": 1927,
+        "action_failures": {}
+      },
+      "1631": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the parrot egg.",
+        "n_steps": 3,
+        "input_tokens": 6977,
+        "output_tokens": 312,
+        "action_failures": {}
+      },
+      "1632": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 11,
+        "input_tokens": 39605,
+        "output_tokens": 1026,
+        "action_failures": {}
+      },
+      "1633": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the lemon.",
+        "n_steps": 30,
+        "input_tokens": 123777,
+        "output_tokens": 2675,
+        "action_failures": {}
+      },
+      "1634": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 11,
+        "input_tokens": 39280,
+        "output_tokens": 1003,
+        "action_failures": {}
+      },
+      "1635": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby elephant.",
+        "n_steps": 3,
+        "input_tokens": 7010,
+        "output_tokens": 261,
+        "action_failures": {}
+      },
+      "1636": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange paint.",
+        "n_steps": 33,
+        "input_tokens": 154345,
+        "output_tokens": 3203,
+        "action_failures": {}
+      },
+      "1637": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is open. In the bee hive is: nothing.\n\ta flower pot 1 (containing a lemon tree in the reproducing stage. On the lemon tree you see: a flower. , soil)\n\ta flower pot 2 (containing a l",
+        "n_steps": 49,
+        "input_tokens": 247214,
+        "output_tokens": 4349,
+        "action_failures": {}
+      },
+      "1638": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the cherry.",
+        "n_steps": 45,
+        "input_tokens": 212839,
+        "output_tokens": 3978,
+        "action_failures": {}
+      },
+      "1639": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the grapefruit tree.",
+        "n_steps": 10,
+        "input_tokens": 29876,
+        "output_tokens": 854,
+        "action_failures": {}
+      },
+      "1640": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the cherry tree.",
+        "n_steps": 10,
+        "input_tokens": 29821,
+        "output_tokens": 855,
+        "action_failures": {}
+      },
+      "1641": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 44,
+        "input_tokens": 207661,
+        "output_tokens": 4249,
+        "action_failures": {}
+      },
+      "1642": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby hedgehog.",
+        "n_steps": 3,
+        "input_tokens": 6980,
+        "output_tokens": 320,
+        "action_failures": {}
+      },
+      "1643": {
+        "solved": false,
+        "status": "step_cap",
+        "fail_reason": "",
+        "last_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living ro",
+        "n_steps": 49,
+        "input_tokens": 536265,
+        "output_tokens": 25508,
+        "action_failures": {
+          "invalid_arguments": 5
+        }
+      },
+      "1644": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 253438,
+        "output_tokens": 4935,
+        "action_failures": {}
+      },
+      "1645": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the cherry.",
+        "n_steps": 46,
+        "input_tokens": 230116,
+        "output_tokens": 4227,
+        "action_failures": {}
+      },
+      "1646": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 16,
+        "input_tokens": 61316,
+        "output_tokens": 1417,
+        "action_failures": {}
+      },
+      "1647": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 21,
+        "input_tokens": 81190,
+        "output_tokens": 2163,
+        "action_failures": {}
+      },
+      "1648": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the adult blue jay.",
+        "n_steps": 18,
+        "input_tokens": 59482,
+        "output_tokens": 1608,
+        "action_failures": {}
+      },
+      "1649": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 49,
+        "input_tokens": 251493,
+        "output_tokens": 4394,
+        "action_failures": {}
+      },
+      "1650": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "The drawer is now open.",
+        "n_steps": 49,
+        "input_tokens": 255959,
+        "output_tokens": 4949,
+        "action_failures": {}
+      },
+      "1651": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the fruit salad.",
+        "n_steps": 8,
+        "input_tokens": 27166,
+        "output_tokens": 746,
+        "action_failures": {}
+      },
+      "1652": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 36,
+        "input_tokens": 165098,
+        "output_tokens": 3271,
+        "action_failures": {}
+      },
+      "1653": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange paint.",
+        "n_steps": 19,
+        "input_tokens": 74662,
+        "output_tokens": 1723,
+        "action_failures": {}
+      },
+      "1654": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet-red paint.",
+        "n_steps": 33,
+        "input_tokens": 155032,
+        "output_tokens": 3136,
+        "action_failures": {}
+      },
+      "1655": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 42922,
+        "output_tokens": 1033,
+        "action_failures": {}
+      },
+      "1656": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow-orange paint.",
+        "n_steps": 37,
+        "input_tokens": 176994,
+        "output_tokens": 4107,
+        "action_failures": {}
+      },
+      "1657": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 21,
+        "input_tokens": 83344,
+        "output_tokens": 1825,
+        "action_failures": {}
+      },
+      "1658": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow-orange paint.",
+        "n_steps": 35,
+        "input_tokens": 169134,
+        "output_tokens": 3394,
+        "action_failures": {}
+      },
+      "1659": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow-orange paint.",
+        "n_steps": 35,
+        "input_tokens": 169142,
+        "output_tokens": 4446,
+        "action_failures": {}
+      },
+      "1660": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric motor is now connected to cathode on nuclear generator",
+        "n_steps": 48,
+        "input_tokens": 223054,
+        "output_tokens": 4981,
+        "action_failures": {}
+      },
+      "1661": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the jam sandwich.",
+        "n_steps": 14,
+        "input_tokens": 51782,
+        "output_tokens": 1318,
+        "action_failures": {}
+      },
+      "1662": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "anode on gas generator is now connected to terminal 1 on black wire",
+        "n_steps": 49,
+        "input_tokens": 222009,
+        "output_tokens": 4786,
+        "action_failures": {}
+      },
+      "1663": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange paint.",
+        "n_steps": 10,
+        "input_tokens": 34255,
+        "output_tokens": 950,
+        "action_failures": {}
+      },
+      "1664": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "terminal 2 on red wire is now connected to cathode on nuclear generator",
+        "n_steps": 32,
+        "input_tokens": 124342,
+        "output_tokens": 3129,
+        "action_failures": {}
+      },
+      "1665": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 244881,
+        "output_tokens": 4701,
+        "action_failures": {}
+      },
+      "1666": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange paint.",
+        "n_steps": 17,
+        "input_tokens": 65255,
+        "output_tokens": 1537,
+        "action_failures": {}
+      },
+      "1667": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 14,
+        "input_tokens": 51971,
+        "output_tokens": 1237,
+        "action_failures": {}
+      },
+      "1668": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 33,
+        "input_tokens": 150843,
+        "output_tokens": 3255,
+        "action_failures": {}
+      },
+      "1669": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the smores.",
+        "n_steps": 15,
+        "input_tokens": 55508,
+        "output_tokens": 1394,
+        "action_failures": {}
+      },
+      "1670": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 14,
+        "input_tokens": 52364,
+        "output_tokens": 1208,
+        "action_failures": {}
+      },
+      "1671": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 255763,
+        "output_tokens": 5072,
+        "action_failures": {}
+      },
+      "1672": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 42391,
+        "output_tokens": 1064,
+        "action_failures": {}
+      },
+      "1673": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the dough.",
+        "n_steps": 16,
+        "input_tokens": 58358,
+        "output_tokens": 1392,
+        "action_failures": {}
+      },
+      "1674": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the yellow-orange paint.",
+        "n_steps": 29,
+        "input_tokens": 127672,
+        "output_tokens": 6328,
+        "action_failures": {}
+      },
+      "1675": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the smores.",
+        "n_steps": 11,
+        "input_tokens": 38491,
+        "output_tokens": 970,
+        "action_failures": {}
+      },
+      "1676": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the fruit salad.",
+        "n_steps": 23,
+        "input_tokens": 92826,
+        "output_tokens": 2036,
+        "action_failures": {}
+      }
+    },
+    "test_unseen": {
+      "1677": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 251651,
+        "output_tokens": 4666,
+        "action_failures": {}
+      },
+      "1678": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 20,
+        "input_tokens": 76611,
+        "output_tokens": 1761,
+        "action_failures": {}
+      },
+      "1679": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 46,
+        "input_tokens": 229573,
+        "output_tokens": 4059,
+        "action_failures": {}
+      },
+      "1680": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 27,
+        "input_tokens": 113218,
+        "output_tokens": 2395,
+        "action_failures": {}
+      },
+      "1681": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 13,
+        "input_tokens": 46647,
+        "output_tokens": 1170,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1682": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 23,
+        "input_tokens": 91912,
+        "output_tokens": 2230,
+        "action_failures": {}
+      },
+      "1683": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "The blast furnace is now closed.",
+        "n_steps": 49,
+        "input_tokens": 246317,
+        "output_tokens": 4517,
+        "action_failures": {}
+      },
+      "1684": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You teleport to the outside.",
+        "n_steps": 49,
+        "input_tokens": 271391,
+        "output_tokens": 5241,
+        "action_failures": {}
+      },
+      "1685": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 16,
+        "input_tokens": 62618,
+        "output_tokens": 1417,
+        "action_failures": {}
+      },
+      "1686": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 42763,
+        "output_tokens": 1109,
+        "action_failures": {}
+      },
+      "1687": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 42626,
+        "output_tokens": 1091,
+        "action_failures": {}
+      },
+      "1688": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 15,
+        "input_tokens": 55287,
+        "output_tokens": 1403,
+        "action_failures": {}
+      },
+      "1689": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 42631,
+        "output_tokens": 1112,
+        "action_failures": {}
+      },
+      "1690": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 42372,
+        "output_tokens": 1095,
+        "action_failures": {}
+      },
+      "1691": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "The blast furnace is now activated.",
+        "n_steps": 12,
+        "input_tokens": 43680,
+        "output_tokens": 1266,
+        "action_failures": {}
+      },
+      "1692": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 17,
+        "input_tokens": 67165,
+        "output_tokens": 1602,
+        "action_failures": {}
+      },
+      "1693": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "The blast furnace is now activated.",
+        "n_steps": 14,
+        "input_tokens": 50995,
+        "output_tokens": 1336,
+        "action_failures": {}
+      },
+      "1694": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "a substance called caesium",
+        "n_steps": 22,
+        "input_tokens": 89909,
+        "output_tokens": 2025,
+        "action_failures": {}
+      },
+      "1695": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 48,
+        "input_tokens": 240125,
+        "output_tokens": 5003,
+        "action_failures": {}
+      },
+      "1696": {
+        "solved": false,
+        "status": "step_cap",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 255412,
+        "output_tokens": 5004,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1697": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 28,
+        "input_tokens": 122415,
+        "output_tokens": 2776,
+        "action_failures": {}
+      },
+      "1698": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 14,
+        "input_tokens": 50138,
+        "output_tokens": 1252,
+        "action_failures": {}
+      },
+      "1699": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "The ultra low temperature freezer is now open.",
+        "n_steps": 15,
+        "input_tokens": 53667,
+        "output_tokens": 1328,
+        "action_failures": {}
+      },
+      "1700": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 251576,
+        "output_tokens": 4736,
+        "action_failures": {}
+      },
+      "1701": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 265145,
+        "output_tokens": 5361,
+        "action_failures": {}
+      },
+      "1702": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 256779,
+        "output_tokens": 4876,
+        "action_failures": {}
+      },
+      "1703": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "the thermometer measures a temperature of -82 degrees celsius",
+        "n_steps": 49,
+        "input_tokens": 250907,
+        "output_tokens": 4978,
+        "action_failures": {}
+      },
+      "1704": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 12,
+        "input_tokens": 42455,
+        "output_tokens": 1052,
+        "action_failures": {}
+      },
+      "1705": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "The blast furnace is now activated.",
+        "n_steps": 12,
+        "input_tokens": 42462,
+        "output_tokens": 1059,
+        "action_failures": {}
+      },
+      "1706": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 14,
+        "input_tokens": 52784,
+        "output_tokens": 1232,
+        "action_failures": {}
+      },
+      "1707": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 1 iterations.",
+        "n_steps": 49,
+        "input_tokens": 253393,
+        "output_tokens": 4816,
+        "action_failures": {}
+      },
+      "1708": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You focus on the liquid mercury.",
+        "n_steps": 49,
+        "input_tokens": 262728,
+        "output_tokens": 4680,
+        "action_failures": {}
+      },
+      "1709": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 19,
+        "input_tokens": 75739,
+        "output_tokens": 1929,
+        "action_failures": {}
+      },
+      "1710": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 17,
+        "input_tokens": 64879,
+        "output_tokens": 1531,
+        "action_failures": {}
+      },
+      "1711": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "The blast furnace is now activated.",
+        "n_steps": 13,
+        "input_tokens": 46529,
+        "output_tokens": 1200,
+        "action_failures": {}
+      },
+      "1712": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "The blast furnace is now activated.",
+        "n_steps": 12,
+        "input_tokens": 42762,
+        "output_tokens": 1138,
+        "action_failures": {}
+      },
+      "1713": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the green box.",
+        "n_steps": 6,
+        "input_tokens": 20542,
+        "output_tokens": 591,
+        "action_failures": {}
+      },
+      "1714": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange box.",
+        "n_steps": 19,
+        "input_tokens": 74082,
+        "output_tokens": 1752,
+        "action_failures": {}
+      },
+      "1715": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange box.",
+        "n_steps": 11,
+        "input_tokens": 39741,
+        "output_tokens": 1208,
+        "action_failures": {}
+      },
+      "1716": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue box.",
+        "n_steps": 11,
+        "input_tokens": 39542,
+        "output_tokens": 976,
+        "action_failures": {}
+      },
+      "1717": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue box.",
+        "n_steps": 6,
+        "input_tokens": 20367,
+        "output_tokens": 584,
+        "action_failures": {}
+      },
+      "1718": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange box.",
+        "n_steps": 6,
+        "input_tokens": 20515,
+        "output_tokens": 590,
+        "action_failures": {}
+      },
+      "1719": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the green box.",
+        "n_steps": 11,
+        "input_tokens": 41287,
+        "output_tokens": 1088,
+        "action_failures": {}
+      },
+      "1720": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange box.",
+        "n_steps": 6,
+        "input_tokens": 20419,
+        "output_tokens": 511,
+        "action_failures": {}
+      },
+      "1721": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the green box.",
+        "n_steps": 11,
+        "input_tokens": 39850,
+        "output_tokens": 1284,
+        "action_failures": {}
+      },
+      "1722": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange box.",
+        "n_steps": 10,
+        "input_tokens": 35972,
+        "output_tokens": 972,
+        "action_failures": {}
+      },
+      "1723": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the purple box.",
+        "n_steps": 10,
+        "input_tokens": 29800,
+        "output_tokens": 851,
+        "action_failures": {}
+      },
+      "1724": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wire to the green box.",
+        "n_steps": 12,
+        "input_tokens": 36435,
+        "output_tokens": 1031,
+        "action_failures": {}
+      },
+      "1725": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wire to the blue box.",
+        "n_steps": 12,
+        "input_tokens": 36821,
+        "output_tokens": 1038,
+        "action_failures": {}
+      },
+      "1726": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wire to the blue box.",
+        "n_steps": 11,
+        "input_tokens": 32881,
+        "output_tokens": 965,
+        "action_failures": {}
+      },
+      "1727": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the orange box.",
+        "n_steps": 12,
+        "input_tokens": 36763,
+        "output_tokens": 1024,
+        "action_failures": {}
+      },
+      "1728": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wood to the blue box.",
+        "n_steps": 10,
+        "input_tokens": 29610,
+        "output_tokens": 848,
+        "action_failures": {}
+      },
+      "1729": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the orange box.",
+        "n_steps": 13,
+        "input_tokens": 39906,
+        "output_tokens": 1087,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1730": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the yellow box.",
+        "n_steps": 13,
+        "input_tokens": 40345,
+        "output_tokens": 1111,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1731": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wood to the yellow box.",
+        "n_steps": 12,
+        "input_tokens": 36472,
+        "output_tokens": 1023,
+        "action_failures": {}
+      },
+      "1732": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance B to the orange box.",
+        "n_steps": 10,
+        "input_tokens": 30012,
+        "output_tokens": 865,
+        "action_failures": {}
+      },
+      "1733": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric motor is now connected to cathode on battery",
+        "n_steps": 28,
+        "input_tokens": 99914,
+        "output_tokens": 2671,
+        "action_failures": {}
+      },
+      "1734": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric buzzer is now connected to cathode on battery",
+        "n_steps": 12,
+        "input_tokens": 35809,
+        "output_tokens": 1174,
+        "action_failures": {}
+      },
+      "1735": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric buzzer is now connected to cathode on nuclear generator",
+        "n_steps": 40,
+        "input_tokens": 176376,
+        "output_tokens": 4257,
+        "action_failures": {}
+      },
+      "1736": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric buzzer is now connected to cathode on battery",
+        "n_steps": 14,
+        "input_tokens": 42929,
+        "output_tokens": 1328,
+        "action_failures": {}
+      },
+      "1737": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on switch is now connected to cathode on battery",
+        "n_steps": 23,
+        "input_tokens": 80252,
+        "output_tokens": 2386,
+        "action_failures": {}
+      },
+      "1738": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric motor is now connected to cathode on nuclear generator",
+        "n_steps": 13,
+        "input_tokens": 38644,
+        "output_tokens": 1224,
+        "action_failures": {}
+      },
+      "1739": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "anode on solar panel is now connected to cathode on electric buzzer",
+        "n_steps": 49,
+        "input_tokens": 238322,
+        "output_tokens": 4934,
+        "action_failures": {}
+      },
+      "1740": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric buzzer is now connected to cathode on nuclear generator",
+        "n_steps": 15,
+        "input_tokens": 46974,
+        "output_tokens": 1488,
+        "action_failures": {}
+      },
+      "1741": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is",
+        "n_steps": 49,
+        "input_tokens": 244092,
+        "output_tokens": 5425,
+        "action_failures": {}
+      },
+      "1742": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "anode on electric buzzer is now connected to cathode on nuclear generator",
+        "n_steps": 16,
+        "input_tokens": 51801,
+        "output_tokens": 1556,
+        "action_failures": {}
+      },
+      "1743": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the green box.",
+        "n_steps": 33,
+        "input_tokens": 124608,
+        "output_tokens": 3186,
+        "action_failures": {}
+      },
+      "1744": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the blue box.",
+        "n_steps": 29,
+        "input_tokens": 105773,
+        "output_tokens": 2736,
+        "action_failures": {}
+      },
+      "1745": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the glass jar.",
+        "n_steps": 3,
+        "input_tokens": 8013,
+        "output_tokens": 283,
+        "action_failures": {}
+      },
+      "1746": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the yellow box.",
+        "n_steps": 28,
+        "input_tokens": 100999,
+        "output_tokens": 2779,
+        "action_failures": {}
+      },
+      "1747": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the purple box.",
+        "n_steps": 33,
+        "input_tokens": 125310,
+        "output_tokens": 3209,
+        "action_failures": {}
+      },
+      "1748": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the green box.",
+        "n_steps": 30,
+        "input_tokens": 109885,
+        "output_tokens": 2818,
+        "action_failures": {}
+      },
+      "1749": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the blue box.",
+        "n_steps": 37,
+        "input_tokens": 146199,
+        "output_tokens": 3592,
+        "action_failures": {}
+      },
+      "1750": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the orange box.",
+        "n_steps": 29,
+        "input_tokens": 105632,
+        "output_tokens": 2763,
+        "action_failures": {}
+      },
+      "1751": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the yellow box.",
+        "n_steps": 36,
+        "input_tokens": 139045,
+        "output_tokens": 3323,
+        "action_failures": {}
+      },
+      "1752": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the sodium chloride to the purple box.",
+        "n_steps": 37,
+        "input_tokens": 145911,
+        "output_tokens": 3552,
+        "action_failures": {}
+      },
+      "1753": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the green box.",
+        "n_steps": 42,
+        "input_tokens": 172895,
+        "output_tokens": 3952,
+        "action_failures": {}
+      },
+      "1754": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the green box.",
+        "n_steps": 28,
+        "input_tokens": 105278,
+        "output_tokens": 2705,
+        "action_failures": {}
+      },
+      "1755": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the orange box.",
+        "n_steps": 42,
+        "input_tokens": 175674,
+        "output_tokens": 4031,
+        "action_failures": {}
+      },
+      "1756": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the yellow box.",
+        "n_steps": 35,
+        "input_tokens": 137232,
+        "output_tokens": 3436,
+        "action_failures": {}
+      },
+      "1757": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the purple box.",
+        "n_steps": 32,
+        "input_tokens": 120222,
+        "output_tokens": 3121,
+        "action_failures": {}
+      },
+      "1758": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the red box.",
+        "n_steps": 31,
+        "input_tokens": 115208,
+        "output_tokens": 2929,
+        "action_failures": {}
+      },
+      "1759": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the blue box.",
+        "n_steps": 36,
+        "input_tokens": 142920,
+        "output_tokens": 3528,
+        "action_failures": {}
+      },
+      "1760": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "a orange light bulb, which is off. its anode is connected to: a cathode on switch. its cathode is connected to: a cathode on battery.",
+        "n_steps": 49,
+        "input_tokens": 231990,
+        "output_tokens": 5166,
+        "action_failures": {}
+      },
+      "1761": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the orange box.",
+        "n_steps": 38,
+        "input_tokens": 152956,
+        "output_tokens": 3685,
+        "action_failures": {}
+      },
+      "1762": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the unknown substance U to the yellow box.",
+        "n_steps": 31,
+        "input_tokens": 115062,
+        "output_tokens": 2946,
+        "action_failures": {}
+      },
+      "1763": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19083,
+        "output_tokens": 609,
+        "action_failures": {}
+      },
+      "1764": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the yellow box.",
+        "n_steps": 7,
+        "input_tokens": 18983,
+        "output_tokens": 596,
+        "action_failures": {}
+      },
+      "1765": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the purple box.",
+        "n_steps": 8,
+        "input_tokens": 22502,
+        "output_tokens": 721,
+        "action_failures": {}
+      },
+      "1766": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the red box.",
+        "n_steps": 7,
+        "input_tokens": 20045,
+        "output_tokens": 595,
+        "action_failures": {}
+      },
+      "1767": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the bee 1 to the green box.",
+        "n_steps": 9,
+        "input_tokens": 25821,
+        "output_tokens": 800,
+        "action_failures": {}
+      },
+      "1768": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 20102,
+        "output_tokens": 607,
+        "action_failures": {}
+      },
+      "1769": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the orange box.",
+        "n_steps": 8,
+        "input_tokens": 22456,
+        "output_tokens": 714,
+        "action_failures": {}
+      },
+      "1770": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the yellow box.",
+        "n_steps": 7,
+        "input_tokens": 18919,
+        "output_tokens": 590,
+        "action_failures": {}
+      },
+      "1771": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13080,
+        "output_tokens": 457,
+        "action_failures": {}
+      },
+      "1772": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the red box.",
+        "n_steps": 7,
+        "input_tokens": 19061,
+        "output_tokens": 588,
+        "action_failures": {}
+      },
+      "1773": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the banana tree to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19486,
+        "output_tokens": 615,
+        "action_failures": {}
+      },
+      "1774": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the yellow box.",
+        "n_steps": 8,
+        "input_tokens": 22418,
+        "output_tokens": 727,
+        "action_failures": {}
+      },
+      "1775": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the purple box.",
+        "n_steps": 8,
+        "input_tokens": 22671,
+        "output_tokens": 721,
+        "action_failures": {}
+      },
+      "1776": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the banana.",
+        "n_steps": 1,
+        "input_tokens": 2593,
+        "output_tokens": 105,
+        "action_failures": {}
+      },
+      "1777": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the green box.",
+        "n_steps": 5,
+        "input_tokens": 13469,
+        "output_tokens": 459,
+        "action_failures": {}
+      },
+      "1778": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 20395,
+        "output_tokens": 657,
+        "action_failures": {}
+      },
+      "1779": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the orange box.",
+        "n_steps": 8,
+        "input_tokens": 22810,
+        "output_tokens": 720,
+        "action_failures": {}
+      },
+      "1780": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the apple tree to the yellow box.",
+        "n_steps": 11,
+        "input_tokens": 32937,
+        "output_tokens": 1013,
+        "action_failures": {}
+      },
+      "1781": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wolf to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13168,
+        "output_tokens": 468,
+        "action_failures": {}
+      },
+      "1782": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the apple tree to the red box.",
+        "n_steps": 7,
+        "input_tokens": 19614,
+        "output_tokens": 649,
+        "action_failures": {}
+      },
+      "1783": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wood cup to the orange box.",
+        "n_steps": 8,
+        "input_tokens": 22724,
+        "output_tokens": 793,
+        "action_failures": {}
+      },
+      "1784": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the picture to the yellow box.",
+        "n_steps": 5,
+        "input_tokens": 13095,
+        "output_tokens": 435,
+        "action_failures": {}
+      },
+      "1785": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the glass cup to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13234,
+        "output_tokens": 488,
+        "action_failures": {}
+      },
+      "1786": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the chair to the red box.",
+        "n_steps": 5,
+        "input_tokens": 13728,
+        "output_tokens": 427,
+        "action_failures": {}
+      },
+      "1787": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the shovel to the green box.",
+        "n_steps": 5,
+        "input_tokens": 13505,
+        "output_tokens": 463,
+        "action_failures": {}
+      },
+      "1788": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the chair to the blue box.",
+        "n_steps": 5,
+        "input_tokens": 13806,
+        "output_tokens": 460,
+        "action_failures": {}
+      },
+      "1789": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the finger painting to the orange box.",
+        "n_steps": 5,
+        "input_tokens": 13265,
+        "output_tokens": 438,
+        "action_failures": {}
+      },
+      "1790": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the finger painting to the yellow box.",
+        "n_steps": 5,
+        "input_tokens": 13026,
+        "output_tokens": 442,
+        "action_failures": {}
+      },
+      "1791": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the axe to the purple box.",
+        "n_steps": 5,
+        "input_tokens": 13198,
+        "output_tokens": 472,
+        "action_failures": {}
+      },
+      "1792": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the wood cup to the red box.",
+        "n_steps": 5,
+        "input_tokens": 13170,
+        "output_tokens": 471,
+        "action_failures": {}
+      },
+      "1793": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19411,
+        "output_tokens": 610,
+        "action_failures": {}
+      },
+      "1794": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the yellow box.",
+        "n_steps": 7,
+        "input_tokens": 19447,
+        "output_tokens": 640,
+        "action_failures": {}
+      },
+      "1795": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the banana tree to the purple box.",
+        "n_steps": 7,
+        "input_tokens": 19408,
+        "output_tokens": 597,
+        "action_failures": {}
+      },
+      "1796": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the red box.",
+        "n_steps": 7,
+        "input_tokens": 20396,
+        "output_tokens": 610,
+        "action_failures": {}
+      },
+      "1797": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the banana tree to the green box.",
+        "n_steps": 5,
+        "input_tokens": 13487,
+        "output_tokens": 470,
+        "action_failures": {}
+      },
+      "1798": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the peach tree to the blue box.",
+        "n_steps": 7,
+        "input_tokens": 20467,
+        "output_tokens": 633,
+        "action_failures": {}
+      },
+      "1799": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the banana tree to the orange box.",
+        "n_steps": 7,
+        "input_tokens": 19529,
+        "output_tokens": 609,
+        "action_failures": {}
+      },
+      "1800": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the apple tree to the yellow box.",
+        "n_steps": 7,
+        "input_tokens": 19329,
+        "output_tokens": 610,
+        "action_failures": {}
+      },
+      "1801": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the apple tree to the purple box.",
+        "n_steps": 7,
+        "input_tokens": 19659,
+        "output_tokens": 673,
+        "action_failures": {}
+      },
+      "1802": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You move the banana tree to the red box.",
+        "n_steps": 7,
+        "input_tokens": 19481,
+        "output_tokens": 636,
+        "action_failures": {}
+      },
+      "1803": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange.",
+        "n_steps": 24,
+        "input_tokens": 96317,
+        "output_tokens": 2052,
+        "action_failures": {}
+      },
+      "1804": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 32,
+        "input_tokens": 141984,
+        "output_tokens": 2942,
+        "action_failures": {}
+      },
+      "1805": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 49,
+        "input_tokens": 239798,
+        "output_tokens": 4206,
+        "action_failures": {}
+      },
+      "1806": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange.",
+        "n_steps": 35,
+        "input_tokens": 161509,
+        "output_tokens": 3008,
+        "action_failures": {}
+      },
+      "1807": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange.",
+        "n_steps": 43,
+        "input_tokens": 210102,
+        "output_tokens": 3798,
+        "action_failures": {}
+      },
+      "1808": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You move the soil to the inventory.",
+        "n_steps": 46,
+        "input_tokens": 231388,
+        "output_tokens": 4129,
+        "action_failures": {}
+      },
+      "1809": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange.",
+        "n_steps": 30,
+        "input_tokens": 126273,
+        "output_tokens": 2687,
+        "action_failures": {}
+      },
+      "1810": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 35,
+        "input_tokens": 160171,
+        "output_tokens": 3265,
+        "action_failures": {}
+      },
+      "1811": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange.",
+        "n_steps": 49,
+        "input_tokens": 243333,
+        "output_tokens": 4312,
+        "action_failures": {}
+      },
+      "1812": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange.",
+        "n_steps": 30,
+        "input_tokens": 128873,
+        "output_tokens": 2521,
+        "action_failures": {}
+      },
+      "1813": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 16,
+        "input_tokens": 53233,
+        "output_tokens": 1382,
+        "action_failures": {}
+      },
+      "1814": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 17,
+        "input_tokens": 58158,
+        "output_tokens": 1460,
+        "action_failures": {}
+      },
+      "1815": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 28,
+        "input_tokens": 105931,
+        "output_tokens": 2355,
+        "action_failures": {}
+      },
+      "1816": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 14,
+        "input_tokens": 45448,
+        "output_tokens": 1145,
+        "action_failures": {}
+      },
+      "1817": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 15,
+        "input_tokens": 49447,
+        "output_tokens": 1259,
+        "action_failures": {}
+      },
+      "1818": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 22,
+        "input_tokens": 78993,
+        "output_tokens": 1877,
+        "action_failures": {}
+      },
+      "1819": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 15,
+        "input_tokens": 48845,
+        "output_tokens": 1245,
+        "action_failures": {}
+      },
+      "1820": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 17,
+        "input_tokens": 56691,
+        "output_tokens": 1447,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1821": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 19,
+        "input_tokens": 67276,
+        "output_tokens": 1625,
+        "action_failures": {}
+      },
+      "1822": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You decide to wait for 10 iterations.",
+        "n_steps": 16,
+        "input_tokens": 56358,
+        "output_tokens": 1368,
+        "action_failures": {}
+      },
+      "1823": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the sugar water.",
+        "n_steps": 14,
+        "input_tokens": 50715,
+        "output_tokens": 1253,
+        "action_failures": {}
+      },
+      "1824": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the peanut butter with banana sandwich.",
+        "n_steps": 13,
+        "input_tokens": 46426,
+        "output_tokens": 1131,
+        "action_failures": {}
+      },
+      "1825": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the rust.",
+        "n_steps": 14,
+        "input_tokens": 50523,
+        "output_tokens": 1263,
+        "action_failures": {}
+      },
+      "1826": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the red paper.",
+        "n_steps": 18,
+        "input_tokens": 70082,
+        "output_tokens": 1589,
+        "action_failures": {}
+      },
+      "1827": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the sugar water.",
+        "n_steps": 18,
+        "input_tokens": 69499,
+        "output_tokens": 1607,
+        "action_failures": {}
+      },
+      "1828": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the peanut butter with banana sandwich.",
+        "n_steps": 17,
+        "input_tokens": 65177,
+        "output_tokens": 1582,
+        "action_failures": {}
+      },
+      "1829": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the rust.",
+        "n_steps": 16,
+        "input_tokens": 60050,
+        "output_tokens": 1515,
+        "action_failures": {}
+      },
+      "1830": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the red paper.",
+        "n_steps": 21,
+        "input_tokens": 82302,
+        "output_tokens": 1999,
+        "action_failures": {}
+      },
+      "1831": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 11,
+        "input_tokens": 37226,
+        "output_tokens": 1036,
+        "action_failures": {}
+      },
+      "1832": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 11,
+        "input_tokens": 38917,
+        "output_tokens": 1004,
+        "action_failures": {}
+      },
+      "1833": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 11,
+        "input_tokens": 38946,
+        "output_tokens": 1019,
+        "action_failures": {}
+      },
+      "1834": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 22,
+        "input_tokens": 92929,
+        "output_tokens": 1960,
+        "action_failures": {}
+      },
+      "1835": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 17,
+        "input_tokens": 65170,
+        "output_tokens": 1599,
+        "action_failures": {}
+      },
+      "1836": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 14,
+        "input_tokens": 49455,
+        "output_tokens": 1270,
+        "action_failures": {}
+      },
+      "1837": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 28,
+        "input_tokens": 117720,
+        "output_tokens": 2344,
+        "action_failures": {}
+      },
+      "1838": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 23,
+        "input_tokens": 95486,
+        "output_tokens": 2002,
+        "action_failures": {}
+      },
+      "1839": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 9,
+        "input_tokens": 29485,
+        "output_tokens": 819,
+        "action_failures": {}
+      },
+      "1840": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet-red paint.",
+        "n_steps": 25,
+        "input_tokens": 108278,
+        "output_tokens": 2923,
+        "action_failures": {}
+      },
+      "1841": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "a wood cup (containing blue paint, red paint)",
+        "n_steps": 49,
+        "input_tokens": 270850,
+        "output_tokens": 4729,
+        "action_failures": {}
+      },
+      "1842": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet-red paint.",
+        "n_steps": 23,
+        "input_tokens": 94668,
+        "output_tokens": 2160,
+        "action_failures": {}
+      },
+      "1843": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue-violet paint.",
+        "n_steps": 47,
+        "input_tokens": 268016,
+        "output_tokens": 4682,
+        "action_failures": {}
+      },
+      "1844": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue-violet paint.",
+        "n_steps": 30,
+        "input_tokens": 141820,
+        "output_tokens": 3028,
+        "action_failures": {}
+      },
+      "1845": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue-violet paint.",
+        "n_steps": 31,
+        "input_tokens": 137230,
+        "output_tokens": 2934,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1846": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue-violet paint.",
+        "n_steps": 29,
+        "input_tokens": 129500,
+        "output_tokens": 3458,
+        "action_failures": {}
+      },
+      "1847": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the blue-violet paint.",
+        "n_steps": 34,
+        "input_tokens": 315691,
+        "output_tokens": 13638,
+        "action_failures": {
+          "invalid_arguments": 2
+        }
+      },
+      "1848": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the violet paint.",
+        "n_steps": 14,
+        "input_tokens": 51346,
+        "output_tokens": 1452,
+        "action_failures": {}
+      },
+      "1849": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the crocodile egg.",
+        "n_steps": 3,
+        "input_tokens": 6948,
+        "output_tokens": 313,
+        "action_failures": {}
+      },
+      "1850": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the giant tortoise egg.",
+        "n_steps": 3,
+        "input_tokens": 6960,
+        "output_tokens": 310,
+        "action_failures": {}
+      },
+      "1851": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby rabbit.",
+        "n_steps": 3,
+        "input_tokens": 6972,
+        "output_tokens": 357,
+        "action_failures": {}
+      },
+      "1852": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby brown bear.",
+        "n_steps": 3,
+        "input_tokens": 7030,
+        "output_tokens": 298,
+        "action_failures": {}
+      },
+      "1853": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby elephant.",
+        "n_steps": 3,
+        "input_tokens": 6936,
+        "output_tokens": 250,
+        "action_failures": {}
+      },
+      "1854": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby brown bear.",
+        "n_steps": 3,
+        "input_tokens": 7114,
+        "output_tokens": 294,
+        "action_failures": {}
+      },
+      "1855": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby elephant.",
+        "n_steps": 3,
+        "input_tokens": 6978,
+        "output_tokens": 262,
+        "action_failures": {}
+      },
+      "1856": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby brown bear.",
+        "n_steps": 6,
+        "input_tokens": 14654,
+        "output_tokens": 532,
+        "action_failures": {}
+      },
+      "1857": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby brown bear.",
+        "n_steps": 3,
+        "input_tokens": 7127,
+        "output_tokens": 294,
+        "action_failures": {}
+      },
+      "1858": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby brown bear.",
+        "n_steps": 3,
+        "input_tokens": 7398,
+        "output_tokens": 285,
+        "action_failures": {}
+      },
+      "1859": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby wolf.",
+        "n_steps": 3,
+        "input_tokens": 7007,
+        "output_tokens": 553,
+        "action_failures": {}
+      },
+      "1860": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby chipmunk.",
+        "n_steps": 4,
+        "input_tokens": 9679,
+        "output_tokens": 530,
+        "action_failures": {}
+      },
+      "1861": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the chameleon egg.",
+        "n_steps": 4,
+        "input_tokens": 9617,
+        "output_tokens": 403,
+        "action_failures": {}
+      },
+      "1862": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 4,
+        "input_tokens": 9706,
+        "output_tokens": 425,
+        "action_failures": {}
+      },
+      "1863": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby ant.",
+        "n_steps": 4,
+        "input_tokens": 9521,
+        "output_tokens": 351,
+        "action_failures": {}
+      },
+      "1864": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the frog egg.",
+        "n_steps": 4,
+        "input_tokens": 9797,
+        "output_tokens": 415,
+        "action_failures": {}
+      },
+      "1865": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby chipmunk.",
+        "n_steps": 4,
+        "input_tokens": 9593,
+        "output_tokens": 378,
+        "action_failures": {}
+      },
+      "1866": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 4,
+        "input_tokens": 9638,
+        "output_tokens": 420,
+        "action_failures": {}
+      },
+      "1867": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 4,
+        "input_tokens": 9820,
+        "output_tokens": 403,
+        "action_failures": {}
+      },
+      "1868": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the chameleon egg.",
+        "n_steps": 4,
+        "input_tokens": 10187,
+        "output_tokens": 536,
+        "action_failures": {}
+      },
+      "1869": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 3,
+        "input_tokens": 6955,
+        "output_tokens": 285,
+        "action_failures": {}
+      },
+      "1870": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby chipmunk.",
+        "n_steps": 3,
+        "input_tokens": 6950,
+        "output_tokens": 311,
+        "action_failures": {}
+      },
+      "1871": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby rabbit.",
+        "n_steps": 3,
+        "input_tokens": 6974,
+        "output_tokens": 297,
+        "action_failures": {}
+      },
+      "1872": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby dragonfly.",
+        "n_steps": 3,
+        "input_tokens": 7030,
+        "output_tokens": 288,
+        "action_failures": {}
+      },
+      "1873": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby ant.",
+        "n_steps": 3,
+        "input_tokens": 6947,
+        "output_tokens": 287,
+        "action_failures": {}
+      },
+      "1874": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the frog egg.",
+        "n_steps": 3,
+        "input_tokens": 7111,
+        "output_tokens": 291,
+        "action_failures": {}
+      },
+      "1875": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby chipmunk.",
+        "n_steps": 3,
+        "input_tokens": 6978,
+        "output_tokens": 306,
+        "action_failures": {}
+      },
+      "1876": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 3,
+        "input_tokens": 6980,
+        "output_tokens": 297,
+        "action_failures": {}
+      },
+      "1877": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby mouse.",
+        "n_steps": 3,
+        "input_tokens": 7124,
+        "output_tokens": 287,
+        "action_failures": {}
+      },
+      "1878": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the baby rabbit.",
+        "n_steps": 3,
+        "input_tokens": 7398,
+        "output_tokens": 419,
+        "action_failures": {}
+      },
+      "1879": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the adult giant tortoise.",
+        "n_steps": 18,
+        "input_tokens": 58383,
+        "output_tokens": 1561,
+        "action_failures": {}
+      },
+      "1880": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the adult dove.",
+        "n_steps": 18,
+        "input_tokens": 58048,
+        "output_tokens": 1535,
+        "action_failures": {}
+      },
+      "1881": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the adult parrot.",
+        "n_steps": 22,
+        "input_tokens": 78431,
+        "output_tokens": 1892,
+        "action_failures": {}
+      },
+      "1882": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the adult butterfly.",
+        "n_steps": 19,
+        "input_tokens": 63179,
+        "output_tokens": 1695,
+        "action_failures": {}
+      },
+      "1883": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the adult brown bear.",
+        "n_steps": 13,
+        "input_tokens": 39299,
+        "output_tokens": 1175,
+        "action_failures": {}
+      },
+      "1884": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the lemon tree.",
+        "n_steps": 13,
+        "input_tokens": 51331,
+        "output_tokens": 5691,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "1885": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the orange tree.",
+        "n_steps": 10,
+        "input_tokens": 30235,
+        "output_tokens": 925,
+        "action_failures": {}
+      },
+      "1886": {
+        "solved": false,
+        "status": "terminal_failure",
+        "fail_reason": "",
+        "last_observation": "You focus on the peach tree.",
+        "n_steps": 10,
+        "input_tokens": 29997,
+        "output_tokens": 895,
+        "action_failures": {}
+      },
+      "1887": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You focus on the pear tree.",
+        "n_steps": 6,
+        "input_tokens": 15830,
+        "output_tokens": 533,
+        "action_failures": {}
+      }
+    }
+  },
+  "omission": 0.0006236969500459842,
+  "repeat": 2
+}

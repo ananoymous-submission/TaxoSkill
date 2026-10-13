@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scienceworld-env"
+version = "0.1.0"
+description = "Standalone ScienceWorld environment"
+requires-python = ">=3.11,<3.13"
+license = "Apache-2.0"
+dependencies = []
+
+[project.scripts]
+server = "scienceworld_env.server.app:main"
+
+[project.optional-dependencies]
+openenv = [
+    "openenv==0.4.1",
+]
+server = [
+    "openenv==0.4.1",
+    "py4j==0.10.9.9",
+    "scienceworld==1.2.3",
+]
+dev = [
+    "openenv==0.4.1",
+    "py4j==0.10.9.9",
+    "pytest>=8",
+    "scienceworld==1.2.3",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/scienceworld_env"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

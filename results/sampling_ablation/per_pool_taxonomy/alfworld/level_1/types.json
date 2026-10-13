@@ -1,0 +1,22 @@
+[
+  {
+    "name": "object_relocation",
+    "definition": "Pick up one or more objects and put or arrange them at a specified target location, including discarding them in a trash container, opening or closing containers, drawers, or appliances as needed, and relocating objects that are already heated, cooled, or cleaned."
+  },
+  {
+    "name": "cool_object_and_place",
+    "definition": "Cool an object in the refrigerator and then place it at the specified target location, if one is given, remove it from the refrigerator if the task calls for that, or leave it in the refrigerator."
+  },
+  {
+    "name": "heat_object_and_place",
+    "definition": "Heat, cook, or warm an object using a microwave, stove, oven, or coffee maker and then place it at the specified target location, if one is given."
+  },
+  {
+    "name": "clean_object_and_place",
+    "definition": "Clean or rinse an object in a sink or similar, then place it at the specified target location, if one is given."
+  },
+  {
+    "name": "lamp_interaction",
+    "definition": "Turn a lamp on or off, and pick up, hold, carry, place, or examine a specified object in the lamp's light if the task calls for one."
+  }
+]

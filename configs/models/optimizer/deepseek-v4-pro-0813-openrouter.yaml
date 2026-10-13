@@ -1,0 +1,6 @@
+backend: openai_compatible
+model: deepseek/deepseek-v4-pro-0813
+base_url: https://openrouter.ai/api/v1
+api_key_env: OPENROUTER_API_KEY
+thinking_control: openrouter
+provider: streamlake

@@ -1,0 +1,2784 @@
+{
+  "schema_version": 2,
+  "seed": 2,
+  "summary": {
+    "n_tasks": 274,
+    "n_solved": 267,
+    "n_steps": 3131,
+    "input_tokens": 8304371,
+    "output_tokens": 282423,
+    "n_action_failures": 8,
+    "test_sets": {
+      "test_seen": {
+        "n_tasks": 140,
+        "n_solved": 137
+      },
+      "test_unseen": {
+        "n_tasks": 134,
+        "n_solved": 130
+      }
+    }
+  },
+  "tasks": {
+    "test_seen": {
+      "3744": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 3,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 286,
+        "input_tokens": 5776,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3745": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 481,
+        "input_tokens": 10358,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3746": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 366,
+        "input_tokens": 7185,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3747": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 9,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 792,
+        "input_tokens": 18504,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3748": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 10,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 888,
+        "input_tokens": 21222,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3749": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 14,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 1173,
+        "input_tokens": 30215,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3750": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 644,
+        "input_tokens": 13509,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3751": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 376,
+        "input_tokens": 7714,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3752": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 3,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 278,
+        "input_tokens": 5332,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3753": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 671,
+        "input_tokens": 14254,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3754": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 481,
+        "input_tokens": 9869,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3755": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 556,
+        "input_tokens": 11530,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3756": {
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 3,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 281,
+        "input_tokens": 5774,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3757": {
+        "last_observation": "You put the book 3 in/on the sidetable 1.",
+        "n_steps": 13,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 1106,
+        "input_tokens": 27406,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3758": {
+        "last_observation": "You put the book 1 in/on the sofa 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 681,
+        "input_tokens": 16167,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3759": {
+        "last_observation": "You put the bowl 1 in/on the coffeetable 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 558,
+        "input_tokens": 11863,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3760": {
+        "last_observation": "You put the box 2 in/on the dresser 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 436,
+        "input_tokens": 10451,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3761": {
+        "last_observation": "You put the candle 1 in/on the cart 1.",
+        "n_steps": 15,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 1337,
+        "input_tokens": 34495,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3762": {
+        "last_observation": "You put the candle 3 in/on the toilet 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 346,
+        "input_tokens": 7522,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3763": {
+        "last_observation": "You put the candle 1 in/on the toilet 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 347,
+        "input_tokens": 7261,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3764": {
+        "last_observation": "You put the cellphone 3 in/on the armchair 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 685,
+        "input_tokens": 16874,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3765": {
+        "last_observation": "You put the cellphone 1 in/on the bed 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 440,
+        "input_tokens": 9945,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3766": {
+        "last_observation": "You put the creditcard 2 in/on the armchair 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 517,
+        "input_tokens": 11316,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3767": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the creditcard 1 in/on the drawer 1.",
+        "n_steps": 50,
+        "input_tokens": 188123,
+        "output_tokens": 4298,
+        "action_failures": {}
+      },
+      "3768": {
+        "last_observation": "You put the egg 3 in/on the microwave 1.",
+        "n_steps": 10,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 891,
+        "input_tokens": 22465,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3769": {
+        "last_observation": "You put the knife 1 in/on the sidetable 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 364,
+        "input_tokens": 8662,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3770": {
+        "last_observation": "You put the mug 1 in/on the dresser 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 434,
+        "input_tokens": 9461,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3771": {
+        "last_observation": "You put the mug 1 in/on the sidetable 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 350,
+        "input_tokens": 7291,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3772": {
+        "last_observation": "You put the mug 1 in/on the sidetable 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 354,
+        "input_tokens": 7375,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3773": {
+        "last_observation": "You put the newspaper 1 in/on the sofa 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 635,
+        "input_tokens": 15308,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3774": {
+        "last_observation": "You put the pencil 3 in/on the desk 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 609,
+        "input_tokens": 13758,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3775": {
+        "last_observation": "You put the pencil 1 in/on the dresser 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 546,
+        "input_tokens": 12436,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3776": {
+        "last_observation": "You put the remotecontrol 1 in/on the armchair 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 435,
+        "input_tokens": 9211,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3777": {
+        "last_observation": "You put the remotecontrol 3 in/on the sofa 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 363,
+        "input_tokens": 7563,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3778": {
+        "last_observation": "You put the soapbar 1 in/on the cart 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 448,
+        "input_tokens": 9548,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3779": {
+        "last_observation": "You put the soapbottle 1 in/on the cabinet 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 467,
+        "input_tokens": 9962,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3780": {
+        "last_observation": "You put the soapbottle 1 in/on the countertop 1.",
+        "n_steps": 11,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 950,
+        "input_tokens": 23250,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3781": {
+        "last_observation": "You put the spraybottle 1 in/on the cabinet 1.",
+        "n_steps": 21,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 1935,
+        "input_tokens": 52950,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3782": {
+        "last_observation": "You put the spraybottle 2 in/on the garbagecan 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 358,
+        "input_tokens": 7521,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3783": {
+        "last_observation": "You put the spraybottle 1 in/on the toilet 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 359,
+        "input_tokens": 7639,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3784": {
+        "last_observation": "You put the spraybottle 2 in/on the toilet 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 368,
+        "input_tokens": 7506,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3785": {
+        "last_observation": "You put the tissuebox 3 in/on the toilet 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 367,
+        "input_tokens": 7777,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3786": {
+        "last_observation": "You put the toiletpaper 1 in/on the toiletpaperhanger 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 532,
+        "input_tokens": 11379,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3787": {
+        "last_observation": "You put the toiletpaper 1 in/on the toiletpaperhanger 1.",
+        "n_steps": 12,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 991,
+        "input_tokens": 26133,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3788": {
+        "last_observation": "You put the tomato 3 in/on the microwave 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 620,
+        "input_tokens": 17020,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3789": {
+        "last_observation": "You put the vase 1 in/on the coffeetable 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 551,
+        "input_tokens": 11636,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3790": {
+        "last_observation": "You put the watch 1 in/on the sidetable 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 695,
+        "input_tokens": 16220,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3791": {
+        "last_observation": "You put the winebottle 1 in/on the shelf 1.",
+        "n_steps": 5,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 467,
+        "input_tokens": 11157,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3792": {
+        "last_observation": "You put the butterknife 1 in/on the countertop 1.",
+        "n_steps": 21,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 1776,
+        "input_tokens": 58961,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3793": {
+        "last_observation": "You put the butterknife 2 in/on the diningtable 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 556,
+        "input_tokens": 15312,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3794": {
+        "last_observation": "You put the butterknife 2 in/on the drawer 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 637,
+        "input_tokens": 16412,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3795": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the butterknife 1 in/on the drawer 1.",
+        "n_steps": 9,
+        "input_tokens": 23562,
+        "output_tokens": 798,
+        "action_failures": {}
+      },
+      "3796": {
+        "last_observation": "You put the butterknife 2 in/on the drawer 1.",
+        "n_steps": 11,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 966,
+        "input_tokens": 28244,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3797": {
+        "last_observation": "You put the cloth 2 in/on the cabinet 1.",
+        "n_steps": 16,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 1651,
+        "input_tokens": 39127,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3798": {
+        "last_observation": "You put the cloth 4 in/on the drawer 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 731,
+        "input_tokens": 17414,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3799": {
+        "last_observation": "You put the dishsponge 2 in/on the cart 1.",
+        "n_steps": 11,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 999,
+        "input_tokens": 23745,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3800": {
+        "last_observation": "You put the dishsponge 1 in/on the countertop 1.",
+        "n_steps": 17,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 1522,
+        "input_tokens": 41153,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3801": {
+        "last_observation": "You put the fork 1 in/on the countertop 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 639,
+        "input_tokens": 15818,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3802": {
+        "last_observation": "You put the fork 1 in/on the drawer 1.",
+        "n_steps": 10,
+        "action_failures": {
+          "invalid_arguments": 1
+        },
+        "solved": true,
+        "output_tokens": 879,
+        "input_tokens": 25229,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3803": {
+        "last_observation": "You put the ladle 1 in/on the countertop 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 629,
+        "input_tokens": 15063,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3804": {
+        "last_observation": "You put the ladle 1 in/on the countertop 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 745,
+        "input_tokens": 19395,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3805": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the ladle 1 in/on the diningtable 1.",
+        "n_steps": 8,
+        "input_tokens": 21421,
+        "output_tokens": 732,
+        "action_failures": {}
+      },
+      "3806": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the ladle 2 in/on the diningtable 1.",
+        "n_steps": 8,
+        "input_tokens": 18108,
+        "output_tokens": 709,
+        "action_failures": {}
+      },
+      "3807": {
+        "last_observation": "You put the ladle 1 in/on the diningtable 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 721,
+        "input_tokens": 17487,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3808": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the lettuce 1 in/on the countertop 1.",
+        "n_steps": 11,
+        "input_tokens": 29766,
+        "output_tokens": 970,
+        "action_failures": {}
+      },
+      "3809": {
+        "last_observation": "You put the lettuce 1 in/on the fridge 1.",
+        "n_steps": 9,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 779,
+        "input_tokens": 21462,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3810": {
+        "last_observation": "You clean the mug 2 using the sinkbasin 1.",
+        "n_steps": 4,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 355,
+        "input_tokens": 8276,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3811": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 3 in/on the countertop 1.",
+        "n_steps": 7,
+        "input_tokens": 16278,
+        "output_tokens": 628,
+        "action_failures": {}
+      },
+      "3812": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 2 in/on the fridge 1.",
+        "n_steps": 10,
+        "input_tokens": 24715,
+        "output_tokens": 844,
+        "action_failures": {}
+      },
+      "3813": {
+        "last_observation": "You put the soapbar 1 in/on the cabinet 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 707,
+        "input_tokens": 16658,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3814": {
+        "last_observation": "You put the soapbar 2 in/on the drawer 1.",
+        "n_steps": 8,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 716,
+        "input_tokens": 17106,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3815": {
+        "last_observation": "You put the soapbar 1 in/on the toilet 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 557,
+        "input_tokens": 12152,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3816": {
+        "last_observation": "You put the soapbar 3 in/on the toilet 1.",
+        "n_steps": 6,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 546,
+        "input_tokens": 11705,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3817": {
+        "last_observation": "You put the spatula 1 in/on the diningtable 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 632,
+        "input_tokens": 15061,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3818": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the countertop 1.",
+        "n_steps": 7,
+        "input_tokens": 15377,
+        "output_tokens": 603,
+        "action_failures": {}
+      },
+      "3819": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the countertop 1.",
+        "n_steps": 30,
+        "input_tokens": 90853,
+        "output_tokens": 2561,
+        "action_failures": {}
+      },
+      "3820": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the garbagecan 1.",
+        "n_steps": 7,
+        "input_tokens": 16595,
+        "output_tokens": 627,
+        "action_failures": {}
+      },
+      "3821": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the microwave 1.",
+        "n_steps": 10,
+        "input_tokens": 24849,
+        "output_tokens": 852,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "3822": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the microwave 1.",
+        "n_steps": 8,
+        "input_tokens": 19123,
+        "output_tokens": 694,
+        "action_failures": {}
+      },
+      "3823": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the bowl 1 in/on the cabinet 1.",
+        "n_steps": 9,
+        "input_tokens": 20841,
+        "output_tokens": 771,
+        "action_failures": {}
+      },
+      "3824": {
+        "last_observation": "You put the bread 1 in/on the countertop 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 656,
+        "input_tokens": 15848,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3825": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You are not carrying anything.",
+        "n_steps": 50,
+        "input_tokens": 201316,
+        "output_tokens": 5122,
+        "action_failures": {}
+      },
+      "3826": {
+        "last_observation": "You put the cup 1 in/on the sidetable 1.",
+        "n_steps": 7,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 609,
+        "input_tokens": 14340,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3827": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 1 in/on the microwave 1.",
+        "n_steps": 12,
+        "input_tokens": 31114,
+        "output_tokens": 1032,
+        "action_failures": {}
+      },
+      "3828": {
+        "last_observation": "You put the lettuce 1 in/on the countertop 1.",
+        "n_steps": 9,
+        "action_failures": {},
+        "solved": true,
+        "output_tokens": 767,
+        "input_tokens": 21144,
+        "fail_reason": "",
+        "status": "success"
+      },
+      "3829": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the lettuce 1 in/on the countertop 1.",
+        "n_steps": 10,
+        "input_tokens": 23577,
+        "output_tokens": 869,
+        "action_failures": {}
+      },
+      "3830": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You cool the mug 1 using the fridge 1.",
+        "n_steps": 5,
+        "input_tokens": 12464,
+        "output_tokens": 436,
+        "action_failures": {}
+      },
+      "3831": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 1 in/on the diningtable 1.",
+        "n_steps": 45,
+        "input_tokens": 161332,
+        "output_tokens": 3802,
+        "action_failures": {}
+      },
+      "3832": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 1 in/on the stoveburner 1.",
+        "n_steps": 10,
+        "input_tokens": 23837,
+        "output_tokens": 887,
+        "action_failures": {}
+      },
+      "3833": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You cool the pan 1 using the fridge 1.",
+        "n_steps": 6,
+        "input_tokens": 12641,
+        "output_tokens": 514,
+        "action_failures": {}
+      },
+      "3834": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 1 in/on the cabinet 1.",
+        "n_steps": 9,
+        "input_tokens": 21121,
+        "output_tokens": 819,
+        "action_failures": {}
+      },
+      "3835": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 3 in/on the cabinet 1.",
+        "n_steps": 9,
+        "input_tokens": 21318,
+        "output_tokens": 764,
+        "action_failures": {}
+      },
+      "3836": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 1 in/on the countertop 1.",
+        "n_steps": 7,
+        "input_tokens": 16158,
+        "output_tokens": 625,
+        "action_failures": {}
+      },
+      "3837": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pot 1 in/on the diningtable 1.",
+        "n_steps": 11,
+        "input_tokens": 24203,
+        "output_tokens": 946,
+        "action_failures": {}
+      },
+      "3838": {
+        "solved": false,
+        "status": "step_cap",
+        "fail_reason": "",
+        "last_observation": "You arrive at loc 3. On the stoveburner 1, you see nothing.",
+        "n_steps": 50,
+        "input_tokens": 186863,
+        "output_tokens": 4038,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "3839": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the countertop 1.",
+        "n_steps": 7,
+        "input_tokens": 16054,
+        "output_tokens": 640,
+        "action_failures": {}
+      },
+      "3840": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 2 in/on the garbagecan 1.",
+        "n_steps": 11,
+        "input_tokens": 26796,
+        "output_tokens": 939,
+        "action_failures": {}
+      },
+      "3841": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the microwave 1.",
+        "n_steps": 10,
+        "input_tokens": 25496,
+        "output_tokens": 830,
+        "action_failures": {}
+      },
+      "3842": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the microwave 1.",
+        "n_steps": 8,
+        "input_tokens": 18442,
+        "output_tokens": 702,
+        "action_failures": {}
+      },
+      "3843": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the winebottle 1 in/on the diningtable 1.",
+        "n_steps": 12,
+        "input_tokens": 31665,
+        "output_tokens": 1082,
+        "action_failures": {}
+      },
+      "3844": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the diningtable 2.",
+        "n_steps": 11,
+        "input_tokens": 25954,
+        "output_tokens": 948,
+        "action_failures": {}
+      },
+      "3845": {
+        "solved": false,
+        "status": "step_cap",
+        "fail_reason": "",
+        "last_observation": "You are not carrying anything.",
+        "n_steps": 50,
+        "input_tokens": 202116,
+        "output_tokens": 5198,
+        "action_failures": {
+          "invalid_arguments": 2
+        }
+      },
+      "3846": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 1 in/on the countertop 1.",
+        "n_steps": 9,
+        "input_tokens": 22144,
+        "output_tokens": 780,
+        "action_failures": {}
+      },
+      "3847": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 3 in/on the fridge 1.",
+        "n_steps": 21,
+        "input_tokens": 55710,
+        "output_tokens": 1745,
+        "action_failures": {}
+      },
+      "3848": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 2 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 15098,
+        "output_tokens": 602,
+        "action_failures": {}
+      },
+      "3849": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 15518,
+        "output_tokens": 604,
+        "action_failures": {}
+      },
+      "3850": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You heat the mug 2 using the microwave 1.",
+        "n_steps": 5,
+        "input_tokens": 11211,
+        "output_tokens": 451,
+        "action_failures": {}
+      },
+      "3851": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the sidetable 1.",
+        "n_steps": 28,
+        "input_tokens": 80818,
+        "output_tokens": 2556,
+        "action_failures": {}
+      },
+      "3852": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 2 in/on the cabinet 1.",
+        "n_steps": 8,
+        "input_tokens": 18880,
+        "output_tokens": 696,
+        "action_failures": {}
+      },
+      "3853": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 2 in/on the diningtable 1.",
+        "n_steps": 7,
+        "input_tokens": 15189,
+        "output_tokens": 611,
+        "action_failures": {}
+      },
+      "3854": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the potato 1 in/on the fridge 1.",
+        "n_steps": 9,
+        "input_tokens": 20819,
+        "output_tokens": 790,
+        "action_failures": {}
+      },
+      "3855": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the potato 1 in/on the fridge 1.",
+        "n_steps": 7,
+        "input_tokens": 15859,
+        "output_tokens": 609,
+        "action_failures": {}
+      },
+      "3856": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 3 in/on the diningtable 1.",
+        "n_steps": 8,
+        "input_tokens": 19797,
+        "output_tokens": 674,
+        "action_failures": {}
+      },
+      "3857": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the fridge 1.",
+        "n_steps": 8,
+        "input_tokens": 17815,
+        "output_tokens": 678,
+        "action_failures": {}
+      },
+      "3858": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 2 in/on the fridge 1.",
+        "n_steps": 8,
+        "input_tokens": 17213,
+        "output_tokens": 660,
+        "action_failures": {}
+      },
+      "3859": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the fridge 1.",
+        "n_steps": 10,
+        "input_tokens": 25080,
+        "output_tokens": 854,
+        "action_failures": {}
+      },
+      "3860": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the alarmclock 2 in/on the dresser 1.",
+        "n_steps": 10,
+        "input_tokens": 21165,
+        "output_tokens": 908,
+        "action_failures": {}
+      },
+      "3861": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the book 1 in/on the desk 1.",
+        "n_steps": 25,
+        "input_tokens": 66124,
+        "output_tokens": 2208,
+        "action_failures": {}
+      },
+      "3862": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the book 2 in/on the desk 1.",
+        "n_steps": 25,
+        "input_tokens": 64741,
+        "output_tokens": 2023,
+        "action_failures": {}
+      },
+      "3863": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the box 2 in/on the coffeetable 1.",
+        "n_steps": 14,
+        "input_tokens": 33598,
+        "output_tokens": 1284,
+        "action_failures": {}
+      },
+      "3864": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cd 2 in/on the drawer 1.",
+        "n_steps": 5,
+        "input_tokens": 9609,
+        "output_tokens": 463,
+        "action_failures": {}
+      },
+      "3865": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the creditcard 1 in/on the dresser 1.",
+        "n_steps": 11,
+        "input_tokens": 25438,
+        "output_tokens": 1214,
+        "action_failures": {}
+      },
+      "3866": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the creditcard 3 in/on the safe 1.",
+        "n_steps": 9,
+        "input_tokens": 19352,
+        "output_tokens": 803,
+        "action_failures": {}
+      },
+      "3867": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the glassbottle 2 in/on the shelf 1.",
+        "n_steps": 8,
+        "input_tokens": 18544,
+        "output_tokens": 712,
+        "action_failures": {}
+      },
+      "3868": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the knife 2 in/on the drawer 1.",
+        "n_steps": 10,
+        "input_tokens": 25179,
+        "output_tokens": 927,
+        "action_failures": {}
+      },
+      "3869": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the newspaper 1 in/on the drawer 2.",
+        "n_steps": 22,
+        "input_tokens": 62204,
+        "output_tokens": 2157,
+        "action_failures": {}
+      },
+      "3870": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 2 in/on the countertop 1.",
+        "n_steps": 13,
+        "input_tokens": 32129,
+        "output_tokens": 1253,
+        "action_failures": {}
+      },
+      "3871": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the remotecontrol 2 in/on the ottoman 1.",
+        "n_steps": 11,
+        "input_tokens": 24019,
+        "output_tokens": 999,
+        "action_failures": {}
+      },
+      "3872": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 4 in/on the garbagecan 1.",
+        "n_steps": 8,
+        "input_tokens": 16480,
+        "output_tokens": 761,
+        "action_failures": {}
+      },
+      "3873": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 3 in/on the garbagecan 1.",
+        "n_steps": 8,
+        "input_tokens": 16333,
+        "output_tokens": 726,
+        "action_failures": {}
+      },
+      "3874": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spatula 2 in/on the drawer 1.",
+        "n_steps": 10,
+        "input_tokens": 26626,
+        "output_tokens": 963,
+        "action_failures": {}
+      },
+      "3875": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spraybottle 2 in/on the cabinet 1.",
+        "n_steps": 23,
+        "input_tokens": 61901,
+        "output_tokens": 2279,
+        "action_failures": {}
+      },
+      "3876": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spraybottle 2 in/on the garbagecan 1.",
+        "n_steps": 10,
+        "input_tokens": 20818,
+        "output_tokens": 929,
+        "action_failures": {}
+      },
+      "3877": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spraybottle 2 in/on the toilet 1.",
+        "n_steps": 21,
+        "input_tokens": 55171,
+        "output_tokens": 2018,
+        "action_failures": {}
+      },
+      "3878": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spraybottle 1 in/on the toilet 1.",
+        "n_steps": 9,
+        "input_tokens": 18713,
+        "output_tokens": 853,
+        "action_failures": {}
+      },
+      "3879": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tissuebox 2 in/on the toilet 1.",
+        "n_steps": 9,
+        "input_tokens": 19233,
+        "output_tokens": 780,
+        "action_failures": {}
+      },
+      "3880": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the toiletpaper 1 in/on the drawer 1.",
+        "n_steps": 28,
+        "input_tokens": 81442,
+        "output_tokens": 2547,
+        "action_failures": {}
+      },
+      "3881": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the toiletpaper 2 in/on the toilet 1.",
+        "n_steps": 10,
+        "input_tokens": 21200,
+        "output_tokens": 925,
+        "action_failures": {}
+      },
+      "3882": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the vase 1 in/on the desk 1.",
+        "n_steps": 10,
+        "input_tokens": 21658,
+        "output_tokens": 893,
+        "action_failures": {}
+      },
+      "3883": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the watch 2 in/on the dresser 1.",
+        "n_steps": 8,
+        "input_tokens": 16575,
+        "output_tokens": 731,
+        "action_failures": {}
+      }
+    },
+    "test_unseen": {
+      "57": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "input_tokens": 9859,
+        "output_tokens": 480,
+        "action_failures": {}
+      },
+      "58": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "input_tokens": 9904,
+        "output_tokens": 481,
+        "action_failures": {}
+      },
+      "59": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 4,
+        "input_tokens": 7602,
+        "output_tokens": 361,
+        "action_failures": {}
+      },
+      "60": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 22,
+        "input_tokens": 56523,
+        "output_tokens": 1827,
+        "action_failures": {}
+      },
+      "61": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 22,
+        "input_tokens": 56596,
+        "output_tokens": 1843,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "62": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 28,
+        "input_tokens": 77263,
+        "output_tokens": 2350,
+        "action_failures": {}
+      },
+      "63": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 20,
+        "input_tokens": 51299,
+        "output_tokens": 1836,
+        "action_failures": {}
+      },
+      "64": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "input_tokens": 9943,
+        "output_tokens": 477,
+        "action_failures": {}
+      },
+      "65": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "input_tokens": 9949,
+        "output_tokens": 478,
+        "action_failures": {}
+      },
+      "66": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "input_tokens": 9954,
+        "output_tokens": 470,
+        "action_failures": {}
+      },
+      "67": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 6,
+        "input_tokens": 11899,
+        "output_tokens": 543,
+        "action_failures": {}
+      },
+      "68": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 3,
+        "input_tokens": 5600,
+        "output_tokens": 273,
+        "action_failures": {}
+      },
+      "69": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "input_tokens": 9938,
+        "output_tokens": 466,
+        "action_failures": {}
+      },
+      "70": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 4,
+        "input_tokens": 7617,
+        "output_tokens": 358,
+        "action_failures": {}
+      },
+      "71": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 6,
+        "input_tokens": 11995,
+        "output_tokens": 538,
+        "action_failures": {}
+      },
+      "72": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 5,
+        "input_tokens": 9946,
+        "output_tokens": 475,
+        "action_failures": {}
+      },
+      "73": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 3,
+        "input_tokens": 5697,
+        "output_tokens": 301,
+        "action_failures": {}
+      },
+      "74": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You turn on the desklamp 1.",
+        "n_steps": 6,
+        "input_tokens": 11908,
+        "output_tokens": 520,
+        "action_failures": {}
+      },
+      "75": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the desk 1.",
+        "n_steps": 7,
+        "input_tokens": 14118,
+        "output_tokens": 584,
+        "action_failures": {}
+      },
+      "76": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the desk 1.",
+        "n_steps": 6,
+        "input_tokens": 11869,
+        "output_tokens": 512,
+        "action_failures": {}
+      },
+      "77": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 2 in/on the desk 1.",
+        "n_steps": 7,
+        "input_tokens": 14362,
+        "output_tokens": 606,
+        "action_failures": {}
+      },
+      "78": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pencil 1 in/on the shelf 1.",
+        "n_steps": 5,
+        "input_tokens": 9585,
+        "output_tokens": 429,
+        "action_failures": {}
+      },
+      "79": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pencil 1 in/on the shelf 1.",
+        "n_steps": 4,
+        "input_tokens": 7573,
+        "output_tokens": 335,
+        "action_failures": {}
+      },
+      "80": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pencil 1 in/on the shelf 1.",
+        "n_steps": 4,
+        "input_tokens": 7548,
+        "output_tokens": 351,
+        "action_failures": {}
+      },
+      "81": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the peppershaker 1 in/on the drawer 1.",
+        "n_steps": 8,
+        "input_tokens": 17827,
+        "output_tokens": 701,
+        "action_failures": {}
+      },
+      "82": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the peppershaker 1 in/on the drawer 1.",
+        "n_steps": 6,
+        "input_tokens": 12456,
+        "output_tokens": 513,
+        "action_failures": {}
+      },
+      "83": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the peppershaker 3 in/on the drawer 1.",
+        "n_steps": 6,
+        "input_tokens": 12489,
+        "output_tokens": 512,
+        "action_failures": {}
+      },
+      "84": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the saltshaker 1 in/on the cabinet 1.",
+        "n_steps": 9,
+        "input_tokens": 20370,
+        "output_tokens": 771,
+        "action_failures": {}
+      },
+      "85": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the saltshaker 1 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 15653,
+        "output_tokens": 653,
+        "action_failures": {}
+      },
+      "86": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the saltshaker 2 in/on the cabinet 1.",
+        "n_steps": 6,
+        "input_tokens": 12717,
+        "output_tokens": 529,
+        "action_failures": {}
+      },
+      "87": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the saltshaker 1 in/on the drawer 1.",
+        "n_steps": 18,
+        "input_tokens": 47393,
+        "output_tokens": 1537,
+        "action_failures": {}
+      },
+      "88": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the saltshaker 1 in/on the drawer 1.",
+        "n_steps": 11,
+        "input_tokens": 26251,
+        "output_tokens": 983,
+        "action_failures": {}
+      },
+      "89": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the saltshaker 1 in/on the drawer 1.",
+        "n_steps": 7,
+        "input_tokens": 15856,
+        "output_tokens": 637,
+        "action_failures": {}
+      },
+      "90": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbottle 1 in/on the toilet 1.",
+        "n_steps": 4,
+        "input_tokens": 7447,
+        "output_tokens": 353,
+        "action_failures": {}
+      },
+      "91": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbottle 2 in/on the toilet 1.",
+        "n_steps": 4,
+        "input_tokens": 7482,
+        "output_tokens": 358,
+        "action_failures": {}
+      },
+      "92": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbottle 1 in/on the toilet 1.",
+        "n_steps": 4,
+        "input_tokens": 7514,
+        "output_tokens": 376,
+        "action_failures": {}
+      },
+      "93": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the vase 1 in/on the safe 1.",
+        "n_steps": 33,
+        "input_tokens": 99338,
+        "output_tokens": 2743,
+        "action_failures": {}
+      },
+      "94": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the vase 1 in/on the safe 1.",
+        "n_steps": 17,
+        "input_tokens": 40611,
+        "output_tokens": 1366,
+        "action_failures": {}
+      },
+      "95": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the vase 1 in/on the safe 1.",
+        "n_steps": 17,
+        "input_tokens": 42038,
+        "output_tokens": 1406,
+        "action_failures": {}
+      },
+      "96": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the watch 1 in/on the safe 1.",
+        "n_steps": 6,
+        "input_tokens": 12480,
+        "output_tokens": 505,
+        "action_failures": {}
+      },
+      "97": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the watch 3 in/on the safe 1.",
+        "n_steps": 6,
+        "input_tokens": 12512,
+        "output_tokens": 499,
+        "action_failures": {}
+      },
+      "98": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the watch 1 in/on the safe 1.",
+        "n_steps": 22,
+        "input_tokens": 57889,
+        "output_tokens": 1801,
+        "action_failures": {}
+      },
+      "99": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the bowl 1 in/on the cabinet 1.",
+        "n_steps": 8,
+        "input_tokens": 18146,
+        "output_tokens": 723,
+        "action_failures": {}
+      },
+      "100": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the bowl 1 in/on the cabinet 1.",
+        "n_steps": 11,
+        "input_tokens": 25897,
+        "output_tokens": 946,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "101": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the bowl 2 in/on the cabinet 1.",
+        "n_steps": 10,
+        "input_tokens": 23446,
+        "output_tokens": 884,
+        "action_failures": {}
+      },
+      "102": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cloth 1 in/on the cabinet 1.",
+        "n_steps": 14,
+        "input_tokens": 31055,
+        "output_tokens": 1152,
+        "action_failures": {}
+      },
+      "103": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cloth 1 in/on the cabinet 1.",
+        "n_steps": 11,
+        "input_tokens": 23318,
+        "output_tokens": 944,
+        "action_failures": {}
+      },
+      "104": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cloth 3 in/on the countertop 1.",
+        "n_steps": 39,
+        "input_tokens": 165719,
+        "output_tokens": 6422,
+        "action_failures": {}
+      },
+      "105": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cloth 2 in/on the countertop 1.",
+        "n_steps": 8,
+        "input_tokens": 15940,
+        "output_tokens": 689,
+        "action_failures": {}
+      },
+      "106": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 2 in/on the microwave 1.",
+        "n_steps": 8,
+        "input_tokens": 17637,
+        "output_tokens": 699,
+        "action_failures": {}
+      },
+      "107": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 1 in/on the microwave 1.",
+        "n_steps": 9,
+        "input_tokens": 20764,
+        "output_tokens": 785,
+        "action_failures": {}
+      },
+      "108": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 2 in/on the microwave 1.",
+        "n_steps": 8,
+        "input_tokens": 17821,
+        "output_tokens": 697,
+        "action_failures": {}
+      },
+      "109": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the knife 1 in/on the countertop 1.",
+        "n_steps": 8,
+        "input_tokens": 17813,
+        "output_tokens": 702,
+        "action_failures": {}
+      },
+      "110": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the knife 1 in/on the countertop 1.",
+        "n_steps": 7,
+        "input_tokens": 15293,
+        "output_tokens": 620,
+        "action_failures": {}
+      },
+      "111": {
+        "solved": false,
+        "status": "step_cap",
+        "fail_reason": "",
+        "last_observation": "You are not carrying anything.",
+        "n_steps": 50,
+        "input_tokens": 198866,
+        "output_tokens": 5063,
+        "action_failures": {
+          "invalid_arguments": 1
+        }
+      },
+      "112": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the coffeemachine 1.",
+        "n_steps": 8,
+        "input_tokens": 17751,
+        "output_tokens": 728,
+        "action_failures": {}
+      },
+      "113": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 3 in/on the coffeemachine 1.",
+        "n_steps": 7,
+        "input_tokens": 15277,
+        "output_tokens": 637,
+        "action_failures": {}
+      },
+      "114": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the coffeemachine 1.",
+        "n_steps": 8,
+        "input_tokens": 17714,
+        "output_tokens": 715,
+        "action_failures": {}
+      },
+      "115": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 1 in/on the countertop 1.",
+        "n_steps": 9,
+        "input_tokens": 20101,
+        "output_tokens": 854,
+        "action_failures": {}
+      },
+      "116": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 1 in/on the countertop 1.",
+        "n_steps": 11,
+        "input_tokens": 25428,
+        "output_tokens": 953,
+        "action_failures": {}
+      },
+      "117": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 1 in/on the countertop 1.",
+        "n_steps": 6,
+        "input_tokens": 12631,
+        "output_tokens": 562,
+        "action_failures": {}
+      },
+      "118": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 3 in/on the countertop 1.",
+        "n_steps": 8,
+        "input_tokens": 17617,
+        "output_tokens": 706,
+        "action_failures": {}
+      },
+      "119": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 2 in/on the countertop 1.",
+        "n_steps": 8,
+        "input_tokens": 17556,
+        "output_tokens": 706,
+        "action_failures": {}
+      },
+      "120": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the plate 3 in/on the countertop 1.",
+        "n_steps": 9,
+        "input_tokens": 20027,
+        "output_tokens": 764,
+        "action_failures": {}
+      },
+      "121": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 1 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 13872,
+        "output_tokens": 611,
+        "action_failures": {}
+      },
+      "122": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 1 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 13991,
+        "output_tokens": 629,
+        "action_failures": {}
+      },
+      "123": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 1 in/on the cabinet 1.",
+        "n_steps": 19,
+        "input_tokens": 46444,
+        "output_tokens": 1695,
+        "action_failures": {}
+      },
+      "124": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 1 in/on the countertop 1.",
+        "n_steps": 14,
+        "input_tokens": 31180,
+        "output_tokens": 1223,
+        "action_failures": {}
+      },
+      "125": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 1 in/on the countertop 1.",
+        "n_steps": 6,
+        "input_tokens": 11925,
+        "output_tokens": 581,
+        "action_failures": {}
+      },
+      "126": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 1 in/on the countertop 1.",
+        "n_steps": 6,
+        "input_tokens": 11693,
+        "output_tokens": 541,
+        "action_failures": {}
+      },
+      "127": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spatula 1 in/on the drawer 1.",
+        "n_steps": 10,
+        "input_tokens": 23067,
+        "output_tokens": 877,
+        "action_failures": {}
+      },
+      "128": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spatula 1 in/on the drawer 1.",
+        "n_steps": 10,
+        "input_tokens": 23186,
+        "output_tokens": 855,
+        "action_failures": {}
+      },
+      "129": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the spatula 1 in/on the drawer 1.",
+        "n_steps": 9,
+        "input_tokens": 20211,
+        "output_tokens": 779,
+        "action_failures": {}
+      },
+      "130": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the bread 1 in/on the countertop 1.",
+        "n_steps": 8,
+        "input_tokens": 17810,
+        "output_tokens": 734,
+        "action_failures": {}
+      },
+      "131": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the bread 1 in/on the countertop 1.",
+        "n_steps": 11,
+        "input_tokens": 25235,
+        "output_tokens": 930,
+        "action_failures": {}
+      },
+      "132": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the bread 1 in/on the countertop 1.",
+        "n_steps": 20,
+        "input_tokens": 51862,
+        "output_tokens": 1641,
+        "action_failures": {}
+      },
+      "133": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the lettuce 1 in/on the countertop 1.",
+        "n_steps": 9,
+        "input_tokens": 20294,
+        "output_tokens": 778,
+        "action_failures": {}
+      },
+      "134": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the lettuce 1 in/on the countertop 1.",
+        "n_steps": 6,
+        "input_tokens": 12671,
+        "output_tokens": 540,
+        "action_failures": {}
+      },
+      "135": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the lettuce 1 in/on the countertop 1.",
+        "n_steps": 9,
+        "input_tokens": 20656,
+        "output_tokens": 775,
+        "action_failures": {}
+      },
+      "136": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 3 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 14777,
+        "output_tokens": 615,
+        "action_failures": {}
+      },
+      "137": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 2 in/on the cabinet 1.",
+        "n_steps": 6,
+        "input_tokens": 12647,
+        "output_tokens": 514,
+        "action_failures": {}
+      },
+      "138": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 2 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 14743,
+        "output_tokens": 620,
+        "action_failures": {}
+      },
+      "139": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the coffeemachine 1.",
+        "n_steps": 6,
+        "input_tokens": 12637,
+        "output_tokens": 542,
+        "action_failures": {}
+      },
+      "140": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the coffeemachine 1.",
+        "n_steps": 6,
+        "input_tokens": 12561,
+        "output_tokens": 531,
+        "action_failures": {}
+      },
+      "141": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You cool the mug 2 using the fridge 1.",
+        "n_steps": 4,
+        "input_tokens": 8149,
+        "output_tokens": 377,
+        "action_failures": {}
+      },
+      "142": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 1 in/on the countertop 1.",
+        "n_steps": 9,
+        "input_tokens": 19747,
+        "output_tokens": 792,
+        "action_failures": {}
+      },
+      "143": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 2 in/on the countertop 1.",
+        "n_steps": 6,
+        "input_tokens": 12522,
+        "output_tokens": 540,
+        "action_failures": {}
+      },
+      "144": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pan 1 in/on the countertop 1.",
+        "n_steps": 9,
+        "input_tokens": 19722,
+        "output_tokens": 787,
+        "action_failures": {}
+      },
+      "145": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the potato 1 in/on the microwave 1.",
+        "n_steps": 7,
+        "input_tokens": 14917,
+        "output_tokens": 591,
+        "action_failures": {}
+      },
+      "146": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the potato 1 in/on the microwave 1.",
+        "n_steps": 8,
+        "input_tokens": 17787,
+        "output_tokens": 685,
+        "action_failures": {}
+      },
+      "147": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the potato 1 in/on the microwave 1.",
+        "n_steps": 8,
+        "input_tokens": 17685,
+        "output_tokens": 702,
+        "action_failures": {}
+      },
+      "148": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the microwave 1.",
+        "n_steps": 35,
+        "input_tokens": 114736,
+        "output_tokens": 2980,
+        "action_failures": {}
+      },
+      "149": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the microwave 1.",
+        "n_steps": 10,
+        "input_tokens": 22824,
+        "output_tokens": 853,
+        "action_failures": {}
+      },
+      "150": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the microwave 1.",
+        "n_steps": 10,
+        "input_tokens": 22421,
+        "output_tokens": 847,
+        "action_failures": {}
+      },
+      "151": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the fridge 1.",
+        "n_steps": 29,
+        "input_tokens": 87433,
+        "output_tokens": 2345,
+        "action_failures": {}
+      },
+      "152": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the fridge 1.",
+        "n_steps": 7,
+        "input_tokens": 14996,
+        "output_tokens": 605,
+        "action_failures": {}
+      },
+      "153": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the fridge 1.",
+        "n_steps": 11,
+        "input_tokens": 26064,
+        "output_tokens": 924,
+        "action_failures": {}
+      },
+      "154": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the garbagecan 1.",
+        "n_steps": 9,
+        "input_tokens": 19847,
+        "output_tokens": 758,
+        "action_failures": {}
+      },
+      "155": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the garbagecan 1.",
+        "n_steps": 9,
+        "input_tokens": 19719,
+        "output_tokens": 745,
+        "action_failures": {}
+      },
+      "156": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the apple 1 in/on the garbagecan 1.",
+        "n_steps": 37,
+        "input_tokens": 122022,
+        "output_tokens": 3027,
+        "action_failures": {}
+      },
+      "157": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You are facing the cabinet 1. Next to it, you see nothing.",
+        "n_steps": 50,
+        "input_tokens": 204213,
+        "output_tokens": 5033,
+        "action_failures": {}
+      },
+      "158": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You are not carrying anything.",
+        "n_steps": 50,
+        "input_tokens": 184892,
+        "output_tokens": 4653,
+        "action_failures": {}
+      },
+      "159": {
+        "solved": false,
+        "status": "environment_truncation",
+        "fail_reason": "",
+        "last_observation": "You are not carrying anything.",
+        "n_steps": 50,
+        "input_tokens": 194868,
+        "output_tokens": 5282,
+        "action_failures": {}
+      },
+      "160": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 1 in/on the garbagecan 1.",
+        "n_steps": 12,
+        "input_tokens": 28651,
+        "output_tokens": 1020,
+        "action_failures": {}
+      },
+      "161": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 1 in/on the garbagecan 1.",
+        "n_steps": 36,
+        "input_tokens": 117232,
+        "output_tokens": 3027,
+        "action_failures": {}
+      },
+      "162": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the egg 1 in/on the garbagecan 1.",
+        "n_steps": 9,
+        "input_tokens": 19770,
+        "output_tokens": 761,
+        "action_failures": {}
+      },
+      "163": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 3 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 14715,
+        "output_tokens": 606,
+        "action_failures": {}
+      },
+      "164": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the cabinet 1.",
+        "n_steps": 16,
+        "input_tokens": 40939,
+        "output_tokens": 1338,
+        "action_failures": {}
+      },
+      "165": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 1 in/on the cabinet 1.",
+        "n_steps": 7,
+        "input_tokens": 14914,
+        "output_tokens": 630,
+        "action_failures": {}
+      },
+      "166": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You heat the mug 2 using the microwave 1.",
+        "n_steps": 4,
+        "input_tokens": 8152,
+        "output_tokens": 339,
+        "action_failures": {}
+      },
+      "167": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 2 in/on the coffeemachine 1.",
+        "n_steps": 7,
+        "input_tokens": 14868,
+        "output_tokens": 608,
+        "action_failures": {}
+      },
+      "168": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the mug 2 in/on the coffeemachine 1.",
+        "n_steps": 9,
+        "input_tokens": 20466,
+        "output_tokens": 792,
+        "action_failures": {}
+      },
+      "169": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the potato 1 in/on the garbagecan 1.",
+        "n_steps": 10,
+        "input_tokens": 22465,
+        "output_tokens": 856,
+        "action_failures": {}
+      },
+      "170": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the potato 1 in/on the garbagecan 1.",
+        "n_steps": 9,
+        "input_tokens": 20430,
+        "output_tokens": 768,
+        "action_failures": {}
+      },
+      "171": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the garbagecan 1.",
+        "n_steps": 6,
+        "input_tokens": 12477,
+        "output_tokens": 537,
+        "action_failures": {}
+      },
+      "172": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 1 in/on the garbagecan 1.",
+        "n_steps": 10,
+        "input_tokens": 23018,
+        "output_tokens": 855,
+        "action_failures": {}
+      },
+      "173": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the tomato 2 in/on the garbagecan 1.",
+        "n_steps": 8,
+        "input_tokens": 17309,
+        "output_tokens": 684,
+        "action_failures": {}
+      },
+      "174": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cd 2 in/on the safe 1.",
+        "n_steps": 10,
+        "input_tokens": 21814,
+        "output_tokens": 899,
+        "action_failures": {}
+      },
+      "175": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cd 1 in/on the safe 1.",
+        "n_steps": 12,
+        "input_tokens": 27425,
+        "output_tokens": 1125,
+        "action_failures": {}
+      },
+      "176": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the cd 2 in/on the safe 1.",
+        "n_steps": 10,
+        "input_tokens": 21742,
+        "output_tokens": 883,
+        "action_failures": {}
+      },
+      "177": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the keychain 2 in/on the safe 1.",
+        "n_steps": 45,
+        "input_tokens": 151918,
+        "output_tokens": 3827,
+        "action_failures": {}
+      },
+      "178": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the keychain 2 in/on the safe 1.",
+        "n_steps": 12,
+        "input_tokens": 27640,
+        "output_tokens": 1026,
+        "action_failures": {}
+      },
+      "179": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the peppershaker 2 in/on the drawer 1.",
+        "n_steps": 17,
+        "input_tokens": 46104,
+        "output_tokens": 1792,
+        "action_failures": {}
+      },
+      "180": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the peppershaker 1 in/on the drawer 1.",
+        "n_steps": 14,
+        "input_tokens": 38363,
+        "output_tokens": 1696,
+        "action_failures": {}
+      },
+      "181": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the peppershaker 3 in/on the drawer 1.",
+        "n_steps": 13,
+        "input_tokens": 32175,
+        "output_tokens": 1179,
+        "action_failures": {}
+      },
+      "182": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pillow 2 in/on the sofa 1.",
+        "n_steps": 9,
+        "input_tokens": 19637,
+        "output_tokens": 767,
+        "action_failures": {}
+      },
+      "183": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pillow 2 in/on the sofa 1.",
+        "n_steps": 42,
+        "input_tokens": 139005,
+        "output_tokens": 3519,
+        "action_failures": {}
+      },
+      "184": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the pillow 2 in/on the sofa 1.",
+        "n_steps": 44,
+        "input_tokens": 146413,
+        "output_tokens": 3630,
+        "action_failures": {}
+      },
+      "185": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 2 in/on the cabinet 1.",
+        "n_steps": 19,
+        "input_tokens": 47135,
+        "output_tokens": 1812,
+        "action_failures": {}
+      },
+      "186": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 2 in/on the cabinet 1.",
+        "n_steps": 10,
+        "input_tokens": 21190,
+        "output_tokens": 855,
+        "action_failures": {}
+      },
+      "187": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 2 in/on the garbagecan 1.",
+        "n_steps": 8,
+        "input_tokens": 16381,
+        "output_tokens": 714,
+        "action_failures": {}
+      },
+      "188": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 3 in/on the garbagecan 1.",
+        "n_steps": 8,
+        "input_tokens": 16468,
+        "output_tokens": 737,
+        "action_failures": {}
+      },
+      "189": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the soapbar 2 in/on the garbagecan 1.",
+        "n_steps": 22,
+        "input_tokens": 56220,
+        "output_tokens": 1929,
+        "action_failures": {}
+      },
+      "190": {
+        "solved": true,
+        "status": "success",
+        "fail_reason": "",
+        "last_observation": "You put the toiletpaper 1 in/on the cabinet 1.",
+        "n_steps": 11,
+        "input_tokens": 24259,
+        "output_tokens": 1051,
+        "action_failures": {}
+      }
+    }
+  },
+  "omission": 0.35,
+  "repeat": 1
+}

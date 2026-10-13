@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Object relocation",
+    "definition": "Pick up one or more objects and move, place, or discard them at a specified location, arranging or stacking them if requested, without changing their state."
+  },
+  {
+    "name": "Clean and place",
+    "definition": "Wash, rinse, clean, or wet an object and then leave, place, or discard it at a specified location."
+  },
+  {
+    "name": "Cool and place",
+    "definition": "Cool, chill, or freeze an object in the refrigerator or freezer and then leave, place, or discard it at a specified location."
+  },
+  {
+    "name": "Heat and place",
+    "definition": "Heat, warm, or cook an object and then leave, place, or discard it at a specified location."
+  },
+  {
+    "name": "Fill with water and place",
+    "definition": "Fill a container with water and then leave it or place it at a specified location."
+  },
+  {
+    "name": "Lamp-object interaction",
+    "definition": "Pick up or hold an object while turning on a lamp or light, or hold, place, or examine an object under or near a lamp's light."
+  }
+]

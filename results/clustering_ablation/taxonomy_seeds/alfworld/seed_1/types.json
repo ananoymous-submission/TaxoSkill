@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Pick and place",
+    "definition": "Pick up one or more objects and move them to a specified destination, or simply move or carry them, without first changing their state."
+  },
+  {
+    "name": "Clean and place",
+    "definition": "Clean, rinse, or wash an object or fixture (picking it up only if movable), and place it at a specified destination if one is given; otherwise simply clean it."
+  },
+  {
+    "name": "Cool and place",
+    "definition": "Pick up an object, cool or chill it, and place it at a specified destination, or simply cool it if no destination is given."
+  },
+  {
+    "name": "Heat and place",
+    "definition": "Pick up an object, heat, cook, or warm it, and place it at a specified destination, or simply heat it if no destination is given."
+  },
+  {
+    "name": "Fill and place",
+    "definition": "Pick up an object, fill it with water, and place it at a specified destination, or simply fill it if no destination is given."
+  },
+  {
+    "name": "Use lamp",
+    "definition": "Turn on or use a lamp or light, optionally while holding an object to illuminate or examine it."
+  }
+]

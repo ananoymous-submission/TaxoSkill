@@ -1,0 +1,48 @@
+[project]
+name = "taxoskill"
+version = "0.0.1"
+description = "Procedural-memory optimization for long-horizon language agents"
+requires-python = ">=3.11,<3.13"  # tested project runtime
+dependencies = [
+    "pydantic>=2.6",
+    "jsonschema>=4",
+    "openenv==0.4.1",
+    "pyyaml>=6",
+    "requests>=2.31",
+    "python-dotenv>=1.2",
+    "huggingface-hub>=0.29",
+    "openai>=2.8",
+    "websockets>=14",
+    "mlflow>=3.14",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "scikit-learn>=1.5",
+    "hdbscan>=0.8.40",
+    "sentence-transformers>=3.0",
+    "torch>=2.3",
+    # Official SkillOpt source revision: OpenAI-compatible backend is post-0.2.0.
+    "skillopt @ git+https://github.com/microsoft/SkillOpt.git@ba820b500f9da96685cf2780c7dc85ed4eb6563e",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "src/taxoskill",
+    "environments/alfworld/src/alfworld_env",
+    "environments/scienceworld/src/scienceworld_env",
+]
+
+[tool.uv.workspace]
+members = [
+    "environments/alfworld",
+    "environments/scienceworld",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]

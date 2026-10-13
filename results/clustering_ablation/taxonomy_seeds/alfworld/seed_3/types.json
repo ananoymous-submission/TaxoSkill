@@ -1,0 +1,26 @@
+[
+  {
+    "name": "object_relocation",
+    "definition": "Pick up and move one or more objects to a specified destination without changing their state."
+  },
+  {
+    "name": "clean_object",
+    "definition": "Wash, rinse, or otherwise clean one or more objects and put them at a specified destination if needed."
+  },
+  {
+    "name": "heat_object",
+    "definition": "Heat, cook, warm, or microwave one or more objects and put them at a specified destination if needed."
+  },
+  {
+    "name": "cool_object",
+    "definition": "Cool, chill, or refrigerate one or more objects in the fridge and put them at a specified destination if needed."
+  },
+  {
+    "name": "fill_container",
+    "definition": "Fill a container with water and put it at a specified destination if needed."
+  },
+  {
+    "name": "use_lamp",
+    "definition": "Toggle or use a lamp/light, optionally while holding or examining an object under the light."
+  }
+]

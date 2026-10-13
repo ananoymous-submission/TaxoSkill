@@ -1,0 +1,1486 @@
+{
+  "schema_version": 1,
+  "benchmark": "sciworld",
+  "role": "test_unseen",
+  "source": "ETO test",
+  "source_revision": "allenai/eto a2fc5da38f8d00cfaf3f9b6370d586eebaf72904",
+  "tasks": [
+    {
+      "task_idx": 1677,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil lead. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 21
+    },
+    {
+      "task_idx": 1678,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil tin. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 22
+    },
+    {
+      "task_idx": 1679,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil tin. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 23
+    },
+    {
+      "task_idx": 1680,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil mercury. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 24
+    },
+    {
+      "task_idx": 1681,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil mercury. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 25
+    },
+    {
+      "task_idx": 1682,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil gallium. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 26
+    },
+    {
+      "task_idx": 1683,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil gallium. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 27
+    },
+    {
+      "task_idx": 1684,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil caesium. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 28
+    },
+    {
+      "task_idx": 1685,
+      "task_type": "task-1-boil",
+      "instruction": "Your task is to boil caesium. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 29
+    },
+    {
+      "task_idx": 1686,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of lead. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 21
+    },
+    {
+      "task_idx": 1687,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of tin. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 22
+    },
+    {
+      "task_idx": 1688,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of tin. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 23
+    },
+    {
+      "task_idx": 1689,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of mercury. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 24
+    },
+    {
+      "task_idx": 1690,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of mercury. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 25
+    },
+    {
+      "task_idx": 1691,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of gallium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 26
+    },
+    {
+      "task_idx": 1692,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of gallium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 27
+    },
+    {
+      "task_idx": 1693,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of caesium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 28
+    },
+    {
+      "task_idx": 1694,
+      "task_type": "task-1-change-the-state-of-matter-of",
+      "instruction": "Your task is to change the state of matter of caesium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 29
+    },
+    {
+      "task_idx": 1695,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze lead. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 21
+    },
+    {
+      "task_idx": 1696,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze tin. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 22
+    },
+    {
+      "task_idx": 1697,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze tin. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 23
+    },
+    {
+      "task_idx": 1698,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze mercury. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 24
+    },
+    {
+      "task_idx": 1699,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze mercury. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 25
+    },
+    {
+      "task_idx": 1700,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze gallium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 26
+    },
+    {
+      "task_idx": 1701,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze gallium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 27
+    },
+    {
+      "task_idx": 1702,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze caesium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 28
+    },
+    {
+      "task_idx": 1703,
+      "task_type": "task-1-freeze",
+      "instruction": "Your task is to freeze caesium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 29
+    },
+    {
+      "task_idx": 1704,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt lead. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 21
+    },
+    {
+      "task_idx": 1705,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt tin. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 22
+    },
+    {
+      "task_idx": 1706,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt tin. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 23
+    },
+    {
+      "task_idx": 1707,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt mercury. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 24
+    },
+    {
+      "task_idx": 1708,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt mercury. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 25
+    },
+    {
+      "task_idx": 1709,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt gallium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 26
+    },
+    {
+      "task_idx": 1710,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt gallium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 27
+    },
+    {
+      "task_idx": 1711,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt caesium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 28
+    },
+    {
+      "task_idx": 1712,
+      "task_type": "task-1-melt",
+      "instruction": "Your task is to melt caesium. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 29
+    },
+    {
+      "task_idx": 1713,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of tin, which is located around the kitchen. First, focus on the thermometer. Next, focus on the tin. If the melting point of tin is above 50.0 degrees celsius, focus on the red box. If the melting point of tin is below 50.0 degrees celsius, focus on the green box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 327
+    },
+    {
+      "task_idx": 1714,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of tin, which is located around the kitchen. First, focus on the thermometer. Next, focus on the tin. If the melting point of tin is above 150.0 degrees celsius, focus on the orange box. If the melting point of tin is below 150.0 degrees celsius, focus on the yellow box. The boxes are located around the kitchen.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 328
+    },
+    {
+      "task_idx": 1715,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of water, which is located around the kitchen. First, focus on the thermometer. Next, focus on the water. If the melting point of water is above 150.0 degrees celsius, focus on the blue box. If the melting point of water is below 150.0 degrees celsius, focus on the orange box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 329
+    },
+    {
+      "task_idx": 1716,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of water, which is located around the kitchen. First, focus on the thermometer. Next, focus on the water. If the melting point of water is above -10.0 degrees celsius, focus on the blue box. If the melting point of water is below -10.0 degrees celsius, focus on the orange box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 330
+    },
+    {
+      "task_idx": 1717,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of tin, which is located around the kitchen. First, focus on the thermometer. Next, focus on the tin. If the melting point of tin is above 10.0 degrees celsius, focus on the blue box. If the melting point of tin is below 10.0 degrees celsius, focus on the orange box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta closet. The closet door is closed. \n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 331
+    },
+    {
+      "task_idx": 1718,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of tin, which is located around the kitchen. First, focus on the thermometer. Next, focus on the tin. If the melting point of tin is above 10.0 degrees celsius, focus on the orange box. If the melting point of tin is below 10.0 degrees celsius, focus on the yellow box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 332
+    },
+    {
+      "task_idx": 1719,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of water, which is located around the kitchen. First, focus on the thermometer. Next, focus on the water. If the melting point of water is above 150.0 degrees celsius, focus on the red box. If the melting point of water is below 150.0 degrees celsius, focus on the green box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 333
+    },
+    {
+      "task_idx": 1720,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of tin, which is located around the kitchen. First, focus on the thermometer. Next, focus on the tin. If the melting point of tin is above 50.0 degrees celsius, focus on the blue box. If the melting point of tin is below 50.0 degrees celsius, focus on the orange box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 334
+    },
+    {
+      "task_idx": 1721,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of water, which is located around the kitchen. First, focus on the thermometer. Next, focus on the water. If the melting point of water is above 150.0 degrees celsius, focus on the red box. If the melting point of water is below 150.0 degrees celsius, focus on the green box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 335
+    },
+    {
+      "task_idx": 1722,
+      "task_type": "task-10-measure-melting-point-(known-substance)",
+      "instruction": "Your task is to measure the melting point of water, which is located around the kitchen. First, focus on the thermometer. Next, focus on the water. If the melting point of water is above 200.0 degrees celsius, focus on the blue box. If the melting point of water is below 200.0 degrees celsius, focus on the orange box. The boxes are located around the kitchen.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a blue light bulb, which is off, a orange light bulb, which is off, a red wire, a switch, which is off, a yellow light bulb, which is off, a yellow wire.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 336
+    },
+    {
+      "task_idx": 1723,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of unknown substance B, which is located around the bathroom. First, focus on the thermometer. Next, focus on the unknown substance B. If the unknown substance B temperature is above 200.0 degrees celsius, place it in the yellow box. If the unknown substance B temperature is below 200.0 degrees celsius, place it in the purple box. The boxes are located around the bathroom.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 405
+    },
+    {
+      "task_idx": 1724,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of wire, which is located around the living room. First, focus on the thermometer. Next, focus on the wire. If the wire temperature is above 200.0 degrees celsius, place it in the red box. If the wire temperature is below 200.0 degrees celsius, place it in the green box. The boxes are located around the bathroom.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 406
+    },
+    {
+      "task_idx": 1725,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of wire, which is located around the bedroom. First, focus on the thermometer. Next, focus on the wire. If the wire temperature is above 100.0 degrees celsius, place it in the green box. If the wire temperature is below 100.0 degrees celsius, place it in the blue box. The boxes are located around the living room.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a green wire, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a switch, which is off, a yellow light bulb, which is off, a yellow wire.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 407
+    },
+    {
+      "task_idx": 1726,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of wire, which is located around the living room. First, focus on the thermometer. Next, focus on the wire. If the wire temperature is above 0.0 degrees celsius, place it in the blue box. If the wire temperature is below 0.0 degrees celsius, place it in the orange box. The boxes are located around the bedroom.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Frankenstein) titled Frankenstein by Mary Wollstonecraft Shelley)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta picture\n\ta table. On the table is: nothing.\n\ta wire\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 408
+    },
+    {
+      "task_idx": 1727,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of unknown substance B, which is located around the bathroom. First, focus on the thermometer. Next, focus on the unknown substance B. If the unknown substance B temperature is above 0.0 degrees celsius, place it in the orange box. If the unknown substance B temperature is below 0.0 degrees celsius, place it in the yellow box. The boxes are located around the bedroom.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 409
+    },
+    {
+      "task_idx": 1728,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of wood, which is located around the living room. First, focus on the thermometer. Next, focus on the wood. If the wood temperature is above 200.0 degrees celsius, place it in the green box. If the wood temperature is below 200.0 degrees celsius, place it in the blue box. The boxes are located around the living room.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 410
+    },
+    {
+      "task_idx": 1729,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of unknown substance B, which is located around the bathroom. First, focus on the thermometer. Next, focus on the unknown substance B. If the unknown substance B temperature is above 200.0 degrees celsius, place it in the blue box. If the unknown substance B temperature is below 200.0 degrees celsius, place it in the orange box. The boxes are located around the bedroom.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 411
+    },
+    {
+      "task_idx": 1730,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of unknown substance B, which is located around the bathroom. First, focus on the thermometer. Next, focus on the unknown substance B. If the unknown substance B temperature is above -50.0 degrees celsius, place it in the yellow box. If the unknown substance B temperature is below -50.0 degrees celsius, place it in the purple box. The boxes are located around the living room.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 412
+    },
+    {
+      "task_idx": 1731,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of wood, which is located around the bathroom. First, focus on the thermometer. Next, focus on the wood. If the wood temperature is above 100.0 degrees celsius, place it in the orange box. If the wood temperature is below 100.0 degrees celsius, place it in the yellow box. The boxes are located around the bedroom.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 413
+    },
+    {
+      "task_idx": 1732,
+      "task_type": "task-10-use-thermometer",
+      "instruction": "Your task is to measure the temperature of unknown substance B, which is located around the bathroom. First, focus on the thermometer. Next, focus on the unknown substance B. If the unknown substance B temperature is above 50.0 degrees celsius, place it in the blue box. If the unknown substance B temperature is below 50.0 degrees celsius, place it in the orange box. The boxes are located around the bathroom.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a blue wire, a green light bulb, which is off, a green wire, a red light bulb, which is off, a red wire, a switch, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 414
+    },
+    {
+      "task_idx": 1733,
+      "task_type": "task-2-power-component",
+      "instruction": "Your task is to turn on the electric motor. First, focus on the electric motor. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blue light bulb, which is off\n\ta electric buzzer, which is off\n\ta electric motor, which is off\n\ta nuclear generator, which is off\n\ta table. On the table is: a battery, a black wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \n\ta wind generator, which is off\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 15
+    },
+    {
+      "task_idx": 1734,
+      "task_type": "task-2-power-component",
+      "instruction": "Your task is to turn on the electric buzzer. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 16
+    },
+    {
+      "task_idx": 1735,
+      "task_type": "task-2-power-component",
+      "instruction": "Your task is to turn on the electric buzzer. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 17
+    },
+    {
+      "task_idx": 1736,
+      "task_type": "task-2-power-component",
+      "instruction": "Your task is to turn on the electric buzzer. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 18
+    },
+    {
+      "task_idx": 1737,
+      "task_type": "task-2-power-component",
+      "instruction": "Your task is to turn on the electric buzzer. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 19
+    },
+    {
+      "task_idx": 1738,
+      "task_type": "task-2-power-component-(renewable-vs-nonrenewable-energy)",
+      "instruction": "Your task is to turn on the electric motor by powering it using a nonrenewable power source. First, focus on the electric motor. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blue light bulb, which is off\n\ta electric buzzer, which is off\n\ta electric motor, which is off\n\ta nuclear generator, which is off\n\ta table. On the table is: a battery, a black wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red light bulb, which is off, a red wire, a switch, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \n\ta wind generator, which is off\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 15
+    },
+    {
+      "task_idx": 1739,
+      "task_type": "task-2-power-component-(renewable-vs-nonrenewable-energy)",
+      "instruction": "Your task is to turn on the electric buzzer by powering it using a renewable power source. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 16
+    },
+    {
+      "task_idx": 1740,
+      "task_type": "task-2-power-component-(renewable-vs-nonrenewable-energy)",
+      "instruction": "Your task is to turn on the electric buzzer by powering it using a nonrenewable power source. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 17
+    },
+    {
+      "task_idx": 1741,
+      "task_type": "task-2-power-component-(renewable-vs-nonrenewable-energy)",
+      "instruction": "Your task is to turn on the electric buzzer by powering it using a renewable power source. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 18
+    },
+    {
+      "task_idx": 1742,
+      "task_type": "task-2-power-component-(renewable-vs-nonrenewable-energy)",
+      "instruction": "Your task is to turn on the electric buzzer by powering it using a nonrenewable power source. First, focus on the electric buzzer. Then, create an electrical circuit that powers it on.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 19
+    },
+    {
+      "task_idx": 1743,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the red box. If it is electrically nonconductive, place it in the green box.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta green box (containing nothing)\n\ta red box (containing nothing)\n\ta red light bulb, which is off\n\ta substance called sodium chloride\n\ta table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a red wire, a switch, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 675
+    },
+    {
+      "task_idx": 1744,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the green box. If it is electrically nonconductive, place it in the blue box.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 676
+    },
+    {
+      "task_idx": 1745,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the blue box. If it is electrically nonconductive, place it in the orange box.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 677
+    },
+    {
+      "task_idx": 1746,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the orange box. If it is electrically nonconductive, place it in the yellow box.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta orange box (containing nothing)\n\ta red light bulb, which is off\n\ta substance called sodium chloride\n\ta table. On the table is: a battery, a black wire, a blue light bulb, which is off, a green light bulb, which is off, a green wire, a orange light bulb, which is off, a orange wire, a switch, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \n\ta yellow box (containing nothing)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 678
+    },
+    {
+      "task_idx": 1747,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the yellow box. If it is electrically nonconductive, place it in the purple box.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 679
+    },
+    {
+      "task_idx": 1748,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the red box. If it is electrically nonconductive, place it in the green box.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 680
+    },
+    {
+      "task_idx": 1749,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the green box. If it is electrically nonconductive, place it in the blue box.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta picture\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 681
+    },
+    {
+      "task_idx": 1750,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the blue box. If it is electrically nonconductive, place it in the orange box.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 682
+    },
+    {
+      "task_idx": 1751,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the orange box. If it is electrically nonconductive, place it in the yellow box.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 683
+    },
+    {
+      "task_idx": 1752,
+      "task_type": "task-2a-test-conductivity",
+      "instruction": "Your task is to determine if sodium chloride is electrically conductive. The sodium chloride is located around the workshop. First, focus on the sodium chloride. If it is electrically conductive, place it in the yellow box. If it is electrically nonconductive, place it in the purple box.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta closet. The closet door is closed. \n\ta picture\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 684
+    },
+    {
+      "task_idx": 1753,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the red box. If it is electrically nonconductive, place it in the green box.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta picture\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 450
+    },
+    {
+      "task_idx": 1754,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the green box. If it is electrically nonconductive, place it in the blue box.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta finger painting\n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 451
+    },
+    {
+      "task_idx": 1755,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the blue box. If it is electrically nonconductive, place it in the orange box.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta drawing\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 452
+    },
+    {
+      "task_idx": 1756,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the orange box. If it is electrically nonconductive, place it in the yellow box.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 453
+    },
+    {
+      "task_idx": 1757,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the yellow box. If it is electrically nonconductive, place it in the purple box.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 454
+    },
+    {
+      "task_idx": 1758,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the red box. If it is electrically nonconductive, place it in the green box.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 455
+    },
+    {
+      "task_idx": 1759,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the green box. If it is electrically nonconductive, place it in the blue box.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta finger painting\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 456
+    },
+    {
+      "task_idx": 1760,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the blue box. If it is electrically nonconductive, place it in the orange box.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 457
+    },
+    {
+      "task_idx": 1761,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the orange box. If it is electrically nonconductive, place it in the yellow box.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 458
+    },
+    {
+      "task_idx": 1762,
+      "task_type": "task-2a-test-conductivity-of-unknown-substances",
+      "instruction": "Your task is to determine if unknown substance U is electrically conductive. The unknown substance U is located around the workshop. First, focus on the unknown substance U. If it is electrically conductive, place it in the yellow box. If it is electrically nonconductive, place it in the purple box.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta picture\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 459
+    },
+    {
+      "task_idx": 1763,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the orange box in the living room.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 225
+    },
+    {
+      "task_idx": 1764,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the yellow box in the living room.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 226
+    },
+    {
+      "task_idx": 1765,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the purple box in the living room.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 227
+    },
+    {
+      "task_idx": 1766,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the red box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 228
+    },
+    {
+      "task_idx": 1767,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the green box in the bedroom.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a apple tree in the adult stage, soil)\n\ta flower pot 2 (containing nothing)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 5 (containing a peach tree in the adult stage, soil)\n\ta flower pot 9 (containing a banana tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 229
+    },
+    {
+      "task_idx": 1768,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the blue box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 230
+    },
+    {
+      "task_idx": 1769,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the orange box in the bedroom.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 231
+    },
+    {
+      "task_idx": 1770,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the yellow box in the bedroom.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta finger painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 232
+    },
+    {
+      "task_idx": 1771,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the purple box in the bedroom.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta frog egg\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta turtle egg\n\ta baby wolf\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 233
+    },
+    {
+      "task_idx": 1772,
+      "task_type": "task-3-find-animal",
+      "instruction": "Your task is to find a(n) animal. First, focus on the thing. Then, move it to the red box in the workshop.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 234
+    },
+    {
+      "task_idx": 1773,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the orange box in the living room.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 225
+    },
+    {
+      "task_idx": 1774,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the yellow box in the living room.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 226
+    },
+    {
+      "task_idx": 1775,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the purple box in the living room.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 227
+    },
+    {
+      "task_idx": 1776,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the red box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 228
+    },
+    {
+      "task_idx": 1777,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the green box in the bedroom.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a peach tree in the adult stage, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta flower pot 9 (containing a banana tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 229
+    },
+    {
+      "task_idx": 1778,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the blue box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 230
+    },
+    {
+      "task_idx": 1779,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the orange box in the bedroom.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 231
+    },
+    {
+      "task_idx": 1780,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the yellow box in the bedroom.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta finger painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 232
+    },
+    {
+      "task_idx": 1781,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the purple box in the bedroom.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta frog egg\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta turtle egg\n\ta baby wolf\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 233
+    },
+    {
+      "task_idx": 1782,
+      "task_type": "task-3-find-living-thing",
+      "instruction": "Your task is to find a(n) living thing. First, focus on the thing. Then, move it to the red box in the workshop.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 234
+    },
+    {
+      "task_idx": 1783,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the orange box in the living room.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 225
+    },
+    {
+      "task_idx": 1784,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the yellow box in the living room.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 226
+    },
+    {
+      "task_idx": 1785,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the purple box in the living room.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 227
+    },
+    {
+      "task_idx": 1786,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the red box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 228
+    },
+    {
+      "task_idx": 1787,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the green box in the bedroom.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 3 (containing a banana tree in the adult stage, soil)\n\ta flower pot 4 (containing a peach tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 8 (containing nothing)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 229
+    },
+    {
+      "task_idx": 1788,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the blue box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 230
+    },
+    {
+      "task_idx": 1789,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the orange box in the bedroom.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 231
+    },
+    {
+      "task_idx": 1790,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the yellow box in the bedroom.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta finger painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 232
+    },
+    {
+      "task_idx": 1791,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the purple box in the bedroom.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta frog egg\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta turtle egg\n\ta baby wolf\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 233
+    },
+    {
+      "task_idx": 1792,
+      "task_type": "task-3-find-non-living-thing",
+      "instruction": "Your task is to find a(n) non-living thing. First, focus on the thing. Then, move it to the red box in the workshop.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 234
+    },
+    {
+      "task_idx": 1793,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the orange box in the living room.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 225
+    },
+    {
+      "task_idx": 1794,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the yellow box in the living room.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 226
+    },
+    {
+      "task_idx": 1795,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the purple box in the living room.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 227
+    },
+    {
+      "task_idx": 1796,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the red box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 228
+    },
+    {
+      "task_idx": 1797,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the green box in the bedroom.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a banana tree in the adult stage, soil)\n\ta flower pot 3 (containing nothing)\n\ta flower pot 6 (containing nothing)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta flower pot 9 (containing a peach tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 229
+    },
+    {
+      "task_idx": 1798,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the bedroom.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 230
+    },
+    {
+      "task_idx": 1799,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the orange box in the bedroom.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a blue wire, a green wire, a orange wire, a red light bulb, which is off, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 231
+    },
+    {
+      "task_idx": 1800,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the yellow box in the bedroom.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta desk. On the desk is: a drawer.\n\ta finger painting\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 232
+    },
+    {
+      "task_idx": 1801,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the purple box in the bedroom.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta frog egg\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta turtle egg\n\ta baby wolf\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 233
+    },
+    {
+      "task_idx": 1802,
+      "task_type": "task-3-find-plant",
+      "instruction": "Your task is to find a(n) plant. First, focus on the thing. Then, move it to the red box in the workshop.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 234
+    },
+    {
+      "task_idx": 1803,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the bathroom. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing soil)\n\ta flower pot 2 (containing soil)\n\ta flower pot 3 (containing soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 93
+    },
+    {
+      "task_idx": 1804,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the bathroom. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 2 (containing nothing)\n\ta flower pot 3 (containing nothing)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\n\tsoil\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 94
+    },
+    {
+      "task_idx": 1805,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the bathroom. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 95
+    },
+    {
+      "task_idx": 1806,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the living room. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a orange light bulb, which is off, a orange wire, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 96
+    },
+    {
+      "task_idx": 1807,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the living room. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 97
+    },
+    {
+      "task_idx": 1808,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the living room. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta closet. The closet door is closed. \n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 98
+    },
+    {
+      "task_idx": 1809,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the bedroom. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 99
+    },
+    {
+      "task_idx": 1810,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the bedroom. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 100
+    },
+    {
+      "task_idx": 1811,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the bedroom. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta closet. The closet door is closed. \n\ta picture\n\ta seed jar (containing a orange seed, a orange seed, a orange seed, a orange seed, a orange seed)\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 101
+    },
+    {
+      "task_idx": 1812,
+      "task_type": "task-4-grow-fruit",
+      "instruction": "Your task is to grow a orange. This will require growing several plants, and them being crosspollinated to produce fruit.  Seeds can be found in the workshop. To complete the task, focus on the grown orange.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 102
+    },
+    {
+      "task_idx": 1813,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the bathroom. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing soil)\n\ta flower pot 2 (containing soil)\n\ta flower pot 3 (containing soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 93
+    },
+    {
+      "task_idx": 1814,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the bathroom. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 2 (containing nothing)\n\ta flower pot 3 (containing nothing)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\n\tsoil\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 94
+    },
+    {
+      "task_idx": 1815,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the bathroom. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 95
+    },
+    {
+      "task_idx": 1816,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the living room. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a orange light bulb, which is off, a orange wire, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 96
+    },
+    {
+      "task_idx": 1817,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the living room. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 97
+    },
+    {
+      "task_idx": 1818,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the living room. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta closet. The closet door is closed. \n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 98
+    },
+    {
+      "task_idx": 1819,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the bedroom. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 99
+    },
+    {
+      "task_idx": 1820,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the bedroom. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 100
+    },
+    {
+      "task_idx": 1821,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the bedroom. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta closet. The closet door is closed. \n\ta picture\n\ta seed jar (containing a orange seed, a orange seed, a orange seed, a orange seed, a orange seed)\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 101
+    },
+    {
+      "task_idx": 1822,
+      "task_type": "task-4-grow-plant",
+      "instruction": "Your task is to grow a orange plant from seed. Seeds can be found in the workshop. First, focus on a seed. Then, make changes to the environment that grow the plant until it reaches the reproduction life stage.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 102
+    },
+    {
+      "task_idx": 1823,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'sugar water'. A recipe and some of the ingredients might be found near the kitchen. When you are done, focus on the sugar water.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 24
+    },
+    {
+      "task_idx": 1824,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'peanut butter with banana sandwich'. A recipe and some of the ingredients might be found near the kitchen. When you are done, focus on the peanut butter with banana sandwich.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 25
+    },
+    {
+      "task_idx": 1825,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'rust'. A recipe and some of the ingredients might be found near the kitchen. When you are done, focus on the rust.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 26
+    },
+    {
+      "task_idx": 1826,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'red paper'. A recipe and some of the ingredients might be found near the kitchen. When you are done, focus on the red paper.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 27
+    },
+    {
+      "task_idx": 1827,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'sugar water'. A recipe and some of the ingredients might be found near the workshop. When you are done, focus on the sugar water.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 28
+    },
+    {
+      "task_idx": 1828,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'peanut butter with banana sandwich'. A recipe and some of the ingredients might be found near the workshop. When you are done, focus on the peanut butter with banana sandwich.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 29
+    },
+    {
+      "task_idx": 1829,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'rust'. A recipe and some of the ingredients might be found near the workshop. When you are done, focus on the rust.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 30
+    },
+    {
+      "task_idx": 1830,
+      "task_type": "task-5-chemistry-mix",
+      "instruction": "Your task is to use chemistry to create the substance 'red paper'. A recipe and some of the ingredients might be found near the workshop. When you are done, focus on the red paper.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 31
+    },
+    {
+      "task_idx": 1831,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 27
+    },
+    {
+      "task_idx": 1832,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 28
+    },
+    {
+      "task_idx": 1833,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 29
+    },
+    {
+      "task_idx": 1834,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 30
+    },
+    {
+      "task_idx": 1835,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 31
+    },
+    {
+      "task_idx": 1836,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta desk. On the desk is: a drawer, a tin cup (containing red paint), a tin cup (containing blue paint), a tin cup (containing yellow paint).\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 32
+    },
+    {
+      "task_idx": 1837,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta closet. The closet door is closed. \n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 33
+    },
+    {
+      "task_idx": 1838,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 34
+    },
+    {
+      "task_idx": 1839,
+      "task_type": "task-5-chemistry-mix-paint-(secondary-color)",
+      "instruction": "Your task is to use chemistry to create violet paint. When you are done, focus on the violet paint.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 35
+    },
+    {
+      "task_idx": 1840,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create violet-red paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 27
+    },
+    {
+      "task_idx": 1841,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create violet-red paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta shovel\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 28
+    },
+    {
+      "task_idx": 1842,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create violet-red paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\tthe ground\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+      "variation_idx": 29
+    },
+    {
+      "task_idx": 1843,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create blue-violet paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 30
+    },
+    {
+      "task_idx": 1844,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create blue-violet paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 31
+    },
+    {
+      "task_idx": 1845,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create blue-violet paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta desk. On the desk is: a drawer, a tin cup (containing yellow paint), a tin cup (containing red paint), a tin cup (containing blue paint).\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 32
+    },
+    {
+      "task_idx": 1846,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create blue-violet paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta closet. The closet door is closed. \n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 33
+    },
+    {
+      "task_idx": 1847,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create blue-violet paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 34
+    },
+    {
+      "task_idx": 1848,
+      "task_type": "task-5-chemistry-mix-paint-(tertiary-color)",
+      "instruction": "Your task is to use chemistry to create blue-violet paint. When you are part-way done, focus on the intermediate (secondary color) paint you created.  When you are completely done, focus on the violet paint.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 35
+    },
+    {
+      "task_idx": 1849,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 93
+    },
+    {
+      "task_idx": 1850,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 94
+    },
+    {
+      "task_idx": 1851,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 95
+    },
+    {
+      "task_idx": 1852,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a orange light bulb, which is off, a orange wire, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 96
+    },
+    {
+      "task_idx": 1853,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 97
+    },
+    {
+      "task_idx": 1854,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta closet. The closet door is closed. \n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 98
+    },
+    {
+      "task_idx": 1855,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 99
+    },
+    {
+      "task_idx": 1856,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 100
+    },
+    {
+      "task_idx": 1857,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta closet. The closet door is closed. \n\ta picture\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 101
+    },
+    {
+      "task_idx": 1858,
+      "task_type": "task-6-lifespan-(longest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span.  The animals are in the 'outside' location.  Focus on the animal with the longest life span.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 102
+    },
+    {
+      "task_idx": 1859,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 93
+    },
+    {
+      "task_idx": 1860,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 94
+    },
+    {
+      "task_idx": 1861,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 95
+    },
+    {
+      "task_idx": 1862,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a orange light bulb, which is off, a orange wire, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 96
+    },
+    {
+      "task_idx": 1863,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 97
+    },
+    {
+      "task_idx": 1864,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta closet. The closet door is closed. \n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 98
+    },
+    {
+      "task_idx": 1865,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 99
+    },
+    {
+      "task_idx": 1866,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 100
+    },
+    {
+      "task_idx": 1867,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta closet. The closet door is closed. \n\ta picture\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 101
+    },
+    {
+      "task_idx": 1868,
+      "task_type": "task-6-lifespan-(longest-lived-then-shortest-lived)",
+      "instruction": "Your task is to find the animal with the longest life span, then the shortest life span. First, focus on the animal with the longest life span.  Then, focus on the animal with the shortest life span. The animals are in the 'outside' location.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 102
+    },
+    {
+      "task_idx": 1869,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 93
+    },
+    {
+      "task_idx": 1870,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 94
+    },
+    {
+      "task_idx": 1871,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta finger painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 95
+    },
+    {
+      "task_idx": 1872,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a orange light bulb, which is off, a orange wire, a red wire, a switch, which is off, a violet light bulb, which is off, a yellow light bulb, which is off.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 96
+    },
+    {
+      "task_idx": 1873,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+      "variation_idx": 97
+    },
+    {
+      "task_idx": 1874,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta closet. The closet door is closed. \n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 98
+    },
+    {
+      "task_idx": 1875,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing blue paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 99
+    },
+    {
+      "task_idx": 1876,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 100
+    },
+    {
+      "task_idx": 1877,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta closet. The closet door is closed. \n\ta picture\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 101
+    },
+    {
+      "task_idx": 1878,
+      "task_type": "task-6-lifespan-(shortest-lived)",
+      "instruction": "Your task is to find the animal with the shortest life span.  The animals are in the 'outside' location.  Focus on the animal with the shortest life span.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 102
+    },
+    {
+      "task_idx": 1879,
+      "task_type": "task-7-identify-life-stages-1",
+      "instruction": "Your task is to focus on the 4 life stages of the giant tortoise, starting from earliest to latest.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta closet. The closet door is closed. \n\ta picture\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 9
+    },
+    {
+      "task_idx": 1880,
+      "task_type": "task-7-identify-life-stages-1",
+      "instruction": "Your task is to focus on the 4 life stages of the dove, starting from earliest to latest.",
+      "initial_observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing yellow paint)\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 10
+    },
+    {
+      "task_idx": 1881,
+      "task_type": "task-7-identify-life-stages-1",
+      "instruction": "Your task is to focus on the 4 life stages of the parrot, starting from earliest to latest.",
+      "initial_observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 11
+    },
+    {
+      "task_idx": 1882,
+      "task_type": "task-7-identify-life-stages-1",
+      "instruction": "Your task is to focus on the 4 life stages of the butterfly, starting from earliest to latest.",
+      "initial_observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing nothing)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 12
+    },
+    {
+      "task_idx": 1883,
+      "task_type": "task-7-identify-life-stages-1",
+      "instruction": "Your task is to focus on the 3 life stages of the brown bear, starting from earliest to latest.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta finger painting\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 13
+    },
+    {
+      "task_idx": 1884,
+      "task_type": "task-7-identify-life-stages-2",
+      "instruction": "Your task is to focus on the life stages of the lemon plant, starting from earliest to latest. The plants are located outside.",
+      "initial_observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "variation_idx": 6
+    },
+    {
+      "task_idx": 1885,
+      "task_type": "task-7-identify-life-stages-2",
+      "instruction": "Your task is to focus on the life stages of the orange plant, starting from earliest to latest. The plants are located outside.",
+      "initial_observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta drawing\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "variation_idx": 7
+    },
+    {
+      "task_idx": 1886,
+      "task_type": "task-7-identify-life-stages-2",
+      "instruction": "Your task is to focus on the life stages of the peach plant, starting from earliest to latest. The plants are located outside.",
+      "initial_observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "variation_idx": 8
+    },
+    {
+      "task_idx": 1887,
+      "task_type": "task-7-identify-life-stages-2",
+      "instruction": "Your task is to focus on the life stages of the pear plant, starting from earliest to latest. The plants are located outside.",
+      "initial_observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta closet. The closet door is closed. \n\ta picture\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "variation_idx": 9
+    }
+  ]
+}

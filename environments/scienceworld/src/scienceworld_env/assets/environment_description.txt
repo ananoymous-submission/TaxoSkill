@@ -1,0 +1,24 @@
+ScienceWorld is a text-based environment for elementary science experiments. It consists of several rooms (kitchen, foundry, workshop, bathroom, outside, living room, bedroom, greenhouse, art studio, hallway) containing objects, substances, containers, devices, plants, and animals. The agent completes a task by issuing text actions; the environment describes the resulting state after each action. The agent can teleport to any room in one step. Containers in the environment are already open, so items can be taken from them directly.
+
+The available actions are:
+open OBJ: open a container
+close OBJ: close a container
+activate OBJ: activate a device (for example a stove, sink, blast furnace, or freezer)
+deactivate OBJ: deactivate a device
+connect OBJ to OBJ: connect electrical components (wires, batteries, bulbs, generators)
+disconnect OBJ: disconnect electrical components
+use OBJ [on OBJ]: use a device or instrument, such as a thermometer, on an object
+look around: describe the current room
+examine OBJ: describe an object in detail
+look at OBJ: describe a container's contents
+read OBJ: read a note or book
+move OBJ to OBJ: move an object into a container or onto a surface
+pick up OBJ: move an object to the inventory
+pour OBJ into OBJ: pour a liquid into a container
+mix OBJ: chemically mix the contents of a container
+teleport to LOC: teleport to a specific room
+focus on OBJ: signal that an object is the answer or subject of the task
+wait: take no action for 10 steps
+wait1: take no action for a step
+
+Substances change state when heated or cooled by devices; plants grow over time when given soil, water, and light; electrical devices operate when connected in a closed circuit; instruments such as thermometers report measurements when used on an object.

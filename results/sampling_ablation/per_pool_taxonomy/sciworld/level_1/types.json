@@ -1,0 +1,38 @@
+[
+  {
+    "name": "measure_temperature_and_sort",
+    "definition": "Use a thermometer to measure the current temperature of an object or substance, compare it to a threshold, and move it to the appropriate colored box."
+  },
+  {
+    "name": "measure_melting_point_and_classify",
+    "definition": "Use a thermometer to determine a substance's melting point, compare it to a threshold, and focus on the appropriate colored box."
+  },
+  {
+    "name": "build_and_use_electrical_circuits",
+    "definition": "Build closed electrical circuits to determine whether an object or substance is electrically conductive or to power a light bulb, then sort the tested object or focus on the bulb as requested."
+  },
+  {
+    "name": "find_object_by_category_and_move",
+    "definition": "Locate an object belonging to a requested category such as plant, animal, living, or non-living, focus on it, and move it to a specified colored box."
+  },
+  {
+    "name": "compare_animal_lifespans",
+    "definition": "Inspect animals in a location, compare their lifespans, and focus on the animal or animals with the longest and/or shortest lifespan as requested."
+  },
+  {
+    "name": "order_life_stages",
+    "definition": "Focus on the life stages of an organism in order from earliest to latest."
+  },
+  {
+    "name": "grow_plants_from_seed",
+    "definition": "Grow plants from seeds by providing soil, water, and light; when fruit is required, cross-pollinate the plants and focus on the requested life stage or grown fruit."
+  },
+  {
+    "name": "create_substance_using_chemistry",
+    "definition": "Use chemistry to combine ingredients according to a recipe and create a specified substance, focusing on any required intermediate and then the final product."
+  },
+  {
+    "name": "change_state_of_matter",
+    "definition": "Change a substance's state of matter by heating or cooling it, then focus on the substance."
+  }
+]

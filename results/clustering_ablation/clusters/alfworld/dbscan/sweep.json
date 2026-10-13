@@ -1,0 +1,1004 @@
+{
+  "env": "alfworld",
+  "method": "dbscan",
+  "schema_version": 1,
+  "selection_metric": "dbcv",
+  "selection_rule": "maximize DBCV; ties prefer lower noise rate, then fewer clusters",
+  "embedding_array_sha256": "1ae77f398a59bae78a6c4e6163cba06ccf840d2f020d7696ab0de10ad8c6c093",
+  "candidates": [
+    {
+      "params": {
+        "eps": 0.4141893684864044,
+        "min_samples": 5,
+        "eps_quantile": 0.5
+      },
+      "diagnostics": {
+        "n_clusters": 82,
+        "n_noise": 1255,
+        "noise_rate": 0.35322262876442445,
+        "eps_quantile": 0.5,
+        "dbcv": 0.08864163957816498,
+        "dbcv_warning_count": 82
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.42041058157619676,
+        "min_samples": 5,
+        "eps_quantile": 0.5257894736842105
+      },
+      "diagnostics": {
+        "n_clusters": 74,
+        "n_noise": 1157,
+        "noise_rate": 0.3256403039684773,
+        "eps_quantile": 0.5257894736842105,
+        "dbcv": 0.08573159894107381,
+        "dbcv_warning_count": 74
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.4264494776725769,
+        "min_samples": 5,
+        "eps_quantile": 0.5515789473684211
+      },
+      "diagnostics": {
+        "n_clusters": 69,
+        "n_noise": 1050,
+        "noise_rate": 0.2955249085280045,
+        "eps_quantile": 0.5515789473684211,
+        "dbcv": 0.07733151975234875,
+        "dbcv_warning_count": 69
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.43358271285107264,
+        "min_samples": 5,
+        "eps_quantile": 0.5773684210526315
+      },
+      "diagnostics": {
+        "n_clusters": 61,
+        "n_noise": 972,
+        "noise_rate": 0.2735716296087813,
+        "eps_quantile": 0.5773684210526315,
+        "dbcv": 0.07326860584746187,
+        "dbcv_warning_count": 62
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.44256747402642904,
+        "min_samples": 5,
+        "eps_quantile": 0.6031578947368421
+      },
+      "diagnostics": {
+        "n_clusters": 49,
+        "n_noise": 888,
+        "noise_rate": 0.24992963692654094,
+        "eps_quantile": 0.6031578947368421,
+        "dbcv": 0.04147333106779433,
+        "dbcv_warning_count": 50
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.4503334211675744,
+        "min_samples": 5,
+        "eps_quantile": 0.6289473684210526
+      },
+      "diagnostics": {
+        "n_clusters": 42,
+        "n_noise": 806,
+        "noise_rate": 0.22685054883197298,
+        "eps_quantile": 0.6289473684210526,
+        "dbcv": 0.04853881192772177,
+        "dbcv_warning_count": 43
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.4583011879419026,
+        "min_samples": 5,
+        "eps_quantile": 0.6547368421052632
+      },
+      "diagnostics": {
+        "n_clusters": 34,
+        "n_noise": 728,
+        "noise_rate": 0.20489726991274979,
+        "eps_quantile": 0.6547368421052632,
+        "dbcv": 0.03919485037771671,
+        "dbcv_warning_count": 35
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.46572138328301277,
+        "min_samples": 5,
+        "eps_quantile": 0.6805263157894736
+      },
+      "diagnostics": {
+        "n_clusters": 27,
+        "n_noise": 662,
+        "noise_rate": 0.18632141851956094,
+        "eps_quantile": 0.6805263157894736,
+        "dbcv": 0.02594083696034059,
+        "dbcv_warning_count": 28
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.4722966348497491,
+        "min_samples": 5,
+        "eps_quantile": 0.7063157894736842
+      },
+      "diagnostics": {
+        "n_clusters": 23,
+        "n_noise": 594,
+        "noise_rate": 0.16718266253869968,
+        "eps_quantile": 0.7063157894736842,
+        "dbcv": 0.023541357369991144,
+        "dbcv_warning_count": 24
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.4816190791757483,
+        "min_samples": 5,
+        "eps_quantile": 0.7321052631578947
+      },
+      "diagnostics": {
+        "n_clusters": 17,
+        "n_noise": 517,
+        "noise_rate": 0.14551083591331268,
+        "eps_quantile": 0.7321052631578947,
+        "dbcv": 0.04790441141561559,
+        "dbcv_warning_count": 18
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.48872494007411754,
+        "min_samples": 5,
+        "eps_quantile": 0.7578947368421052
+      },
+      "diagnostics": {
+        "n_clusters": 14,
+        "n_noise": 445,
+        "noise_rate": 0.12524627075710668,
+        "eps_quantile": 0.7578947368421052,
+        "dbcv": 0.03699207784080528,
+        "dbcv_warning_count": 15
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.49887911476586994,
+        "min_samples": 5,
+        "eps_quantile": 0.7836842105263158
+      },
+      "diagnostics": {
+        "n_clusters": 11,
+        "n_noise": 374,
+        "noise_rate": 0.10526315789473684,
+        "eps_quantile": 0.7836842105263158,
+        "dbcv": 0.02241190896794641,
+        "dbcv_warning_count": 12
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5076094016275908,
+        "min_samples": 5,
+        "eps_quantile": 0.8094736842105263
+      },
+      "diagnostics": {
+        "n_clusters": 9,
+        "n_noise": 312,
+        "noise_rate": 0.08781311567689276,
+        "eps_quantile": 0.8094736842105263,
+        "dbcv": 0.023751902590626962,
+        "dbcv_warning_count": 10
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5180623581534938,
+        "min_samples": 5,
+        "eps_quantile": 0.8352631578947368
+      },
+      "diagnostics": {
+        "n_clusters": 6,
+        "n_noise": 265,
+        "noise_rate": 0.07458485786659161,
+        "eps_quantile": 0.8352631578947368,
+        "dbcv": 0.041830949131568096,
+        "dbcv_warning_count": 7
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.528513874380212,
+        "min_samples": 5,
+        "eps_quantile": 0.8610526315789473
+      },
+      "diagnostics": {
+        "n_clusters": 5,
+        "n_noise": 205,
+        "noise_rate": 0.057697720236419926,
+        "eps_quantile": 0.8610526315789473,
+        "dbcv": 0.058608348817408264,
+        "dbcv_warning_count": 6
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5379110198271903,
+        "min_samples": 5,
+        "eps_quantile": 0.8868421052631579
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 151,
+        "noise_rate": 0.04249929636926541,
+        "eps_quantile": 0.8868421052631579,
+        "dbcv": 0.0848513640816271,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5532573349852311,
+        "min_samples": 5,
+        "eps_quantile": 0.9126315789473685
+      },
+      "diagnostics": {
+        "n_clusters": 2,
+        "n_noise": 103,
+        "noise_rate": 0.02898958626512806,
+        "eps_quantile": 0.9126315789473685,
+        "dbcv": 0.0636585753828632,
+        "dbcv_warning_count": 3
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5731898586373579,
+        "min_samples": 5,
+        "eps_quantile": 0.9384210526315789
+      },
+      "diagnostics": {
+        "n_clusters": 2,
+        "n_noise": 62,
+        "noise_rate": 0.017450042217844075,
+        "eps_quantile": 0.9384210526315789,
+        "dbcv": 0.04104997758621899,
+        "dbcv_warning_count": 3
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5917929197612561,
+        "min_samples": 5,
+        "eps_quantile": 0.9642105263157894
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 33,
+        "noise_rate": 0.009287925696594427,
+        "eps_quantile": 0.9642105263157894
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6426178312301636,
+        "min_samples": 5,
+        "eps_quantile": 0.99
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 10,
+        "noise_rate": 0.0028145229383619475,
+        "eps_quantile": 0.99
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.476238489151001,
+        "min_samples": 10,
+        "eps_quantile": 0.5
+      },
+      "diagnostics": {
+        "n_clusters": 17,
+        "n_noise": 925,
+        "noise_rate": 0.26034337179848016,
+        "eps_quantile": 0.5,
+        "dbcv": 0.010377757868545539,
+        "dbcv_warning_count": 18
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.48250617328443024,
+        "min_samples": 10,
+        "eps_quantile": 0.5257894736842105
+      },
+      "diagnostics": {
+        "n_clusters": 9,
+        "n_noise": 843,
+        "noise_rate": 0.2372642837039122,
+        "eps_quantile": 0.5257894736842105,
+        "dbcv": -0.1993003723609931,
+        "dbcv_warning_count": 10
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.4892300346023158,
+        "min_samples": 10,
+        "eps_quantile": 0.5515789473684211
+      },
+      "diagnostics": {
+        "n_clusters": 9,
+        "n_noise": 754,
+        "noise_rate": 0.21221502955249086,
+        "eps_quantile": 0.5515789473684211,
+        "dbcv": -0.2284629959936481,
+        "dbcv_warning_count": 10
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.49582064967406425,
+        "min_samples": 10,
+        "eps_quantile": 0.5773684210526315
+      },
+      "diagnostics": {
+        "n_clusters": 7,
+        "n_noise": 679,
+        "noise_rate": 0.19110610751477625,
+        "eps_quantile": 0.5773684210526315,
+        "dbcv": -0.23887768488545175,
+        "dbcv_warning_count": 8
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5021814703941345,
+        "min_samples": 10,
+        "eps_quantile": 0.6031578947368421
+      },
+      "diagnostics": {
+        "n_clusters": 6,
+        "n_noise": 573,
+        "noise_rate": 0.1612721643681396,
+        "eps_quantile": 0.6031578947368421,
+        "dbcv": 0.02561745750541028,
+        "dbcv_warning_count": 7
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5069697737693787,
+        "min_samples": 10,
+        "eps_quantile": 0.6289473684210526
+      },
+      "diagnostics": {
+        "n_clusters": 6,
+        "n_noise": 526,
+        "noise_rate": 0.14804390655783844,
+        "eps_quantile": 0.6289473684210526,
+        "dbcv": -0.05517514343818412,
+        "dbcv_warning_count": 7
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5125308273967943,
+        "min_samples": 10,
+        "eps_quantile": 0.6547368421052632
+      },
+      "diagnostics": {
+        "n_clusters": 4,
+        "n_noise": 480,
+        "noise_rate": 0.13509710104137349,
+        "eps_quantile": 0.6547368421052632,
+        "dbcv": 0.20441380859293232,
+        "dbcv_warning_count": 5
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5186663786988509,
+        "min_samples": 10,
+        "eps_quantile": 0.6805263157894736
+      },
+      "diagnostics": {
+        "n_clusters": 4,
+        "n_noise": 424,
+        "noise_rate": 0.11933577258654658,
+        "eps_quantile": 0.6805263157894736,
+        "dbcv": 0.19420546331330735,
+        "dbcv_warning_count": 5
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5257241438564502,
+        "min_samples": 10,
+        "eps_quantile": 0.7063157894736842
+      },
+      "diagnostics": {
+        "n_clusters": 5,
+        "n_noise": 342,
+        "noise_rate": 0.0962566844919786,
+        "eps_quantile": 0.7063157894736842,
+        "dbcv": 0.09405919773724677,
+        "dbcv_warning_count": 6
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5322331510092083,
+        "min_samples": 10,
+        "eps_quantile": 0.7321052631578947
+      },
+      "diagnostics": {
+        "n_clusters": 6,
+        "n_noise": 297,
+        "noise_rate": 0.08359133126934984,
+        "eps_quantile": 0.7321052631578947,
+        "dbcv": 0.03353968373932136,
+        "dbcv_warning_count": 7
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.539852764104542,
+        "min_samples": 10,
+        "eps_quantile": 0.7578947368421052
+      },
+      "diagnostics": {
+        "n_clusters": 4,
+        "n_noise": 234,
+        "noise_rate": 0.06585983675766957,
+        "eps_quantile": 0.7578947368421052,
+        "dbcv": 0.04329788969177801,
+        "dbcv_warning_count": 5
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5468590066307469,
+        "min_samples": 10,
+        "eps_quantile": 0.7836842105263158
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 185,
+        "noise_rate": 0.05206867435969603,
+        "eps_quantile": 0.7836842105263158,
+        "dbcv": 0.08589223585088404,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5551119685173035,
+        "min_samples": 10,
+        "eps_quantile": 0.8094736842105263
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 155,
+        "noise_rate": 0.04362510554461019,
+        "eps_quantile": 0.8094736842105263,
+        "dbcv": 0.08472840117325187,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5630450108176783,
+        "min_samples": 10,
+        "eps_quantile": 0.8352631578947368
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 120,
+        "noise_rate": 0.03377427526034337,
+        "eps_quantile": 0.8352631578947368,
+        "dbcv": 0.08562971596041549,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.574274968222568,
+        "min_samples": 10,
+        "eps_quantile": 0.8610526315789473
+      },
+      "diagnostics": {
+        "n_clusters": 2,
+        "n_noise": 86,
+        "noise_rate": 0.02420489726991275,
+        "eps_quantile": 0.8610526315789473,
+        "dbcv": 0.05798549766969217,
+        "dbcv_warning_count": 3
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5838497789282547,
+        "min_samples": 10,
+        "eps_quantile": 0.8868421052631579
+      },
+      "diagnostics": {
+        "n_clusters": 2,
+        "n_noise": 58,
+        "noise_rate": 0.016324233042499296,
+        "eps_quantile": 0.8868421052631579,
+        "dbcv": 0.041108089947492564,
+        "dbcv_warning_count": 3
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5945220299770958,
+        "min_samples": 10,
+        "eps_quantile": 0.9126315789473685
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 43,
+        "noise_rate": 0.012102448634956376,
+        "eps_quantile": 0.9126315789473685
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6099774152354189,
+        "min_samples": 10,
+        "eps_quantile": 0.9384210526315789
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 24,
+        "noise_rate": 0.006754855052068675,
+        "eps_quantile": 0.9384210526315789
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6289056022543656,
+        "min_samples": 10,
+        "eps_quantile": 0.9642105263157894
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 13,
+        "noise_rate": 0.003658879819870532,
+        "eps_quantile": 0.9642105263157894
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6789993810653687,
+        "min_samples": 10,
+        "eps_quantile": 0.99
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 5,
+        "noise_rate": 0.0014072614691809737,
+        "eps_quantile": 0.99
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.5343396067619324,
+        "min_samples": 20,
+        "eps_quantile": 0.5
+      },
+      "diagnostics": {
+        "n_clusters": 5,
+        "n_noise": 541,
+        "noise_rate": 0.15226569096538137,
+        "eps_quantile": 0.5,
+        "dbcv": -0.26442605765092186,
+        "dbcv_warning_count": 6
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5383023121482448,
+        "min_samples": 20,
+        "eps_quantile": 0.5257894736842105
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 479,
+        "noise_rate": 0.1348156487475373,
+        "eps_quantile": 0.5257894736842105,
+        "dbcv": 0.17999961251625637,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5428613407988298,
+        "min_samples": 20,
+        "eps_quantile": 0.5515789473684211
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 419,
+        "noise_rate": 0.1179285111173656,
+        "eps_quantile": 0.5515789473684211,
+        "dbcv": 0.09970162962880104,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5480346574281392,
+        "min_samples": 20,
+        "eps_quantile": 0.5773684210526315
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 367,
+        "noise_rate": 0.10329299183788349,
+        "eps_quantile": 0.5773684210526315,
+        "dbcv": 0.0772892022794273,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5533509787760282,
+        "min_samples": 20,
+        "eps_quantile": 0.6031578947368421
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 324,
+        "noise_rate": 0.0911905432029271,
+        "eps_quantile": 0.6031578947368421,
+        "dbcv": 0.0783818102114595,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5582501850630107,
+        "min_samples": 20,
+        "eps_quantile": 0.6289473684210526
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 281,
+        "noise_rate": 0.07908809456797072,
+        "eps_quantile": 0.6289473684210526,
+        "dbcv": 0.07223608865823582,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5635098530116834,
+        "min_samples": 20,
+        "eps_quantile": 0.6547368421052632
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 240,
+        "noise_rate": 0.06754855052068674,
+        "eps_quantile": 0.6547368421052632,
+        "dbcv": 0.07317382159519543,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5695793047704195,
+        "min_samples": 20,
+        "eps_quantile": 0.6805263157894736
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 199,
+        "noise_rate": 0.05600900647340276,
+        "eps_quantile": 0.6805263157894736,
+        "dbcv": 0.055761981922657765,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5745495032009326,
+        "min_samples": 20,
+        "eps_quantile": 0.7063157894736842
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 172,
+        "noise_rate": 0.0484097945398255,
+        "eps_quantile": 0.7063157894736842,
+        "dbcv": 0.05623064460231713,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5808356464536566,
+        "min_samples": 20,
+        "eps_quantile": 0.7321052631578947
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 145,
+        "noise_rate": 0.040810582606248244,
+        "eps_quantile": 0.7321052631578947,
+        "dbcv": 0.056682409078589874,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5861010714581139,
+        "min_samples": 20,
+        "eps_quantile": 0.7578947368421052
+      },
+      "diagnostics": {
+        "n_clusters": 3,
+        "n_noise": 105,
+        "noise_rate": 0.02955249085280045,
+        "eps_quantile": 0.7578947368421052,
+        "dbcv": 0.054655653204238416,
+        "dbcv_warning_count": 4
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5921018316871242,
+        "min_samples": 20,
+        "eps_quantile": 0.7836842105263158
+      },
+      "diagnostics": {
+        "n_clusters": 2,
+        "n_noise": 83,
+        "noise_rate": 0.023360540388404166,
+        "eps_quantile": 0.7836842105263158,
+        "dbcv": 0.05802998656150953,
+        "dbcv_warning_count": 3
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.5993095993995666,
+        "min_samples": 20,
+        "eps_quantile": 0.8094736842105263
+      },
+      "diagnostics": {
+        "n_clusters": 2,
+        "n_noise": 63,
+        "noise_rate": 0.01773149451168027,
+        "eps_quantile": 0.8094736842105263,
+        "dbcv": 0.0413616631195482,
+        "dbcv_warning_count": 3
+      },
+      "rejection_reason": null,
+      "valid": true
+    },
+    {
+      "params": {
+        "eps": 0.607394920273831,
+        "min_samples": 20,
+        "eps_quantile": 0.8352631578947368
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 51,
+        "noise_rate": 0.014354066985645933,
+        "eps_quantile": 0.8352631578947368
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6163216549471805,
+        "min_samples": 20,
+        "eps_quantile": 0.8610526315789473
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 31,
+        "noise_rate": 0.008725021108922038,
+        "eps_quantile": 0.8610526315789473
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6250411617128473,
+        "min_samples": 20,
+        "eps_quantile": 0.8868421052631579
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 28,
+        "noise_rate": 0.007880664227413453,
+        "eps_quantile": 0.8868421052631579
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6333147961214969,
+        "min_samples": 20,
+        "eps_quantile": 0.9126315789473685
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 18,
+        "noise_rate": 0.0050661412890515055,
+        "eps_quantile": 0.9126315789473685
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6465870126925016,
+        "min_samples": 20,
+        "eps_quantile": 0.9384210526315789
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 13,
+        "noise_rate": 0.003658879819870532,
+        "eps_quantile": 0.9384210526315789
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.6661795911036039,
+        "min_samples": 20,
+        "eps_quantile": 0.9642105263157894
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 8,
+        "noise_rate": 0.002251618350689558,
+        "eps_quantile": 0.9642105263157894
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    },
+    {
+      "params": {
+        "eps": 0.7107710909843444,
+        "min_samples": 20,
+        "eps_quantile": 0.99
+      },
+      "diagnostics": {
+        "n_clusters": 1,
+        "n_noise": 2,
+        "noise_rate": 0.0005629045876723895,
+        "eps_quantile": 0.99
+      },
+      "rejection_reason": "fewer than two non-noise clusters",
+      "valid": false
+    }
+  ]
+}

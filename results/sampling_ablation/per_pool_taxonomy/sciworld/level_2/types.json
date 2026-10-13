@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Categorical object retrieval",
+    "definition": "Locate an object matching a requested category (living, non-living, plant, or animal), focus on it, and move it to a specified box."
+  },
+  {
+    "name": "Thermal property measurement and sorting",
+    "definition": "Use a thermometer to measure an object's or substance's current temperature or melting point and select the box corresponding to whether the value is above or below a threshold, moving the object to or focusing on that box as instructed."
+  },
+  {
+    "name": "Electrical conductivity classification",
+    "definition": "Determine whether an object or substance is electrically conductive and place it in the box corresponding to conductive or nonconductive."
+  },
+  {
+    "name": "Animal lifespan comparison",
+    "definition": "Identify animals in the outside location, compare their lifespans, and focus on the longest-lived, shortest-lived, or both in sequence."
+  },
+  {
+    "name": "Life stage ordering",
+    "definition": "Identify plants or animals at different life stages and focus on them in the requested developmental order, such as earliest to latest."
+  },
+  {
+    "name": "Plant cultivation",
+    "definition": "Grow one or more plants from seed by providing water, soil, and light until the required life stage, and when fruit is required cross-pollinate plants to produce it."
+  },
+  {
+    "name": "State-of-matter change",
+    "definition": "Change a substance's state of matter, such as boiling water or freezing ice, by applying heat, cooling, or combustion."
+  },
+  {
+    "name": "Chemical synthesis",
+    "definition": "Use chemistry to mix substances into a target product, such as paint or salt water, and focus on any required intermediate or final product."
+  },
+  {
+    "name": "Electrical circuit construction",
+    "definition": "Connect a power source, wires, and an electrical device such as a light bulb into a closed circuit to make the device operate, optionally using a specified type of power source."
+  }
+]

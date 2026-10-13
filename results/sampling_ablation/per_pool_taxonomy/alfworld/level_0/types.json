@@ -1,0 +1,22 @@
+[
+  {
+    "name": "pick_and_place",
+    "definition": "Pick up and move one or more objects to a specified location without changing their object state."
+  },
+  {
+    "name": "clean_then_place",
+    "definition": "Clean, wash, rinse, or dry an object and place it at a specified location, or simply leave it clean if no destination is given."
+  },
+  {
+    "name": "heat_then_place",
+    "definition": "Heat, warm, or cook an object and place it at a specified location, or simply leave it heated if no destination is given."
+  },
+  {
+    "name": "cool_then_place",
+    "definition": "Cool, chill, or refrigerate an object and place it at a specified location, or simply leave it cooled if no destination is given."
+  },
+  {
+    "name": "toggle_lamp_while_holding",
+    "definition": "Pick up or hold an object and turn on a lamp."
+  }
+]

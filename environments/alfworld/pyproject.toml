@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alfworld-env"
+version = "0.1.0"
+description = "Standalone ALFWorld environment"
+requires-python = ">=3.11,<3.13"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+server = "alfworld_env.server.app:main"
+
+[project.optional-dependencies]
+openenv = [
+    "openenv==0.4.1",
+]
+server = [
+    "alfworld==0.4.2",
+    "openenv==0.4.1",
+    "textworld[pddl]==1.7.0",
+    "spacy<3.8",
+    "thinc<8.3",
+    "gym",
+    "pyyaml",
+]
+dev = [
+    "openenv==0.4.1",
+    "pytest>=8",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/alfworld_env"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

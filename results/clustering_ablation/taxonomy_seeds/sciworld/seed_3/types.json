@@ -1,0 +1,42 @@
+[
+  {
+    "name": "measure_temperature_and_sort",
+    "definition": "Measure the current temperature of a substance with a thermometer and place the substance in the appropriate colored box based on a threshold."
+  },
+  {
+    "name": "measure_melting_point_and_classify",
+    "definition": "Measure or determine the melting point of a substance and focus on the correct colored box based on a threshold."
+  },
+  {
+    "name": "test_electrical_conductivity",
+    "definition": "Determine whether an object conducts electricity by placing it in a circuit and observing whether current flows, then place it in the corresponding colored box."
+  },
+  {
+    "name": "find_object_by_category_and_move",
+    "definition": "Locate an object belonging to a specified broad category (animal, plant, living thing, or non-living thing) and move it to a specified colored box."
+  },
+  {
+    "name": "find_animal_by_lifespan",
+    "definition": "Identify and focus on the animal(s) with the longest and/or shortest lifespan among the animals in the outside location."
+  },
+  {
+    "name": "grow_fruit_crosspollination",
+    "definition": "Grow one or more plants from seeds by providing required conditions; when a specified fruit is required, grow multiple plants and crosspollinate them to produce it."
+  },
+  {
+    "name": "change_state_of_matter",
+    "definition": "Heat or cool a substance to change its state of matter (e.g., melt a solid or boil a liquid), or combust it if it has no boiling point."
+  },
+  {
+    "name": "create_substance_chemistry",
+    "definition": "Use chemical mixing to create a specified substance or paint, focusing on the required intermediate or final product."
+  },
+  {
+    "name": "power_light_bulb",
+    "definition": "Build a closed electrical circuit to turn on a specified light bulb."
+  },
+  {
+    "name": "order_life_stages",
+    "definition": "Identify and focus on the life stages of a specified organism in order from earliest to latest."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Pick and place",
+    "definition": "Pick up one or more objects and place or move them to a specified destination, including discarding them in a trash or recycling receptacle and orienting them as specified."
+  },
+  {
+    "name": "Clean and place",
+    "definition": "Wash, rinse, or wet an object at a sink and then place it at the specified destination, if one is specified."
+  },
+  {
+    "name": "Heat and place",
+    "definition": "Heat, warm, or cook an object in or on a heating appliance, such as a microwave or coffee maker, and then place it at the specified destination (or leave it in/on the appliance)."
+  },
+  {
+    "name": "Cool and place",
+    "definition": "Cool or chill an object in a refrigerator or freezer and then place it at the specified destination, including leaving it in the refrigerator or freezer or removing it."
+  },
+  {
+    "name": "Fill and place",
+    "definition": "Fill a container with water at a sink and then place it at the specified destination."
+  },
+  {
+    "name": "Lamp interaction",
+    "definition": "Toggle a lamp or light on if needed, and pick up or hold an object, if one is specified, to illuminate or inspect the object."
+  }
+]

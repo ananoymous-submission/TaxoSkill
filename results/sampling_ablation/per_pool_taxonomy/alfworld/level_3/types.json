@@ -1,0 +1,22 @@
+[
+  {
+    "name": "pick_and_place",
+    "definition": "Pick up one or more objects and place them at a specified destination, opening and closing containers or receptacles when needed."
+  },
+  {
+    "name": "toggle_lamp",
+    "definition": "Turn a lamp on or off as specified, optionally while picking up or holding another object, and when asked to examine an object, ensure the lamp is on and the object is held under the lamp light."
+  },
+  {
+    "name": "clean_object",
+    "definition": "Wash, rinse, or dry an object at a sink and place it at a specified destination if required."
+  },
+  {
+    "name": "heat_object",
+    "definition": "Heat an object using a heating appliance such as a microwave or stove, then place it at a specified destination if required."
+  },
+  {
+    "name": "cool_object",
+    "definition": "Cool or chill an object in a refrigerator, then place it at a specified destination if required."
+  }
+]

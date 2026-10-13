@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Pick and place",
+    "definition": "Pick up and move one or more objects, placing or arranging them at a specified or implied destination."
+  },
+  {
+    "name": "Cool and place",
+    "definition": "Chill or cool an object in the fridge and then, if a separate destination is given, place it there."
+  },
+  {
+    "name": "Heat and place",
+    "definition": "Heat or warm an object, typically in the microwave, and then, if a separate destination is given, place it there; if the task specifies cleaning or chilling the object first, perform that before heating."
+  },
+  {
+    "name": "Clean and place",
+    "definition": "Clean, wash, rinse, or dry an object, typically in a sink or with water, and then, if a separate destination is given, place it there."
+  },
+  {
+    "name": "Lamp use",
+    "definition": "Turn on or use a lamp, optionally while holding an object, to illuminate or inspect something."
+  }
+]

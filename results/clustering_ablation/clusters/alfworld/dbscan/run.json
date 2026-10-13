@@ -1,0 +1,11 @@
+{
+  "env": "alfworld",
+  "method": "dbscan",
+  "seed": 0,
+  "schema_version": 1,
+  "selection_rule": "maximize DBCV; ties prefer lower noise rate, then fewer clusters",
+  "deployable": false,
+  "deployability_reason": "density clustering left noise tasks",
+  "partition_exported": false,
+  "implementation_sha256": "ea45343b554bb9440d68e1ec14afcb0d71f18ca7d183aa77467fdfe0a7001983"
+}

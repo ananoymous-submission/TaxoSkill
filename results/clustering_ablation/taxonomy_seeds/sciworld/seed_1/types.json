@@ -1,0 +1,42 @@
+[
+  {
+    "name": "find_and_move_category_member",
+    "definition": "Locate an object that belongs to a requested category (animal, plant, living thing, or non-living thing), focus on it, and move it to the specified box."
+  },
+  {
+    "name": "measure_temperature_and_sort",
+    "definition": "Use a thermometer to measure an object's temperature, compare it to a threshold, and place the object in the appropriate box."
+  },
+  {
+    "name": "test_electrical_conductivity_and_sort",
+    "definition": "Determine whether an object or substance is electrically conductive, then place it in the box associated with the determined conductivity."
+  },
+  {
+    "name": "change_state_of_matter",
+    "definition": "Cause a substance to change state by heating, cooling, or combusting it, and focus on the substance."
+  },
+  {
+    "name": "grow_plant_or_fruit",
+    "definition": "Plant seeds and provide soil, water, and light to grow plant(s) to the requested life stage, crosspollinating multiple plants when fruit is required."
+  },
+  {
+    "name": "identify_extreme_lifespan_animal",
+    "definition": "Compare the lifespans of animals in a location and focus on the animal(s) with the requested longest and/or shortest lifespan."
+  },
+  {
+    "name": "order_organism_life_stages",
+    "definition": "Identify the life stages of an organism and focus on them in the requested order."
+  },
+  {
+    "name": "create_substance_with_chemistry",
+    "definition": "Use chemistry to mix substances into a specified product or material, focusing on any requested intermediate and the final substance."
+  },
+  {
+    "name": "power_bulb_with_electrical_circuit",
+    "definition": "Construct a closed electrical circuit using an appropriate power source to turn on the specified light bulb."
+  },
+  {
+    "name": "measure_melting_point_and_select_box",
+    "definition": "Determine a substance's melting point, compare it to a threshold, and focus on the corresponding box."
+  }
+]

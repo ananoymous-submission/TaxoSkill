@@ -1,0 +1,42 @@
+[
+  {
+    "name": "categorized_object_relocation",
+    "definition": "Locate an object that matches a requested category (plant, animal, living, or non-living), focus on it, and move it to a specified colored box."
+  },
+  {
+    "name": "temperature_measurement_sorting",
+    "definition": "Measure an object's or substance's current temperature with a thermometer, compare it to a threshold, and place it in the corresponding colored box."
+  },
+  {
+    "name": "melting_point_measurement_comparison",
+    "definition": "Determine a substance's melting point, compare it to a threshold, and focus on the corresponding colored box."
+  },
+  {
+    "name": "electrical_conductivity_sorting",
+    "definition": "Test whether an object or substance conducts electricity and place it in the corresponding colored box based on the result."
+  },
+  {
+    "name": "animal_lifespan_ranking",
+    "definition": "Compare the lifespans of animals in a location and focus on the animal or animals with the shortest or longest lifespan, in the requested order if needed."
+  },
+  {
+    "name": "chemical_synthesis",
+    "definition": "Follow a recipe and mix available substances to create a target chemical product, focusing on intermediate and final products as instructed."
+  },
+  {
+    "name": "plant_cultivation",
+    "definition": "Grow one or more plants from seed to a specified life stage or fruit by providing the necessary soil, water, light, and crosspollination conditions, focusing on the target when instructed."
+  },
+  {
+    "name": "life_stage_sequencing",
+    "definition": "Identify and focus on the life stages of an animal or plant in the correct developmental order."
+  },
+  {
+    "name": "state_change_induction",
+    "definition": "Change a substance's state of matter by heating or cooling it, focusing on the substance as instructed."
+  },
+  {
+    "name": "electrical_circuit_powering",
+    "definition": "Connect electrical components into a closed circuit with an appropriate power source to turn on a light bulb, focusing on the bulb as instructed."
+  }
+]

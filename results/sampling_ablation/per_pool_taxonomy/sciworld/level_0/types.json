@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Electrical Conductivity Testing",
+    "definition": "Determine whether an object or substance conducts electricity by testing it in a circuit, then place it in the specified box based on the result."
+  },
+  {
+    "name": "Temperature Measurement",
+    "definition": "Use a thermometer to measure the current temperature of an object or substance, compare it to a threshold, and place or focus on the correct box."
+  },
+  {
+    "name": "Melting Point Determination",
+    "definition": "Use a thermometer and heating or cooling as needed to determine the melting point of a substance, compare it to a threshold, and focus on the specified box."
+  },
+  {
+    "name": "State Change",
+    "definition": "Change a substance's state of matter by heating or cooling it (melting, freezing, boiling, or combusting if needed), then focus on the substance."
+  },
+  {
+    "name": "Plant Cultivation",
+    "definition": "Grow plants from seed by planting and providing soil, water, and light, then either focus on the reproduction stage or cross-pollinate the plants and focus on the fruit as the task requires."
+  },
+  {
+    "name": "Life Stage Ordering",
+    "definition": "Identify and focus on the life stages of a named organism in chronological order from earliest to latest."
+  },
+  {
+    "name": "Animal Lifespan Comparison",
+    "definition": "Identify the animal(s) with the longest and/or shortest life span among the available animals and focus on them in the requested order."
+  },
+  {
+    "name": "Category Finding and Sorting",
+    "definition": "Find an object or organism of a specified category (living, non-living, animal, plant), focus on it, and move it to the specified box."
+  },
+  {
+    "name": "Recipe-Based Substance Creation",
+    "definition": "Follow a recipe or mixing procedure to create a target substance or material, focusing on intermediate products when required."
+  }
+]

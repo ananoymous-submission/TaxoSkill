@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Electrical conductivity classification",
+    "definition": "Test whether an object or substance is electrically conductive by using it in a circuit, then place it in the box corresponding to conductive or nonconductive."
+  },
+  {
+    "name": "Temperature measurement and sorting",
+    "definition": "Use a thermometer to measure an object's current temperature, compare it to a threshold, and place the object in the corresponding colored box."
+  },
+  {
+    "name": "Melting point measurement and classification",
+    "definition": "Measure a substance's melting point by heating or cooling it as needed and using a thermometer, then focus on the box that matches the threshold comparison."
+  },
+  {
+    "name": "Object category retrieval and boxing",
+    "definition": "Locate an object of the requested category (plant, animal, living, or non-living), focus on it, and move it to the specified colored box."
+  },
+  {
+    "name": "Animal lifespan comparison",
+    "definition": "Compare lifespans of animals and focus on the one or ones with the required shortest, longest, or ordered lifespan."
+  },
+  {
+    "name": "Plant cultivation",
+    "definition": "Grow plants from seeds by providing suitable conditions, crosspollinate them when the goal is fruit, and focus on the required seed, plant, or fruit."
+  },
+  {
+    "name": "State change via heating, cooling, or combustion",
+    "definition": "Change a substance's state of matter by heating, cooling, or combusting it as appropriate, then focus on the changed substance."
+  },
+  {
+    "name": "Chemical substance creation",
+    "definition": "Mix substances according to a recipe or color-mixing goal to create a requested substance or paint, focusing on any required intermediate and the final product."
+  },
+  {
+    "name": "Electrical circuit powering",
+    "definition": "Assemble a closed electrical circuit, selecting the specified power source when required, to turn on a specified light bulb."
+  },
+  {
+    "name": "Life stage ordering",
+    "definition": "Focus on the life stages of a given animal or plant in the correct chronological order."
+  }
+]

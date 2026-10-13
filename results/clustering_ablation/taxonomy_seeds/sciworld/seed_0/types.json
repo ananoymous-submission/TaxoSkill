@@ -1,0 +1,42 @@
+[
+  {
+    "name": "object_category_retrieval",
+    "definition": "Locate an object that matches a requested category (plant, animal, living thing, or non-living thing), focus on it, and move it to a specified box."
+  },
+  {
+    "name": "animal_lifespan_comparison",
+    "definition": "Examine animals and compare their lifespans to focus on the animal with the longest, shortest, or both in sequence."
+  },
+  {
+    "name": "electrical_conductivity_classification",
+    "definition": "Determine whether an object or substance is electrically conductive and place it in the box corresponding to conductive or nonconductive."
+  },
+  {
+    "name": "temperature_measurement_classification",
+    "definition": "Use a thermometer to measure the current temperature of an object or substance, compare it to a threshold, and place it in the corresponding box."
+  },
+  {
+    "name": "melting_point_measurement_classification",
+    "definition": "Determine a substance's melting point, compare it to a threshold, and focus on the corresponding box."
+  },
+  {
+    "name": "state_change",
+    "definition": "Heat or cool a substance to change its state of matter, such as melting, freezing, or boiling."
+  },
+  {
+    "name": "plant_cultivation",
+    "definition": "Grow one or more plants from seed to a requested life stage or fruit by providing soil, water, light, and pollination if needed."
+  },
+  {
+    "name": "life_stage_ordering",
+    "definition": "Identify the life stages of a plant or animal and focus on them in chronological order from earliest to latest."
+  },
+  {
+    "name": "electrical_circuit_powering",
+    "definition": "Assemble a closed electrical circuit, using a specified power source if required, to power on a device such as a light bulb."
+  },
+  {
+    "name": "substance_creation",
+    "definition": "Follow a recipe or chemistry procedure to create a target substance and focus on the required final or intermediate product."
+  }
+]
