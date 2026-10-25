@@ -1,7 +1,7 @@
 # TaxoSkill: Taxonomy-Guided Skill Optimization for Self-Evolving Agents
 
 <p align="center">
-  <a href="https://2027.coling-iccl.org"><img src="https://img.shields.io/badge/COLING-2027-4B6BFB" alt="COLING 2027"></a>
+  <a href="https://acmweb2027.org/about/"><img src="https://img.shields.io/badge/ACM Web-2027-4B6BFB" alt="ACM Web 2027"></a>
   <!-- <a href="#"><img src="https://img.shields.io/badge/Paper-PDF-B31B1B?logo=arxiv" alt="Paper PDF"></a> -->
   <!-- <a href="#"><img src="https://img.shields.io/badge/🤗-Models%20%26%20Results-FFD21E" alt="Models and results"></a> -->
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2EA44F" alt="MIT License"></a>
